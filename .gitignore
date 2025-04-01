@@ -1,6 +1,11 @@
-model/MiniCPM-o-2_6-GGUF/MiniCPM-o-2_6-Q3_K_L.gguf
-model/MiniCPM-o-2_6-GGUF/mmproj-model-f16.gguf
-model/MiniCPM-V-2_6-GGUF/MiniCPM-V-2_6-Q4_K_M.gguf
-model/MiniCPM-V-2_6-GGUF/mmproj-model-f16.gguf
-model/Qwen2-VL-7B-Instruct-GGUF/mmproj-model-f32.gguf
-model/Qwen2-VL-7B-Instruct-GGUF/Qwen2-VL-7B-Instruct-Q4_K_M.gguf
+# Ignore all .gguf model files
+*.gguf
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Keep the model directories but ignore their contents
+# model/*/
+# !model/*/README.md
