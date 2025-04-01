@@ -1,4 +1,4 @@
-FROM minicpm-v:latest
+FROM E:\recongize_helmet\model\Qwen2-VL-7B-Instruct-GGUF\Qwen2-VL-7B-Instruct-Q4_K_M.gguf
 
 # Set the temperature; a lower value ensures higher accuracy in recognition.
 PARAMETER temperature 1
