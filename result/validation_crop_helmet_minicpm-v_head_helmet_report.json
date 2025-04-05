@@ -6,14 +6,14 @@
     "experiment_type": "crop",
     "total_samples": 246,
     "metrics": {
-        "accuracy": 0.9349593495934959,
-        "precision": 0.9777777777777777,
-        "recall": 0.9361702127659575,
-        "f1_score": 0.9565217391304347,
-        "true_positives": 176,
-        "false_positives": 4,
-        "false_negatives": 12,
-        "true_negatives": 54
+        "accuracy": 0.9308943089430894,
+        "precision": 0.9672131147540983,
+        "recall": 0.9414893617021277,
+        "f1_score": 0.954177897574124,
+        "true_positives": 177,
+        "false_positives": 6,
+        "false_negatives": 11,
+        "true_negatives": 52
     },
     "results": [
         {
@@ -23,7 +23,7 @@
         },
         {
             "filename": "000009_head_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -48,7 +48,7 @@
         },
         {
             "filename": "000021_helmet_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -103,12 +103,12 @@
         },
         {
             "filename": "000072_helmet_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
             "filename": "000072_helmet_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -183,7 +183,7 @@
         },
         {
             "filename": "000238_helmet_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -193,7 +193,7 @@
         },
         {
             "filename": "000238_helmet_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -343,7 +343,7 @@
         },
         {
             "filename": "000352_helmet_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -488,7 +488,7 @@
         },
         {
             "filename": "000482_head_3.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -498,7 +498,7 @@
         },
         {
             "filename": "000482_head_5.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -643,12 +643,12 @@
         },
         {
             "filename": "000821_head_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
             "filename": "000821_head_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -703,7 +703,7 @@
         },
         {
             "filename": "000976_helmet_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -758,7 +758,7 @@
         },
         {
             "filename": "000986_head_3.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -818,7 +818,7 @@
         },
         {
             "filename": "001070_head_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -903,7 +903,7 @@
         },
         {
             "filename": "001367_head_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -958,7 +958,7 @@
         },
         {
             "filename": "001518_helmet_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -1128,7 +1128,7 @@
         },
         {
             "filename": "part2_001417_helmet_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {

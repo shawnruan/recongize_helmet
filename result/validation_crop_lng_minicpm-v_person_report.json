@@ -6,24 +6,24 @@
     "experiment_type": "crop",
     "total_samples": 189,
     "metrics": {
-        "accuracy": 0.7248677248677249,
-        "precision": 0.7923076923076923,
+        "accuracy": 0.746031746031746,
+        "precision": 0.8174603174603174,
         "recall": 0.8046875,
-        "f1_score": 0.7984496124031009,
+        "f1_score": 0.8110236220472441,
         "true_positives": 103,
-        "false_positives": 27,
+        "false_positives": 23,
         "false_negatives": 25,
-        "true_negatives": 34
+        "true_negatives": 38
     },
     "results": [
         {
             "filename": "1_2#20250108_1332_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
             "filename": "1_2#20250108_252_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -48,7 +48,7 @@
         },
         {
             "filename": "1_2#20250108_792_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -73,7 +73,7 @@
         },
         {
             "filename": "20250113142149_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -123,7 +123,7 @@
         },
         {
             "filename": "2_2#20250108_688_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -153,7 +153,7 @@
         },
         {
             "filename": "49837_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -173,7 +173,7 @@
         },
         {
             "filename": "49894_person_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -193,7 +193,7 @@
         },
         {
             "filename": "49894_person_7.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -218,7 +218,7 @@
         },
         {
             "filename": "49895_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -243,7 +243,7 @@
         },
         {
             "filename": "49895_person_7.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -258,7 +258,7 @@
         },
         {
             "filename": "49896_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -273,7 +273,7 @@
         },
         {
             "filename": "49907_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -293,7 +293,7 @@
         },
         {
             "filename": "49914_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -348,12 +348,12 @@
         },
         {
             "filename": "55795_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
             "filename": "55795_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -363,12 +363,12 @@
         },
         {
             "filename": "55796_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
             "filename": "55796_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -378,7 +378,7 @@
         },
         {
             "filename": "55796_person_3.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -388,7 +388,7 @@
         },
         {
             "filename": "55845_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -398,7 +398,7 @@
         },
         {
             "filename": "55848_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -408,7 +408,7 @@
         },
         {
             "filename": "55850_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -418,7 +418,7 @@
         },
         {
             "filename": "55850_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -443,12 +443,12 @@
         },
         {
             "filename": "55852_person_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
             "filename": "55853_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -483,7 +483,7 @@
         },
         {
             "filename": "55856_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -548,7 +548,7 @@
         },
         {
             "filename": "55861_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -583,7 +583,7 @@
         },
         {
             "filename": "5_C-20-CMR-09_216_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -633,7 +633,7 @@
         },
         {
             "filename": "5_C-20-CMR-09_432_person_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -643,7 +643,7 @@
         },
         {
             "filename": "5_C-20-CMR-09_486_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -663,22 +663,22 @@
         },
         {
             "filename": "5_C-20-CMR-09_756_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
             "filename": "5_C-20-CMR-09_756_person_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -693,7 +693,7 @@
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -748,12 +748,12 @@
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {
@@ -778,7 +778,7 @@
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -953,7 +953,7 @@
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1
         },
         {

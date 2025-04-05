@@ -26,7 +26,7 @@ DATASETS = [
 # 完整图片数据集配置
 FULL_IMAGE_DATASETS = [
     "dataset/HELMET_SAMPLES_80/obj_train_data",
-    "dataset/LNG_DATASET_SAMPLES_80/obj_train_data"
+    "dataset/LNG_DATASET_SAMPLES_80/lng_train_data"
 ]
 
 # 类别配置

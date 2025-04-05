@@ -6,14 +6,14 @@
     "experiment_type": "crop",
     "total_samples": 258,
     "metrics": {
-        "accuracy": 0.7131782945736435,
-        "precision": 0.6443298969072165,
-        "recall": 0.9615384615384616,
-        "f1_score": 0.7716049382716049,
-        "true_positives": 125,
-        "false_positives": 69,
-        "false_negatives": 5,
-        "true_negatives": 59
+        "accuracy": 0.7054263565891473,
+        "precision": 0.6363636363636364,
+        "recall": 0.9692307692307692,
+        "f1_score": 0.7682926829268293,
+        "true_positives": 126,
+        "false_positives": 72,
+        "false_negatives": 4,
+        "true_negatives": 56
     },
     "results": [
         {
@@ -43,7 +43,7 @@
         },
         {
             "filename": "000021_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -263,7 +263,7 @@
         },
         {
             "filename": "000263_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -273,7 +273,7 @@
         },
         {
             "filename": "000264_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -543,7 +543,7 @@
         },
         {
             "filename": "000487_person_4.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1
         },
         {
@@ -778,7 +778,7 @@
         },
         {
             "filename": "000976_person_7.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -873,7 +873,7 @@
         },
         {
             "filename": "001070_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0
         },
         {
@@ -983,7 +983,7 @@
         },
         {
             "filename": "001367_person_4.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
@@ -1043,7 +1043,7 @@
         },
         {
             "filename": "part2_000071_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0
         },
         {
