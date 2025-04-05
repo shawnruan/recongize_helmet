@@ -4,3 +4,6 @@ model/MiniCPM-V-2_6-GGUF/MiniCPM-V-2_6-Q4_K_M.gguf
 model/MiniCPM-V-2_6-GGUF/mmproj-model-f16.gguf
 model/Qwen2-VL-7B-Instruct-GGUF/mmproj-model-f32.gguf
 model/Qwen2-VL-7B-Instruct-GGUF/Qwen2-VL-7B-Instruct-Q4_K_M.gguf
+__pycache__/main.cpython-312.pyc
+
+*.pyc
