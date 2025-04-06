@@ -28,16 +28,13 @@ def main():
                 
                 # 处理每个数据集
                 for dataset in exp_config["datasets"]:
-                    # 提取数据集名作为前缀
-                    dataset_prefix = dataset.split('/')[-1].split('_')[0]
-                    
                     if exp_type == "crop":
                         # 对于裁剪图片实验，需要处理每个类别
                         for category in exp_config["categories"]:
                             report = process_dataset(
                                 dataset, 
                                 category,
-                                f"validation_{exp_type}_{dataset_prefix}",  # 使用数据集前缀作为输出文件名
+                                f"validation_{exp_type}_{dataset.split('/')[-1].split('_')[0]}",  # 使用数据集前缀作为输出文件名
                                 prompt_config,
                                 model,
                                 exp_type
@@ -45,13 +42,11 @@ def main():
                             report["prompt_config"] = prompt_name
                             all_reports.append(report)
                     else:
-                        # 对于完整图片实验，使用数据集名称作为标识
-                        # 使用一个特殊的标识符表示这是一个完整图片分析
-                        dataset_name = os.path.basename(dataset)
+                        # 对于完整图片实验，不需要处理类别
                         report = process_dataset(
                             dataset,
-                            None,  # 不需要类别
-                            f"validation_{exp_type}_{dataset_prefix}",  # 使用数据集前缀作为输出文件名
+                            None,
+                            f"validation_{exp_type}_{dataset.split('/')[-1].split('_')[0]}",  # 使用数据集前缀作为输出文件名
                             prompt_config,
                             model,
                             exp_type

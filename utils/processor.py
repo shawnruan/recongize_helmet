@@ -7,7 +7,7 @@ from utils.helpers import get_output_file_path
 
 def process_dataset(base_dir, category, output_prefix, prompt_file, model, experiment_type="crop"):
     """处理单个数据集的单个类别"""
-    print(f"\n处理数据集: {base_dir}, 类别: {category if category else '全图'}")
+    print(f"\n处理数据集: {base_dir}, 类别: {category if category else 'full_image'}")
     print(f"使用模型: {model}")
     print(f"使用提示词配置: {prompt_file}")
     print(f"实验类型: {experiment_type}")
@@ -25,7 +25,7 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
         print(f"\n处理: {os.path.basename(image_path)}")
         
         if experiment_type == "crop":
-            prediction = call_api(image_path, prompt_file, model)
+            prediction = call_api(image_path, prompt_file, model, experiment_type)
             if prediction:
                 predictions.append(prediction)
                 ground_truths.append(annotation)
@@ -40,7 +40,7 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
             true_counts = read_annotations(annotation)  # annotation 实际上是 txt_path
             ground_truths.append(true_counts)
             
-            prediction = call_api(image_path, prompt_file, model)
+            prediction = call_api(image_path, prompt_file, model, experiment_type)
             if prediction:
                 predictions.append(prediction)
                 
@@ -76,15 +76,15 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     if experiment_type == "count":
         # 提取数据集名称作为标识符
         dataset_identifier = os.path.basename(base_dir)
-        output_file = get_output_file_path(output_prefix, model, dataset_identifier, experiment_type)
+        output_file = get_output_file_path(output_prefix, model, dataset_identifier, experiment_type, prompt_file)
     else:
-        output_file = get_output_file_path(output_prefix, model, category, experiment_type)
+        output_file = get_output_file_path(output_prefix, model, category, experiment_type, prompt_file)
     
     with open(output_file, 'w') as f:
         json.dump(report, f, indent=4)
     
     # 打印摘要
-    print(f"\n=== {base_dir} - {category if experiment_type == 'crop' else '全图分析'} 验证报告 ===")
+    print(f"\n=== {base_dir} - {category if experiment_type == 'crop' else 'full_image'} 验证报告 ===")
     print(f"模型: {model}")
     print(f"提示词配置: {prompt_file}")
     print(f"实验类型: {experiment_type}")

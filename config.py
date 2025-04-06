@@ -4,17 +4,20 @@ API_URL = "http://localhost:11434/api/generate"
 # 模型配置
 MODELS = [
     #"minicpm-o", 
-    "minicpm-v", 
+    "gemma3:12b",
+    "minicpm-v"
     #"qwen-7b"
 ]
 
 # 提示词配置文件
 CROP_PROMPT_CONFIGS = [
-    "prompts/test-prompts.md"
+    "prompts/test-prompts.md",
+    "prompts/test-prompts-en.md"
 ]
 
 COUNT_PROMPT_CONFIGS = [
-    "prompts/count-prompts.md"
+    "prompts/count-prompts.md",
+    "prompts/detect-prompts.md"
 ]
 
 # 裁剪图片数据集配置
