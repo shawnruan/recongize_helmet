@@ -1,6 +1,6 @@
 # Helmet Detection Evaluation System
 
-This project implements a safety helmet wearing detection and statistics system based on vision large models, supporting evaluation of multiple models, multiple prompt configurations, and multiple experiment types.
+This project implements a safety helmet wearing detection and statistics system based on vision large models, supporting evaluation of multiple models, multiple prompt configurations, and multiple experiment types.gi
 
 ## Project Features
 
@@ -117,9 +117,6 @@ This project implements a safety helmet wearing detection and statistics system 
    - minicpm-v performs well with English prompts, in some cases even outperforming gemma3 models
    - gemma3:12b performs consistently with Chinese prompts but is unstable with English prompts
 
-2. **Prompt Language**:
-   - All models generally perform better with Chinese prompts than English prompts
-   - minicpm-v achieves 100% precision in helmet detection with English prompts
 
 3. **Dataset Characteristics**:
    - Recognition performance on the helmet_sample dataset is generally better than on the lng_output dataset
@@ -155,12 +152,7 @@ pip install -r requirements.txt
 # Run all tests
 python main.py
 
-# Specify model, prompt file, and dataset
-python main.py --model "model_name" --prompt_file "prompt_file" --dataset "dataset_path" --category "category"
-```
 
 ### Supported Models
 
-- Ollama API models: minicpm-v, gemma3:27b, gemma3:12b, etc.
-- GGUF models: Local GGUF files loaded via llama.cpp
-- Transformer models: HuggingFace models or local Transformer models 
+- Ollama API models: minicpm-v, gemma3:27b, gemma3:12b
