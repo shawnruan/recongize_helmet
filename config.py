@@ -1,6 +1,15 @@
 # API配置
 API_URL = "http://localhost:11434/api/generate"
 
+# Transformer 模型配置
+TRANSFORMER_MODEL_PATH = "models/minicpm-v"  # 本地模型路径，如果不存在则使用 HuggingFace ID
+TRANSFORMER_MODELS = ["Qwen/Qwen-VL-Chat", "TencentARC/minicpm-v-2"]  # HuggingFace 模型ID
+
+# LLM Studio 配置
+LLM_STUDIO_API_URL = "http://localhost:8000/v1/chat/completions"
+LLM_STUDIO_API_KEY = None  # 如果需要
+LLM_STUDIO_MODELS = ["vllm-model"]
+
 # 模型配置
 MODELS = [
     #"minicpm-o",
