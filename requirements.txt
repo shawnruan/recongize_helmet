@@ -1,1 +1,9 @@
 requests
+torch
+transformers
+bitsandbytes>=0.39.0
+datasets
+evaluate
+accelerate
+huggingface_hub
+vllm

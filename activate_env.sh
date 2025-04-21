@@ -7,4 +7,3 @@ conda activate recongize-helmet
 
 pip install -r requirements.txt
 
-# 安装label-studio
