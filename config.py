@@ -4,8 +4,8 @@ API_URL = "http://localhost:11434/api/generate"
 # 模型配置
 MODELS = [
     #"minicpm-o",
-    "gemma3:27b",
-    "gemma3:12b",
+    # "gemma3:27b",
+    # "gemma3:12b",
     "minicpm-v"
     #"qwen-7b"
 ]

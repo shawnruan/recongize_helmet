@@ -2,6 +2,7 @@ import json
 import re
 import base64
 import requests
+import time
 from config import API_URL
 
 def load_prompt_config(markdown_file):
@@ -16,6 +17,8 @@ def load_prompt_config(markdown_file):
     # 提取 format
     format_match = re.search(r'```json\n(.*?)\n```', content, re.DOTALL)
     format_config = json.loads(format_match.group(1)) if format_match else None
+    
+
     
     return prompt, format_config
 
@@ -55,6 +58,9 @@ def validate_prediction(prediction, experiment_type="crop"):
 
 def call_api(image_path, prompt_file, model, experiment_type="crop"):
     """调用大模型API进行预测"""
+    # 记录开始时间
+    start_time = time.time()
+    
     # 加载 prompt 和 format 配置
     prompt, format_config = load_prompt_config(prompt_file)
     if not prompt or not format_config:
@@ -79,6 +85,15 @@ def call_api(image_path, prompt_file, model, experiment_type="crop"):
                 prediction = json.loads(result['response'])
                 # 验证并修正预测结果
                 validated_prediction = validate_prediction(prediction, experiment_type)
+                
+                # 记录结束时间并计算耗时
+                end_time = time.time()
+                inference_time = end_time - start_time
+                
+                # 将推理时间添加到预测结果中
+                if validated_prediction:
+                    validated_prediction['inference_time'] = round(inference_time, 3)
+                
                 return validated_prediction
             else:
                 print(f"API调用失败: {response.status_code}")

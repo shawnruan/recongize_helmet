@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from utils.data_loader import load_images_and_annotations, load_full_image_and_annotation, read_annotations
 from utils.api import call_api
 from utils.metrics import calculate_metrics
@@ -7,6 +8,9 @@ from utils.helpers import get_output_file_path
 
 def process_dataset(base_dir, category, output_prefix, prompt_file, model, experiment_type="crop"):
     """处理单个数据集的单个类别"""
+    # 记录开始时间
+    start_time = time.time()
+    
     print(f"\n处理数据集: {base_dir}, 类别: {category if category else 'full_image'}")
     print(f"使用模型: {model}")
     print(f"使用提示词配置: {prompt_file}")
@@ -21,6 +25,10 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     ground_truths = []
     results = []
     
+    # 记录成功处理的图片数量
+    successful_predictions = 0
+    total_inference_time = 0
+    
     for image_path, annotation in image_paths:
         print(f"\n处理: {os.path.basename(image_path)}")
         
@@ -30,10 +38,16 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
                 predictions.append(prediction)
                 ground_truths.append(annotation)
                 
+                # 记录推理时间
+                inference_time = prediction.get('inference_time', 0)
+                total_inference_time += inference_time
+                successful_predictions += 1
+                
                 results.append({
                     "filename": os.path.basename(image_path),
                     "prediction": prediction['helmet'],
-                    "ground_truth": annotation['class']
+                    "ground_truth": annotation['class'],
+                    "inference_time": inference_time
                 })
         else:
             # 对于完整图片实验，需要先读取标注
@@ -44,20 +58,31 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
             if prediction:
                 predictions.append(prediction)
                 
+                # 记录推理时间
+                inference_time = prediction.get('inference_time', 0)
+                total_inference_time += inference_time
+                successful_predictions += 1
+                
                 results.append({
                     "filename": os.path.basename(image_path),
                     "prediction": prediction,
-                    "ground_truth": true_counts
+                    "ground_truth": true_counts,
+                    "inference_time": inference_time
                 })
         
         if prediction:
             print(f"预测结果: {prediction}")
             print(f"真实标注: {annotation if experiment_type == 'crop' else true_counts}")
+            print(f"推理时间: {prediction.get('inference_time', 0):.3f}秒")
         else:
             print(f"跳过 {image_path} - 预测失败")
     
     # 计算指标
     metrics = calculate_metrics(predictions, ground_truths, experiment_type)
+    
+    # 计算总时间和平均时间
+    total_time = time.time() - start_time
+    avg_inference_time = total_inference_time / successful_predictions if successful_predictions > 0 else 0
     
     # 生成报告
     report = {
@@ -68,6 +93,12 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
         "experiment_type": experiment_type,
         "total_samples": len(predictions),
         "metrics": metrics,
+        "timing": {
+            "total_time": round(total_time, 3),
+            "total_inference_time": round(total_inference_time, 3),
+            "average_inference_time": round(avg_inference_time, 3),
+            "successful_predictions": successful_predictions
+        },
         "results": results
     }
     
@@ -89,6 +120,9 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     print(f"提示词配置: {prompt_file}")
     print(f"实验类型: {experiment_type}")
     print(f"总样本数: {len(predictions)}")
+    print(f"总处理时间: {total_time:.3f}秒")
+    print(f"总推理时间: {total_inference_time:.3f}秒")
+    print(f"平均推理时间: {avg_inference_time:.3f}秒/张")
     
     if experiment_type == "crop":
         print(f"Accuracy:  {metrics['accuracy']*100:.2f}%")
