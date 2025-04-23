@@ -4,14 +4,15 @@ API_URL = "http://localhost:11434/api/generate"
 # 模型配置
 MODELS = [
     "minicpm-o",
+    "minicpm-v",
     "deepseek-r1:7b",
     "deepseek-r1:32b",
     "gemma3:27b",
     "gemma3:12b",
-    "minicpm-v",
+    #"qwen-7b",
     #"qwen2.5-vl-32b",
     #"qwen2.5-vl-72b",
-    #"qwen-7b"
+    
 ]
 
 # 提示词配置文件

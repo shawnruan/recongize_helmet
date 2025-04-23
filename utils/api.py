@@ -39,10 +39,10 @@ def validate_prediction(prediction, experiment_type="crop"):
                 try:
                     # 尝试转换为整数
                     value = int(float(prediction[field])) if prediction[field] is not None else 0
-                    # 检查是否在合理范围内（假设一张图片不会有超过100个人/头/帽子）
-                    if value < 0 or value > 100:
+                    # 检查是否在合理范围内（假设一张图片不会有超过10个人/头/帽子）
+                    if value < 0 or value > 10:
                         print(f"警告: 异常的{field}值: {prediction[field]}，将被限制在合理范围内")
-                        prediction[field] = max(0, min(value, 100))
+                        prediction[field] = max(0, min(value, 10))
                     else:
                         prediction[field] = value
                 except (ValueError, TypeError):
