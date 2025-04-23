@@ -1,7 +1,10 @@
 {
-    "timestamp": "2025-04-07T02:50:28.938107",
-    "total_tests": 36,
+    "timestamp": "2025-04-23T11:54:34.050866",
+    "total_tests": 72,
     "models_tested": [
+        "minicpm-o",
+        "deepseek-r1:7b",
+        "deepseek-r1:32b",
         "gemma3:27b",
         "gemma3:12b",
         "minicpm-v"
@@ -20,7 +23,612 @@
             "prompts/detect-prompts.md"
         ]
     },
+    "timing_summary": {
+        "total_inference_time": 40047.51,
+        "total_samples": 12468,
+        "average_inference_time": 3.212
+    },
     "reports": [
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.6821705426356589,
+                "precision": 0.6176470588235294,
+                "recall": 0.9692307692307692,
+                "f1_score": 0.7544910179640718,
+                "true_positives": 126,
+                "false_positives": 78,
+                "false_negatives": 4,
+                "true_negatives": 50
+            },
+            "timing": {
+                "total_time": 792.679,
+                "total_inference_time": 792.453,
+                "average_inference_time": 3.072,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.9186991869918699,
+                "precision": 0.9615384615384616,
+                "recall": 0.9308510638297872,
+                "f1_score": 0.9459459459459459,
+                "true_positives": 175,
+                "false_positives": 7,
+                "false_negatives": 13,
+                "true_negatives": 51
+            },
+            "timing": {
+                "total_time": 666.846,
+                "total_inference_time": 666.623,
+                "average_inference_time": 2.71,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.7248677248677249,
+                "precision": 0.7878787878787878,
+                "recall": 0.8125,
+                "f1_score": 0.8,
+                "true_positives": 104,
+                "false_positives": 28,
+                "false_negatives": 24,
+                "true_negatives": 33
+            },
+            "timing": {
+                "total_time": 512.517,
+                "total_inference_time": 512.351,
+                "average_inference_time": 2.711,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.7043010752688172,
+                "precision": 0.9152542372881356,
+                "recall": 0.7058823529411765,
+                "f1_score": 0.7970479704797049,
+                "true_positives": 108,
+                "false_positives": 10,
+                "false_negatives": 45,
+                "true_negatives": 23
+            },
+            "timing": {
+                "total_time": 504.09,
+                "total_inference_time": 503.916,
+                "average_inference_time": 2.709,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.7093023255813954,
+                "precision": 0.6381909547738693,
+                "recall": 0.9769230769230769,
+                "f1_score": 0.7720364741641338,
+                "true_positives": 127,
+                "false_positives": 72,
+                "false_negatives": 3,
+                "true_negatives": 56
+            },
+            "timing": {
+                "total_time": 733.501,
+                "total_inference_time": 733.28,
+                "average_inference_time": 2.842,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.9471544715447154,
+                "precision": 0.9679144385026738,
+                "recall": 0.9627659574468085,
+                "f1_score": 0.9653333333333333,
+                "true_positives": 181,
+                "false_positives": 6,
+                "false_negatives": 7,
+                "true_negatives": 52
+            },
+            "timing": {
+                "total_time": 678.845,
+                "total_inference_time": 678.632,
+                "average_inference_time": 2.759,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.7777777777777778,
+                "precision": 0.8028169014084507,
+                "recall": 0.890625,
+                "f1_score": 0.8444444444444446,
+                "true_positives": 114,
+                "false_positives": 28,
+                "false_negatives": 14,
+                "true_negatives": 33
+            },
+            "timing": {
+                "total_time": 520.575,
+                "total_inference_time": 520.411,
+                "average_inference_time": 2.753,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-o",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.7311827956989247,
+                "precision": 0.8931297709923665,
+                "recall": 0.7647058823529411,
+                "f1_score": 0.823943661971831,
+                "true_positives": 117,
+                "false_positives": 14,
+                "false_negatives": 36,
+                "true_negatives": 19
+            },
+            "timing": {
+                "total_time": 512.099,
+                "total_inference_time": 511.949,
+                "average_inference_time": 2.752,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.4573643410852713,
+                "precision": 0.4537037037037037,
+                "recall": 0.3769230769230769,
+                "f1_score": 0.4117647058823529,
+                "true_positives": 49,
+                "false_positives": 59,
+                "false_negatives": 81,
+                "true_negatives": 69
+            },
+            "timing": {
+                "total_time": 724.108,
+                "total_inference_time": 723.882,
+                "average_inference_time": 2.806,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.46747967479674796,
+                "precision": 0.7766990291262136,
+                "recall": 0.425531914893617,
+                "f1_score": 0.549828178694158,
+                "true_positives": 80,
+                "false_positives": 23,
+                "false_negatives": 108,
+                "true_negatives": 35
+            },
+            "timing": {
+                "total_time": 679.485,
+                "total_inference_time": 679.274,
+                "average_inference_time": 2.761,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.47619047619047616,
+                "precision": 0.6835443037974683,
+                "recall": 0.421875,
+                "f1_score": 0.5217391304347825,
+                "true_positives": 54,
+                "false_positives": 25,
+                "false_negatives": 74,
+                "true_negatives": 36
+            },
+            "timing": {
+                "total_time": 526.89,
+                "total_inference_time": 526.728,
+                "average_inference_time": 2.787,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.3655913978494624,
+                "precision": 0.7868852459016393,
+                "recall": 0.3137254901960784,
+                "f1_score": 0.4485981308411215,
+                "true_positives": 48,
+                "false_positives": 13,
+                "false_negatives": 105,
+                "true_negatives": 20
+            },
+            "timing": {
+                "total_time": 517.88,
+                "total_inference_time": 517.719,
+                "average_inference_time": 2.783,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.49224806201550386,
+                "precision": 0.4966887417218543,
+                "recall": 0.5769230769230769,
+                "f1_score": 0.5338078291814947,
+                "true_positives": 75,
+                "false_positives": 76,
+                "false_negatives": 55,
+                "true_negatives": 52
+            },
+            "timing": {
+                "total_time": 691.423,
+                "total_inference_time": 691.201,
+                "average_inference_time": 2.679,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.483739837398374,
+                "precision": 0.7194244604316546,
+                "recall": 0.5319148936170213,
+                "f1_score": 0.6116207951070336,
+                "true_positives": 100,
+                "false_positives": 39,
+                "false_negatives": 88,
+                "true_negatives": 19
+            },
+            "timing": {
+                "total_time": 664.427,
+                "total_inference_time": 664.246,
+                "average_inference_time": 2.7,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.5714285714285714,
+                "precision": 0.7043478260869566,
+                "recall": 0.6328125,
+                "f1_score": 0.6666666666666667,
+                "true_positives": 81,
+                "false_positives": 34,
+                "false_negatives": 47,
+                "true_negatives": 27
+            },
+            "timing": {
+                "total_time": 503.472,
+                "total_inference_time": 503.324,
+                "average_inference_time": 2.663,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.6236559139784946,
+                "precision": 0.8547008547008547,
+                "recall": 0.6535947712418301,
+                "f1_score": 0.7407407407407407,
+                "true_positives": 100,
+                "false_positives": 17,
+                "false_negatives": 53,
+                "true_negatives": 16
+            },
+            "timing": {
+                "total_time": 496.819,
+                "total_inference_time": 496.679,
+                "average_inference_time": 2.67,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.5193798449612403,
+                "precision": 0.5267857142857143,
+                "recall": 0.45384615384615384,
+                "f1_score": 0.48760330578512395,
+                "true_positives": 59,
+                "false_positives": 53,
+                "false_negatives": 71,
+                "true_negatives": 75
+            },
+            "timing": {
+                "total_time": 811.972,
+                "total_inference_time": 811.749,
+                "average_inference_time": 3.146,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.491869918699187,
+                "precision": 0.7739130434782608,
+                "recall": 0.4734042553191489,
+                "f1_score": 0.5874587458745875,
+                "true_positives": 89,
+                "false_positives": 26,
+                "false_negatives": 99,
+                "true_negatives": 32
+            },
+            "timing": {
+                "total_time": 773.465,
+                "total_inference_time": 773.26,
+                "average_inference_time": 3.143,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.5185185185185185,
+                "precision": 0.6947368421052632,
+                "recall": 0.515625,
+                "f1_score": 0.5919282511210764,
+                "true_positives": 66,
+                "false_positives": 29,
+                "false_negatives": 62,
+                "true_negatives": 32
+            },
+            "timing": {
+                "total_time": 596.406,
+                "total_inference_time": 596.246,
+                "average_inference_time": 3.155,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.478494623655914,
+                "precision": 0.8181818181818182,
+                "recall": 0.47058823529411764,
+                "f1_score": 0.5975103734439834,
+                "true_positives": 72,
+                "false_positives": 16,
+                "false_negatives": 81,
+                "true_negatives": 17
+            },
+            "timing": {
+                "total_time": 590.321,
+                "total_inference_time": 590.151,
+                "average_inference_time": 3.173,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.45348837209302323,
+                "precision": 0.4266666666666667,
+                "recall": 0.24615384615384617,
+                "f1_score": 0.3121951219512195,
+                "true_positives": 32,
+                "false_positives": 43,
+                "false_negatives": 98,
+                "true_negatives": 85
+            },
+            "timing": {
+                "total_time": 882.975,
+                "total_inference_time": 882.761,
+                "average_inference_time": 3.422,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.4186991869918699,
+                "precision": 0.7777777777777778,
+                "recall": 0.3351063829787234,
+                "f1_score": 0.4684014869888476,
+                "true_positives": 63,
+                "false_positives": 18,
+                "false_negatives": 125,
+                "true_negatives": 40
+            },
+            "timing": {
+                "total_time": 846.562,
+                "total_inference_time": 846.361,
+                "average_inference_time": 3.44,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.3968253968253968,
+                "precision": 0.6346153846153846,
+                "recall": 0.2578125,
+                "f1_score": 0.36666666666666664,
+                "true_positives": 33,
+                "false_positives": 19,
+                "false_negatives": 95,
+                "true_negatives": 42
+            },
+            "timing": {
+                "total_time": 651.426,
+                "total_inference_time": 651.271,
+                "average_inference_time": 3.446,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.3870967741935484,
+                "precision": 0.8545454545454545,
+                "recall": 0.30718954248366015,
+                "f1_score": 0.4519230769230769,
+                "true_positives": 47,
+                "false_positives": 8,
+                "false_negatives": 106,
+                "true_negatives": 25
+            },
+            "timing": {
+                "total_time": 640.53,
+                "total_inference_time": 640.39,
+                "average_inference_time": 3.443,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts-en"
+        },
         {
             "dataset": "dataset/helmet_sample_output_crops",
             "category": "person",
@@ -29,14 +637,20 @@
             "experiment_type": "crop",
             "total_samples": 258,
             "metrics": {
-                "accuracy": 0.6976744186046512,
-                "precision": 0.6313131313131313,
-                "recall": 0.9615384615384616,
-                "f1_score": 0.7621951219512195,
-                "true_positives": 125,
+                "accuracy": 0.7015503875968992,
+                "precision": 0.6331658291457286,
+                "recall": 0.9692307692307692,
+                "f1_score": 0.7659574468085106,
+                "true_positives": 126,
                 "false_positives": 73,
-                "false_negatives": 5,
+                "false_negatives": 4,
                 "true_negatives": 55
+            },
+            "timing": {
+                "total_time": 1058.939,
+                "total_inference_time": 1058.705,
+                "average_inference_time": 4.104,
+                "successful_predictions": 258
             },
             "prompt_config": "test-prompts"
         },
@@ -49,13 +663,19 @@
             "total_samples": 246,
             "metrics": {
                 "accuracy": 0.9227642276422764,
-                "precision": 0.9668508287292817,
-                "recall": 0.9308510638297872,
-                "f1_score": 0.9485094850948509,
-                "true_positives": 175,
-                "false_positives": 6,
-                "false_negatives": 13,
-                "true_negatives": 52
+                "precision": 0.9720670391061452,
+                "recall": 0.925531914893617,
+                "f1_score": 0.9482288828337874,
+                "true_positives": 174,
+                "false_positives": 5,
+                "false_negatives": 14,
+                "true_negatives": 53
+            },
+            "timing": {
+                "total_time": 842.841,
+                "total_inference_time": 842.616,
+                "average_inference_time": 3.425,
+                "successful_predictions": 246
             },
             "prompt_config": "test-prompts"
         },
@@ -67,14 +687,20 @@
             "experiment_type": "crop",
             "total_samples": 189,
             "metrics": {
-                "accuracy": 0.7513227513227513,
-                "precision": 0.7872340425531915,
-                "recall": 0.8671875,
-                "f1_score": 0.825278810408922,
-                "true_positives": 111,
-                "false_positives": 30,
-                "false_negatives": 17,
-                "true_negatives": 31
+                "accuracy": 0.7619047619047619,
+                "precision": 0.7943262411347518,
+                "recall": 0.875,
+                "f1_score": 0.8327137546468402,
+                "true_positives": 112,
+                "false_positives": 29,
+                "false_negatives": 16,
+                "true_negatives": 32
+            },
+            "timing": {
+                "total_time": 643.731,
+                "total_inference_time": 643.566,
+                "average_inference_time": 3.405,
+                "successful_predictions": 189
             },
             "prompt_config": "test-prompts"
         },
@@ -86,14 +712,20 @@
             "experiment_type": "crop",
             "total_samples": 186,
             "metrics": {
-                "accuracy": 0.6236559139784946,
-                "precision": 0.8672566371681416,
-                "recall": 0.6405228758169934,
-                "f1_score": 0.7368421052631579,
-                "true_positives": 98,
+                "accuracy": 0.6505376344086021,
+                "precision": 0.8728813559322034,
+                "recall": 0.673202614379085,
+                "f1_score": 0.7601476014760147,
+                "true_positives": 103,
                 "false_positives": 15,
-                "false_negatives": 55,
+                "false_negatives": 50,
                 "true_negatives": 18
+            },
+            "timing": {
+                "total_time": 633.014,
+                "total_inference_time": 632.849,
+                "average_inference_time": 3.402,
+                "successful_predictions": 186
             },
             "prompt_config": "test-prompts"
         },
@@ -105,14 +737,20 @@
             "experiment_type": "crop",
             "total_samples": 258,
             "metrics": {
-                "accuracy": 0.7054263565891473,
-                "precision": 0.6483516483516484,
-                "recall": 0.9076923076923077,
-                "f1_score": 0.7564102564102564,
-                "true_positives": 118,
-                "false_positives": 64,
-                "false_negatives": 12,
-                "true_negatives": 64
+                "accuracy": 0.7131782945736435,
+                "precision": 0.6573033707865169,
+                "recall": 0.9,
+                "f1_score": 0.7597402597402597,
+                "true_positives": 117,
+                "false_positives": 61,
+                "false_negatives": 13,
+                "true_negatives": 67
+            },
+            "timing": {
+                "total_time": 903.526,
+                "total_inference_time": 903.304,
+                "average_inference_time": 3.501,
+                "successful_predictions": 258
             },
             "prompt_config": "test-prompts-en"
         },
@@ -124,14 +762,20 @@
             "experiment_type": "crop",
             "total_samples": 246,
             "metrics": {
-                "accuracy": 0.8861788617886179,
-                "precision": 0.9938271604938271,
-                "recall": 0.8563829787234043,
-                "f1_score": 0.92,
-                "true_positives": 161,
+                "accuracy": 0.8739837398373984,
+                "precision": 0.9937106918238994,
+                "recall": 0.8404255319148937,
+                "f1_score": 0.9106628242074929,
+                "true_positives": 158,
                 "false_positives": 1,
-                "false_negatives": 27,
+                "false_negatives": 30,
                 "true_negatives": 57
+            },
+            "timing": {
+                "total_time": 845.591,
+                "total_inference_time": 845.383,
+                "average_inference_time": 3.437,
+                "successful_predictions": 246
             },
             "prompt_config": "test-prompts-en"
         },
@@ -144,13 +788,19 @@
             "total_samples": 189,
             "metrics": {
                 "accuracy": 0.6931216931216931,
-                "precision": 0.8070175438596491,
-                "recall": 0.71875,
-                "f1_score": 0.7603305785123967,
-                "true_positives": 92,
-                "false_positives": 22,
-                "false_negatives": 36,
-                "true_negatives": 39
+                "precision": 0.8017241379310345,
+                "recall": 0.7265625,
+                "f1_score": 0.7622950819672131,
+                "true_positives": 93,
+                "false_positives": 23,
+                "false_negatives": 35,
+                "true_negatives": 38
+            },
+            "timing": {
+                "total_time": 653.208,
+                "total_inference_time": 653.044,
+                "average_inference_time": 3.455,
+                "successful_predictions": 189
             },
             "prompt_config": "test-prompts-en"
         },
@@ -162,14 +812,20 @@
             "experiment_type": "crop",
             "total_samples": 186,
             "metrics": {
-                "accuracy": 0.543010752688172,
-                "precision": 0.9594594594594594,
-                "recall": 0.46405228758169936,
-                "f1_score": 0.6255506607929515,
-                "true_positives": 71,
-                "false_positives": 3,
-                "false_negatives": 82,
-                "true_negatives": 30
+                "accuracy": 0.5752688172043011,
+                "precision": 0.9868421052631579,
+                "recall": 0.49019607843137253,
+                "f1_score": 0.6550218340611353,
+                "true_positives": 75,
+                "false_positives": 1,
+                "false_negatives": 78,
+                "true_negatives": 32
+            },
+            "timing": {
+                "total_time": 639.643,
+                "total_inference_time": 639.49,
+                "average_inference_time": 3.438,
+                "successful_predictions": 186
             },
             "prompt_config": "test-prompts-en"
         },
@@ -181,14 +837,20 @@
             "experiment_type": "crop",
             "total_samples": 258,
             "metrics": {
-                "accuracy": 0.6821705426356589,
-                "precision": 0.6188118811881188,
+                "accuracy": 0.686046511627907,
+                "precision": 0.6218905472636815,
                 "recall": 0.9615384615384616,
-                "f1_score": 0.7530120481927711,
+                "f1_score": 0.755287009063444,
                 "true_positives": 125,
-                "false_positives": 77,
+                "false_positives": 76,
                 "false_negatives": 5,
-                "true_negatives": 51
+                "true_negatives": 52
+            },
+            "timing": {
+                "total_time": 896.413,
+                "total_inference_time": 896.191,
+                "average_inference_time": 3.474,
+                "successful_predictions": 258
             },
             "prompt_config": "test-prompts"
         },
@@ -201,13 +863,19 @@
             "total_samples": 246,
             "metrics": {
                 "accuracy": 0.9186991869918699,
-                "precision": 0.9615384615384616,
-                "recall": 0.9308510638297872,
-                "f1_score": 0.9459459459459459,
-                "true_positives": 175,
-                "false_positives": 7,
-                "false_negatives": 13,
-                "true_negatives": 51
+                "precision": 0.9666666666666667,
+                "recall": 0.925531914893617,
+                "f1_score": 0.9456521739130436,
+                "true_positives": 174,
+                "false_positives": 6,
+                "false_negatives": 14,
+                "true_negatives": 52
+            },
+            "timing": {
+                "total_time": 766.128,
+                "total_inference_time": 765.912,
+                "average_inference_time": 3.113,
+                "successful_predictions": 246
             },
             "prompt_config": "test-prompts"
         },
@@ -219,110 +887,146 @@
             "experiment_type": "crop",
             "total_samples": 189,
             "metrics": {
-                "accuracy": 0.7724867724867724,
-                "precision": 0.785234899328859,
-                "recall": 0.9140625,
-                "f1_score": 0.8447653429602889,
-                "true_positives": 117,
-                "false_positives": 32,
-                "false_negatives": 11,
-                "true_negatives": 29
-            },
-            "prompt_config": "test-prompts"
-        },
-        {
-            "dataset": "dataset/lng_output_crops",
-            "category": "head_helmet",
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/test-prompts.md",
-            "experiment_type": "crop",
-            "total_samples": 186,
-            "metrics": {
-                "accuracy": 0.7258064516129032,
-                "precision": 0.8923076923076924,
-                "recall": 0.7581699346405228,
-                "f1_score": 0.8197879858657244,
+                "accuracy": 0.7619047619047619,
+                "precision": 0.7785234899328859,
+                "recall": 0.90625,
+                "f1_score": 0.8375451263537906,
                 "true_positives": 116,
-                "false_positives": 14,
-                "false_negatives": 37,
-                "true_negatives": 19
+                "false_positives": 33,
+                "false_negatives": 12,
+                "true_negatives": 28
+            },
+            "timing": {
+                "total_time": 589.639,
+                "total_inference_time": 589.471,
+                "average_inference_time": 3.119,
+                "successful_predictions": 189
             },
             "prompt_config": "test-prompts"
         },
         {
-            "dataset": "dataset/helmet_sample_output_crops",
-            "category": "person",
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/test-prompts-en.md",
-            "experiment_type": "crop",
-            "total_samples": 258,
-            "metrics": {
-                "accuracy": 0.44573643410852715,
-                "precision": 0.4057971014492754,
-                "recall": 0.2153846153846154,
-                "f1_score": 0.2814070351758794,
-                "true_positives": 28,
-                "false_positives": 41,
-                "false_negatives": 102,
-                "true_negatives": 87
-            },
-            "prompt_config": "test-prompts-en"
-        },
-        {
-            "dataset": "dataset/helmet_sample_output_crops",
-            "category": "head_helmet",
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/test-prompts-en.md",
-            "experiment_type": "crop",
-            "total_samples": 246,
-            "metrics": {
-                "accuracy": 0.7032520325203252,
-                "precision": 0.9078014184397163,
-                "recall": 0.6808510638297872,
-                "f1_score": 0.7781155015197568,
-                "true_positives": 128,
-                "false_positives": 13,
-                "false_negatives": 60,
-                "true_negatives": 45
-            },
-            "prompt_config": "test-prompts-en"
-        },
-        {
-            "dataset": "dataset/lng_output_crops",
-            "category": "person",
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/test-prompts-en.md",
-            "experiment_type": "crop",
-            "total_samples": 189,
-            "metrics": {
-                "accuracy": 0.671957671957672,
-                "precision": 0.746268656716418,
-                "recall": 0.78125,
-                "f1_score": 0.7633587786259542,
-                "true_positives": 100,
-                "false_positives": 34,
-                "false_negatives": 28,
-                "true_negatives": 27
-            },
-            "prompt_config": "test-prompts-en"
-        },
-        {
             "dataset": "dataset/lng_output_crops",
             "category": "head_helmet",
             "model": "gemma3:12b",
-            "prompt_file": "prompts/test-prompts-en.md",
+            "prompt_file": "prompts/test-prompts.md",
             "experiment_type": "crop",
             "total_samples": 186,
             "metrics": {
-                "accuracy": 0.5376344086021505,
-                "precision": 0.845360824742268,
-                "recall": 0.5359477124183006,
-                "f1_score": 0.656,
-                "true_positives": 82,
+                "accuracy": 0.7150537634408602,
+                "precision": 0.8846153846153846,
+                "recall": 0.7516339869281046,
+                "f1_score": 0.8127208480565371,
+                "true_positives": 115,
                 "false_positives": 15,
-                "false_negatives": 71,
+                "false_negatives": 38,
                 "true_negatives": 18
             },
+            "timing": {
+                "total_time": 577.418,
+                "total_inference_time": 577.253,
+                "average_inference_time": 3.104,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.42248062015503873,
+                "precision": 0.36231884057971014,
+                "recall": 0.19230769230769232,
+                "f1_score": 0.25125628140703515,
+                "true_positives": 25,
+                "false_positives": 44,
+                "false_negatives": 105,
+                "true_negatives": 84
+            },
+            "timing": {
+                "total_time": 820.135,
+                "total_inference_time": 819.936,
+                "average_inference_time": 3.178,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.6788617886178862,
+                "precision": 0.8978102189781022,
+                "recall": 0.6542553191489362,
+                "f1_score": 0.756923076923077,
+                "true_positives": 123,
+                "false_positives": 14,
+                "false_negatives": 65,
+                "true_negatives": 44
+            },
+            "timing": {
+                "total_time": 779.86,
+                "total_inference_time": 779.652,
+                "average_inference_time": 3.169,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.6878306878306878,
+                "precision": 0.7633587786259542,
+                "recall": 0.78125,
+                "f1_score": 0.7722007722007723,
+                "true_positives": 100,
+                "false_positives": 31,
+                "false_negatives": 28,
+                "true_negatives": 30
+            },
+            "timing": {
+                "total_time": 601.414,
+                "total_inference_time": 601.258,
+                "average_inference_time": 3.181,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.543010752688172,
+                "precision": 0.8469387755102041,
+                "recall": 0.5424836601307189,
+                "f1_score": 0.6613545816733067,
+                "true_positives": 83,
+                "false_positives": 15,
+                "false_negatives": 70,
+                "true_negatives": 18
+            },
+            "timing": {
+                "total_time": 588.833,
+                "total_inference_time": 588.68,
+                "average_inference_time": 3.165,
+                "successful_predictions": 186
+            },
             "prompt_config": "test-prompts-en"
         },
         {
@@ -330,93 +1034,123 @@
             "category": "person",
             "model": "minicpm-v",
             "prompt_file": "prompts/test-prompts.md",
-            "experiment_type": "crop",
-            "total_samples": 258,
-            "metrics": {
-                "accuracy": 0.6937984496124031,
-                "precision": 0.6335078534031413,
-                "recall": 0.9307692307692308,
-                "f1_score": 0.7538940809968847,
-                "true_positives": 121,
-                "false_positives": 70,
-                "false_negatives": 9,
-                "true_negatives": 58
-            },
-            "prompt_config": "test-prompts"
-        },
-        {
-            "dataset": "dataset/helmet_sample_output_crops",
-            "category": "head_helmet",
-            "model": "minicpm-v",
-            "prompt_file": "prompts/test-prompts.md",
-            "experiment_type": "crop",
-            "total_samples": 246,
-            "metrics": {
-                "accuracy": 0.9186991869918699,
-                "precision": 0.9615384615384616,
-                "recall": 0.9308510638297872,
-                "f1_score": 0.9459459459459459,
-                "true_positives": 175,
-                "false_positives": 7,
-                "false_negatives": 13,
-                "true_negatives": 51
-            },
-            "prompt_config": "test-prompts"
-        },
-        {
-            "dataset": "dataset/lng_output_crops",
-            "category": "person",
-            "model": "minicpm-v",
-            "prompt_file": "prompts/test-prompts.md",
-            "experiment_type": "crop",
-            "total_samples": 189,
-            "metrics": {
-                "accuracy": 0.7142857142857143,
-                "precision": 0.8032786885245902,
-                "recall": 0.765625,
-                "f1_score": 0.784,
-                "true_positives": 98,
-                "false_positives": 24,
-                "false_negatives": 30,
-                "true_negatives": 37
-            },
-            "prompt_config": "test-prompts"
-        },
-        {
-            "dataset": "dataset/lng_output_crops",
-            "category": "head_helmet",
-            "model": "minicpm-v",
-            "prompt_file": "prompts/test-prompts.md",
-            "experiment_type": "crop",
-            "total_samples": 186,
-            "metrics": {
-                "accuracy": 0.5860215053763441,
-                "precision": 0.9042553191489362,
-                "recall": 0.5555555555555556,
-                "f1_score": 0.6882591093117408,
-                "true_positives": 85,
-                "false_positives": 9,
-                "false_negatives": 68,
-                "true_negatives": 24
-            },
-            "prompt_config": "test-prompts"
-        },
-        {
-            "dataset": "dataset/helmet_sample_output_crops",
-            "category": "person",
-            "model": "minicpm-v",
-            "prompt_file": "prompts/test-prompts-en.md",
             "experiment_type": "crop",
             "total_samples": 258,
             "metrics": {
                 "accuracy": 0.7170542635658915,
-                "precision": 0.6574585635359116,
+                "precision": 0.6492146596858639,
+                "recall": 0.9538461538461539,
+                "f1_score": 0.7725856697819313,
+                "true_positives": 124,
+                "false_positives": 67,
+                "false_negatives": 6,
+                "true_negatives": 61
+            },
+            "timing": {
+                "total_time": 744.596,
+                "total_inference_time": 744.374,
+                "average_inference_time": 2.885,
+                "successful_predictions": 258
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-v",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 246,
+            "metrics": {
+                "accuracy": 0.9186991869918699,
+                "precision": 0.9772727272727273,
+                "recall": 0.9148936170212766,
+                "f1_score": 0.945054945054945,
+                "true_positives": 172,
+                "false_positives": 4,
+                "false_negatives": 16,
+                "true_negatives": 54
+            },
+            "timing": {
+                "total_time": 658.378,
+                "total_inference_time": 658.173,
+                "average_inference_time": 2.675,
+                "successful_predictions": 246
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "person",
+            "model": "minicpm-v",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 189,
+            "metrics": {
+                "accuracy": 0.6825396825396826,
+                "precision": 0.7833333333333333,
+                "recall": 0.734375,
+                "f1_score": 0.7580645161290323,
+                "true_positives": 94,
+                "false_positives": 26,
+                "false_negatives": 34,
+                "true_negatives": 35
+            },
+            "timing": {
+                "total_time": 503.636,
+                "total_inference_time": 503.475,
+                "average_inference_time": 2.664,
+                "successful_predictions": 189
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/lng_output_crops",
+            "category": "head_helmet",
+            "model": "minicpm-v",
+            "prompt_file": "prompts/test-prompts.md",
+            "experiment_type": "crop",
+            "total_samples": 186,
+            "metrics": {
+                "accuracy": 0.6236559139784946,
+                "precision": 0.9278350515463918,
+                "recall": 0.5882352941176471,
+                "f1_score": 0.7200000000000001,
+                "true_positives": 90,
+                "false_positives": 7,
+                "false_negatives": 63,
+                "true_negatives": 26
+            },
+            "timing": {
+                "total_time": 496.862,
+                "total_inference_time": 496.689,
+                "average_inference_time": 2.67,
+                "successful_predictions": 186
+            },
+            "prompt_config": "test-prompts"
+        },
+        {
+            "dataset": "dataset/helmet_sample_output_crops",
+            "category": "person",
+            "model": "minicpm-v",
+            "prompt_file": "prompts/test-prompts-en.md",
+            "experiment_type": "crop",
+            "total_samples": 258,
+            "metrics": {
+                "accuracy": 0.7209302325581395,
+                "precision": 0.6611111111111111,
                 "recall": 0.9153846153846154,
-                "f1_score": 0.7652733118971061,
+                "f1_score": 0.7677419354838709,
                 "true_positives": 119,
-                "false_positives": 62,
+                "false_positives": 61,
                 "false_negatives": 11,
-                "true_negatives": 66
+                "true_negatives": 67
+            },
+            "timing": {
+                "total_time": 724.169,
+                "total_inference_time": 723.952,
+                "average_inference_time": 2.806,
+                "successful_predictions": 258
             },
             "prompt_config": "test-prompts-en"
         },
@@ -428,14 +1162,20 @@
             "experiment_type": "crop",
             "total_samples": 246,
             "metrics": {
-                "accuracy": 0.8943089430894309,
+                "accuracy": 0.8780487804878049,
                 "precision": 1.0,
-                "recall": 0.8617021276595744,
-                "f1_score": 0.9257142857142857,
-                "true_positives": 162,
+                "recall": 0.8404255319148937,
+                "f1_score": 0.9132947976878613,
+                "true_positives": 158,
                 "false_positives": 0,
-                "false_negatives": 26,
+                "false_negatives": 30,
                 "true_negatives": 58
+            },
+            "timing": {
+                "total_time": 666.057,
+                "total_inference_time": 665.846,
+                "average_inference_time": 2.707,
+                "successful_predictions": 246
             },
             "prompt_config": "test-prompts-en"
         },
@@ -447,14 +1187,20 @@
             "experiment_type": "crop",
             "total_samples": 189,
             "metrics": {
-                "accuracy": 0.6613756613756614,
-                "precision": 0.8018867924528302,
-                "recall": 0.6640625,
-                "f1_score": 0.7264957264957265,
-                "true_positives": 85,
-                "false_positives": 21,
-                "false_negatives": 43,
-                "true_negatives": 40
+                "accuracy": 0.6878306878306878,
+                "precision": 0.822429906542056,
+                "recall": 0.6875,
+                "f1_score": 0.7489361702127659,
+                "true_positives": 88,
+                "false_positives": 19,
+                "false_negatives": 40,
+                "true_negatives": 42
+            },
+            "timing": {
+                "total_time": 507.809,
+                "total_inference_time": 507.657,
+                "average_inference_time": 2.686,
+                "successful_predictions": 189
             },
             "prompt_config": "test-prompts-en"
         },
@@ -466,16 +1212,706 @@
             "experiment_type": "crop",
             "total_samples": 186,
             "metrics": {
-                "accuracy": 0.3655913978494624,
+                "accuracy": 0.4032258064516129,
                 "precision": 1.0,
-                "recall": 0.22875816993464052,
-                "f1_score": 0.3723404255319149,
-                "true_positives": 35,
+                "recall": 0.27450980392156865,
+                "f1_score": 0.43076923076923085,
+                "true_positives": 42,
                 "false_positives": 0,
-                "false_negatives": 118,
+                "false_negatives": 111,
                 "true_negatives": 33
             },
+            "timing": {
+                "total_time": 501.582,
+                "total_inference_time": 501.421,
+                "average_inference_time": 2.696,
+                "successful_predictions": 186
+            },
             "prompt_config": "test-prompts-en"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "minicpm-o",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.5411764705882353,
+                    "precision": 0.6301369863013698,
+                    "recall": 0.7931034482758621,
+                    "f1_score": 0.7022900763358779,
+                    "true_positives": 46,
+                    "false_positives": 27,
+                    "false_negatives": 12,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.7948717948717948,
+                    "precision": 0.9567901234567902,
+                    "recall": 0.824468085106383,
+                    "f1_score": 0.8857142857142857,
+                    "true_positives": 155,
+                    "false_positives": 7,
+                    "false_negatives": 33,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.8555555555555555,
+                    "precision": 0.9506172839506173,
+                    "recall": 0.8953488372093024,
+                    "f1_score": 0.9221556886227545,
+                    "true_positives": 231,
+                    "false_positives": 12,
+                    "false_negatives": 27,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.6304347826086957,
+                    "precision": 0.6444444444444445,
+                    "recall": 0.9666666666666667,
+                    "f1_score": 0.7733333333333334,
+                    "true_positives": 29,
+                    "false_positives": 16,
+                    "false_negatives": 1,
+                    "true_negatives": 34
+                }
+            },
+            "timing": {
+                "total_time": 373.769,
+                "total_inference_time": 373.068,
+                "average_inference_time": 4.663,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "minicpm-o",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.25806451612903225,
+                    "precision": 0.35555555555555557,
+                    "recall": 0.48484848484848486,
+                    "f1_score": 0.41025641025641024,
+                    "true_positives": 16,
+                    "false_positives": 29,
+                    "false_negatives": 17,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.6480446927374302,
+                    "precision": 0.8169014084507042,
+                    "recall": 0.7581699346405228,
+                    "f1_score": 0.7864406779661017,
+                    "true_positives": 116,
+                    "false_positives": 26,
+                    "false_negatives": 37,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.7752293577981652,
+                    "precision": 0.8535353535353535,
+                    "recall": 0.8941798941798942,
+                    "f1_score": 0.8733850129198966,
+                    "true_positives": 169,
+                    "false_positives": 29,
+                    "false_negatives": 20,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.3148148148148148,
+                    "precision": 0.4473684210526316,
+                    "recall": 0.5151515151515151,
+                    "f1_score": 0.4788732394366197,
+                    "true_positives": 17,
+                    "false_positives": 21,
+                    "false_negatives": 16,
+                    "true_negatives": 26
+                }
+            },
+            "timing": {
+                "total_time": 406.724,
+                "total_inference_time": 406.027,
+                "average_inference_time": 5.075,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "minicpm-o",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.36,
+                    "precision": 0.46153846153846156,
+                    "recall": 0.6206896551724138,
+                    "f1_score": 0.5294117647058824,
+                    "true_positives": 36,
+                    "false_positives": 42,
+                    "false_negatives": 22,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.7395348837209302,
+                    "precision": 0.8548387096774194,
+                    "recall": 0.8457446808510638,
+                    "f1_score": 0.8502673796791442,
+                    "true_positives": 159,
+                    "false_positives": 27,
+                    "false_negatives": 29,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.8421052631578947,
+                    "precision": 0.898876404494382,
+                    "recall": 0.9302325581395349,
+                    "f1_score": 0.9142857142857143,
+                    "true_positives": 240,
+                    "false_positives": 27,
+                    "false_negatives": 18,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.4461538461538462,
+                    "precision": 0.453125,
+                    "recall": 0.9666666666666667,
+                    "f1_score": 0.6170212765957447,
+                    "true_positives": 29,
+                    "false_positives": 35,
+                    "false_negatives": 1,
+                    "true_negatives": 15
+                }
+            },
+            "timing": {
+                "total_time": 299.343,
+                "total_inference_time": 299.263,
+                "average_inference_time": 3.741,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "minicpm-o",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.3,
+                    "precision": 0.3380281690140845,
+                    "recall": 0.7272727272727273,
+                    "f1_score": 0.4615384615384615,
+                    "true_positives": 24,
+                    "false_positives": 47,
+                    "false_negatives": 9,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.6264367816091954,
+                    "precision": 0.8384615384615385,
+                    "recall": 0.7124183006535948,
+                    "f1_score": 0.7703180212014133,
+                    "true_positives": 109,
+                    "false_positives": 21,
+                    "false_negatives": 44,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.7295081967213115,
+                    "precision": 0.7639484978540773,
+                    "recall": 0.9417989417989417,
+                    "f1_score": 0.8436018957345971,
+                    "true_positives": 178,
+                    "false_positives": 55,
+                    "false_negatives": 11,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.4090909090909091,
+                    "precision": 0.45,
+                    "recall": 0.8181818181818182,
+                    "f1_score": 0.5806451612903226,
+                    "true_positives": 27,
+                    "false_positives": 33,
+                    "false_negatives": 6,
+                    "true_negatives": 14
+                }
+            },
+            "timing": {
+                "total_time": 400.339,
+                "total_inference_time": 400.245,
+                "average_inference_time": 5.003,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.17159763313609466,
+                    "precision": 0.20714285714285716,
+                    "recall": 0.5,
+                    "f1_score": 0.29292929292929293,
+                    "true_positives": 29,
+                    "false_positives": 111,
+                    "false_negatives": 29,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.3614864864864865,
+                    "precision": 0.49767441860465117,
+                    "recall": 0.5691489361702128,
+                    "f1_score": 0.5310173697270472,
+                    "true_positives": 107,
+                    "false_positives": 108,
+                    "false_negatives": 81,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.37276785714285715,
+                    "precision": 0.4677871148459384,
+                    "recall": 0.6472868217054264,
+                    "f1_score": 0.543089430894309,
+                    "true_positives": 167,
+                    "false_positives": 190,
+                    "false_negatives": 91,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.27906976744186046,
+                    "precision": 0.48,
+                    "recall": 0.4,
+                    "f1_score": 0.4363636363636364,
+                    "true_positives": 12,
+                    "false_positives": 13,
+                    "false_negatives": 18,
+                    "true_negatives": 37
+                }
+            },
+            "timing": {
+                "total_time": 255.641,
+                "total_inference_time": 255.561,
+                "average_inference_time": 3.195,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.11428571428571428,
+                    "precision": 0.13008130081300814,
+                    "recall": 0.48484848484848486,
+                    "f1_score": 0.20512820512820515,
+                    "true_positives": 16,
+                    "false_positives": 107,
+                    "false_negatives": 17,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.3920863309352518,
+                    "precision": 0.4658119658119658,
+                    "recall": 0.7124183006535948,
+                    "f1_score": 0.5633074935400517,
+                    "true_positives": 109,
+                    "false_positives": 125,
+                    "false_negatives": 44,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.33414634146341465,
+                    "precision": 0.38268156424581007,
+                    "recall": 0.7248677248677249,
+                    "f1_score": 0.5009140767824498,
+                    "true_positives": 137,
+                    "false_positives": 221,
+                    "false_negatives": 52,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.16666666666666666,
+                    "precision": 0.34782608695652173,
+                    "recall": 0.24242424242424243,
+                    "f1_score": 0.28571428571428575,
+                    "true_positives": 8,
+                    "false_positives": 15,
+                    "false_negatives": 25,
+                    "true_negatives": 32
+                }
+            },
+            "timing": {
+                "total_time": 235.791,
+                "total_inference_time": 235.69,
+                "average_inference_time": 2.946,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.1023391812865497,
+                    "precision": 0.109717868338558,
+                    "recall": 0.603448275862069,
+                    "f1_score": 0.1856763925729443,
+                    "true_positives": 35,
+                    "false_positives": 284,
+                    "false_negatives": 23,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.30035971223021585,
+                    "precision": 0.3121495327102804,
+                    "recall": 0.8882978723404256,
+                    "f1_score": 0.46196403872752423,
+                    "true_positives": 167,
+                    "false_positives": 368,
+                    "false_negatives": 21,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.30514705882352944,
+                    "precision": 0.30855018587360594,
+                    "recall": 0.9651162790697675,
+                    "f1_score": 0.4676056338028169,
+                    "true_positives": 249,
+                    "false_positives": 558,
+                    "false_negatives": 9,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.2698412698412698,
+                    "precision": 0.34,
+                    "recall": 0.5666666666666667,
+                    "f1_score": 0.425,
+                    "true_positives": 17,
+                    "false_positives": 33,
+                    "false_negatives": 13,
+                    "true_negatives": 17
+                }
+            },
+            "timing": {
+                "total_time": 230.132,
+                "total_inference_time": 230.044,
+                "average_inference_time": 2.876,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "deepseek-r1:7b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.09016393442622951,
+                    "precision": 0.0944206008583691,
+                    "recall": 0.6666666666666666,
+                    "f1_score": 0.16541353383458646,
+                    "true_positives": 22,
+                    "false_positives": 211,
+                    "false_negatives": 11,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.35844155844155845,
+                    "precision": 0.372972972972973,
+                    "recall": 0.9019607843137255,
+                    "f1_score": 0.5277246653919694,
+                    "true_positives": 138,
+                    "false_positives": 232,
+                    "false_negatives": 15,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.27299703264094954,
+                    "precision": 0.2750373692077728,
+                    "recall": 0.9735449735449735,
+                    "f1_score": 0.42890442890442887,
+                    "true_positives": 184,
+                    "false_positives": 485,
+                    "false_negatives": 5,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.3283582089552239,
+                    "precision": 0.39285714285714285,
+                    "recall": 0.6666666666666666,
+                    "f1_score": 0.49438202247191004,
+                    "true_positives": 22,
+                    "false_positives": 34,
+                    "false_negatives": 11,
+                    "true_negatives": 13
+                }
+            },
+            "timing": {
+                "total_time": 234.176,
+                "total_inference_time": 234.082,
+                "average_inference_time": 2.926,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.2556390977443609,
+                    "precision": 0.3119266055045872,
+                    "recall": 0.5862068965517241,
+                    "f1_score": 0.407185628742515,
+                    "true_positives": 34,
+                    "false_positives": 75,
+                    "false_negatives": 24,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.34146341463414637,
+                    "precision": 0.8045977011494253,
+                    "recall": 0.3723404255319149,
+                    "f1_score": 0.509090909090909,
+                    "true_positives": 70,
+                    "false_positives": 17,
+                    "false_negatives": 118,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.5183946488294314,
+                    "precision": 0.7908163265306123,
+                    "recall": 0.6007751937984496,
+                    "f1_score": 0.6828193832599119,
+                    "true_positives": 155,
+                    "false_positives": 41,
+                    "false_negatives": 103,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.4230769230769231,
+                    "precision": 0.5,
+                    "recall": 0.7333333333333333,
+                    "f1_score": 0.5945945945945945,
+                    "true_positives": 22,
+                    "false_positives": 22,
+                    "false_negatives": 8,
+                    "true_negatives": 28
+                }
+            },
+            "timing": {
+                "total_time": 408.804,
+                "total_inference_time": 408.727,
+                "average_inference_time": 5.109,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.2033898305084746,
+                    "precision": 0.22018348623853212,
+                    "recall": 0.7272727272727273,
+                    "f1_score": 0.33802816901408456,
+                    "true_positives": 24,
+                    "false_positives": 85,
+                    "false_negatives": 9,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.2967032967032967,
+                    "precision": 0.6506024096385542,
+                    "recall": 0.35294117647058826,
+                    "f1_score": 0.45762711864406785,
+                    "true_positives": 54,
+                    "false_positives": 29,
+                    "false_negatives": 99,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.4377358490566038,
+                    "precision": 0.6041666666666666,
+                    "recall": 0.6137566137566137,
+                    "f1_score": 0.6089238845144356,
+                    "true_positives": 116,
+                    "false_positives": 76,
+                    "false_negatives": 73,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.3870967741935484,
+                    "precision": 0.4528301886792453,
+                    "recall": 0.7272727272727273,
+                    "f1_score": 0.5581395348837209,
+                    "true_positives": 24,
+                    "false_positives": 29,
+                    "false_negatives": 9,
+                    "true_negatives": 18
+                }
+            },
+            "timing": {
+                "total_time": 326.739,
+                "total_inference_time": 326.633,
+                "average_inference_time": 4.083,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.1348314606741573,
+                    "precision": 0.27906976744186046,
+                    "recall": 0.20689655172413793,
+                    "f1_score": 0.2376237623762376,
+                    "true_positives": 12,
+                    "false_positives": 31,
+                    "false_negatives": 46,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.5,
+                    "precision": 0.5671641791044776,
+                    "recall": 0.8085106382978723,
+                    "f1_score": 0.6666666666666666,
+                    "true_positives": 152,
+                    "false_positives": 116,
+                    "false_negatives": 36,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.5295698924731183,
+                    "precision": 0.6334405144694534,
+                    "recall": 0.7635658914728682,
+                    "f1_score": 0.6924428822495606,
+                    "true_positives": 197,
+                    "false_positives": 114,
+                    "false_negatives": 61,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.1702127659574468,
+                    "precision": 0.32,
+                    "recall": 0.26666666666666666,
+                    "f1_score": 0.2909090909090909,
+                    "true_positives": 8,
+                    "false_positives": 17,
+                    "false_negatives": 22,
+                    "true_negatives": 33
+                }
+            },
+            "timing": {
+                "total_time": 329.173,
+                "total_inference_time": 329.093,
+                "average_inference_time": 4.114,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "deepseek-r1:32b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.2692307692307692,
+                    "precision": 0.42424242424242425,
+                    "recall": 0.42424242424242425,
+                    "f1_score": 0.4242424242424243,
+                    "true_positives": 14,
+                    "false_positives": 19,
+                    "false_negatives": 19,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.4732510288065844,
+                    "precision": 0.5609756097560976,
+                    "recall": 0.7516339869281046,
+                    "f1_score": 0.6424581005586593,
+                    "true_positives": 115,
+                    "false_positives": 90,
+                    "false_negatives": 38,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.5177304964539007,
+                    "precision": 0.6108786610878661,
+                    "recall": 0.7724867724867724,
+                    "f1_score": 0.6822429906542056,
+                    "true_positives": 146,
+                    "false_positives": 93,
+                    "false_negatives": 43,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.3111111111111111,
+                    "precision": 0.5384615384615384,
+                    "recall": 0.42424242424242425,
+                    "f1_score": 0.47457627118644075,
+                    "true_positives": 14,
+                    "false_positives": 12,
+                    "false_negatives": 19,
+                    "true_negatives": 35
+                }
+            },
+            "timing": {
+                "total_time": 326.024,
+                "total_inference_time": 325.923,
+                "average_inference_time": 4.074,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
         },
         {
             "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
@@ -486,45 +1922,51 @@
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.48598130841121495,
-                    "precision": 0.5148514851485149,
-                    "recall": 0.896551724137931,
-                    "f1_score": 0.6540880503144655,
-                    "true_positives": 52,
-                    "false_positives": 49,
-                    "false_negatives": 6,
+                    "accuracy": 0.46788990825688076,
+                    "precision": 0.5,
+                    "recall": 0.8793103448275862,
+                    "f1_score": 0.6375,
+                    "true_positives": 51,
+                    "false_positives": 51,
+                    "false_negatives": 7,
                     "true_negatives": 0
                 },
                 "helmet": {
-                    "accuracy": 0.6915422885572139,
-                    "precision": 0.9144736842105263,
-                    "recall": 0.7393617021276596,
-                    "f1_score": 0.8176470588235294,
-                    "true_positives": 139,
-                    "false_positives": 13,
-                    "false_negatives": 49,
+                    "accuracy": 0.7098445595854922,
+                    "precision": 0.9647887323943662,
+                    "recall": 0.7287234042553191,
+                    "f1_score": 0.8303030303030303,
+                    "true_positives": 137,
+                    "false_positives": 5,
+                    "false_negatives": 51,
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.8447653429602888,
-                    "precision": 0.924901185770751,
-                    "recall": 0.9069767441860465,
-                    "f1_score": 0.9158512720156555,
-                    "true_positives": 234,
-                    "false_positives": 19,
-                    "false_negatives": 24,
+                    "accuracy": 0.8661710037174721,
+                    "precision": 0.9549180327868853,
+                    "recall": 0.9031007751937985,
+                    "f1_score": 0.9282868525896415,
+                    "true_positives": 233,
+                    "false_positives": 11,
+                    "false_negatives": 25,
                     "true_negatives": 0
                 },
                 "alert": {
-                    "accuracy": 0.5,
-                    "precision": 0.5087719298245614,
-                    "recall": 0.9666666666666667,
-                    "f1_score": 0.6666666666666667,
-                    "true_positives": 29,
+                    "accuracy": 0.4827586206896552,
+                    "precision": 0.5,
+                    "recall": 0.9333333333333333,
+                    "f1_score": 0.6511627906976745,
+                    "true_positives": 28,
                     "false_positives": 28,
-                    "false_negatives": 1,
+                    "false_negatives": 2,
                     "true_negatives": 22
                 }
+            },
+            "timing": {
+                "total_time": 522.968,
+                "total_inference_time": 522.87,
+                "average_inference_time": 6.536,
+                "successful_predictions": 80
             },
             "prompt_config": "count-prompts"
         },
@@ -537,45 +1979,51 @@
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.3333333333333333,
-                    "precision": 0.4117647058823529,
+                    "accuracy": 0.3442622950819672,
+                    "precision": 0.42857142857142855,
                     "recall": 0.6363636363636364,
-                    "f1_score": 0.5,
+                    "f1_score": 0.5121951219512195,
                     "true_positives": 21,
-                    "false_positives": 30,
+                    "false_positives": 28,
                     "false_negatives": 12,
                     "true_negatives": 0
                 },
                 "helmet": {
-                    "accuracy": 0.467005076142132,
-                    "precision": 0.6764705882352942,
-                    "recall": 0.6013071895424836,
-                    "f1_score": 0.6366782006920416,
-                    "true_positives": 92,
-                    "false_positives": 44,
-                    "false_negatives": 61,
+                    "accuracy": 0.413265306122449,
+                    "precision": 0.6532258064516129,
+                    "recall": 0.5294117647058824,
+                    "f1_score": 0.5848375451263538,
+                    "true_positives": 81,
+                    "false_positives": 43,
+                    "false_negatives": 72,
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.5666666666666667,
-                    "precision": 0.7272727272727273,
-                    "recall": 0.7195767195767195,
-                    "f1_score": 0.7234042553191489,
-                    "true_positives": 136,
-                    "false_positives": 51,
-                    "false_negatives": 53,
+                    "accuracy": 0.5470085470085471,
+                    "precision": 0.7398843930635838,
+                    "recall": 0.6772486772486772,
+                    "f1_score": 0.7071823204419888,
+                    "true_positives": 128,
+                    "false_positives": 45,
+                    "false_negatives": 61,
                     "true_negatives": 0
                 },
                 "alert": {
-                    "accuracy": 0.3684210526315789,
-                    "precision": 0.4666666666666667,
+                    "accuracy": 0.3888888888888889,
+                    "precision": 0.5,
                     "recall": 0.6363636363636364,
-                    "f1_score": 0.5384615384615385,
+                    "f1_score": 0.56,
                     "true_positives": 21,
-                    "false_positives": 24,
+                    "false_positives": 21,
                     "false_negatives": 12,
-                    "true_negatives": 23
+                    "true_negatives": 26
                 }
+            },
+            "timing": {
+                "total_time": 356.839,
+                "total_inference_time": 356.723,
+                "average_inference_time": 4.459,
+                "successful_predictions": 80
             },
             "prompt_config": "count-prompts"
         },
@@ -588,33 +2036,375 @@
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.5113636363636364,
-                    "precision": 0.6,
-                    "recall": 0.7758620689655172,
-                    "f1_score": 0.6766917293233082,
-                    "true_positives": 45,
-                    "false_positives": 30,
-                    "false_negatives": 13,
+                    "accuracy": 0.5168539325842697,
+                    "precision": 0.5974025974025974,
+                    "recall": 0.7931034482758621,
+                    "f1_score": 0.6814814814814815,
+                    "true_positives": 46,
+                    "false_positives": 31,
+                    "false_negatives": 12,
                     "true_negatives": 0
                 },
                 "helmet": {
-                    "accuracy": 0.7575757575757576,
-                    "precision": 0.9375,
-                    "recall": 0.7978723404255319,
-                    "f1_score": 0.8620689655172414,
-                    "true_positives": 150,
+                    "accuracy": 0.7437185929648241,
+                    "precision": 0.9308176100628931,
+                    "recall": 0.7872340425531915,
+                    "f1_score": 0.8530259365994235,
+                    "true_positives": 148,
+                    "false_positives": 11,
+                    "false_negatives": 40,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.8432835820895522,
+                    "precision": 0.9576271186440678,
+                    "recall": 0.875968992248062,
+                    "f1_score": 0.9149797570850203,
+                    "true_positives": 226,
                     "false_positives": 10,
+                    "false_negatives": 32,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.5714285714285714,
+                    "precision": 0.5957446808510638,
+                    "recall": 0.9333333333333333,
+                    "f1_score": 0.7272727272727273,
+                    "true_positives": 28,
+                    "false_positives": 19,
+                    "false_negatives": 2,
+                    "true_negatives": 31
+                }
+            },
+            "timing": {
+                "total_time": 336.676,
+                "total_inference_time": 336.59,
+                "average_inference_time": 4.207,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "gemma3:27b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.34831460674157305,
+                    "precision": 0.3563218390804598,
+                    "recall": 0.9393939393939394,
+                    "f1_score": 0.5166666666666667,
+                    "true_positives": 31,
+                    "false_positives": 56,
+                    "false_negatives": 2,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.4375,
+                    "precision": 0.6829268292682927,
+                    "recall": 0.5490196078431373,
+                    "f1_score": 0.6086956521739131,
+                    "true_positives": 84,
+                    "false_positives": 39,
+                    "false_negatives": 69,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.5405405405405406,
+                    "precision": 0.6666666666666666,
+                    "recall": 0.7407407407407407,
+                    "f1_score": 0.7017543859649122,
+                    "true_positives": 140,
+                    "false_positives": 70,
+                    "false_negatives": 49,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.4492753623188406,
+                    "precision": 0.4626865671641791,
+                    "recall": 0.9393939393939394,
+                    "f1_score": 0.62,
+                    "true_positives": 31,
+                    "false_positives": 36,
+                    "false_negatives": 2,
+                    "true_negatives": 11
+                }
+            },
+            "timing": {
+                "total_time": 328.002,
+                "total_inference_time": 327.906,
+                "average_inference_time": 4.099,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.3888888888888889,
+                    "precision": 0.45652173913043476,
+                    "recall": 0.7241379310344828,
+                    "f1_score": 0.5599999999999999,
+                    "true_positives": 42,
+                    "false_positives": 50,
+                    "false_negatives": 16,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.4607329842931937,
+                    "precision": 0.967032967032967,
+                    "recall": 0.46808510638297873,
+                    "f1_score": 0.6308243727598566,
+                    "true_positives": 88,
+                    "false_positives": 3,
+                    "false_negatives": 100,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.6896551724137931,
+                    "precision": 0.9836065573770492,
+                    "recall": 0.6976744186046512,
+                    "f1_score": 0.8163265306122448,
+                    "true_positives": 180,
+                    "false_positives": 3,
+                    "false_negatives": 78,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.41935483870967744,
+                    "precision": 0.4482758620689655,
+                    "recall": 0.8666666666666667,
+                    "f1_score": 0.5909090909090909,
+                    "true_positives": 26,
+                    "false_positives": 32,
+                    "false_negatives": 4,
+                    "true_negatives": 18
+                }
+            },
+            "timing": {
+                "total_time": 381.255,
+                "total_inference_time": 381.168,
+                "average_inference_time": 4.765,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.18867924528301888,
+                    "precision": 0.3333333333333333,
+                    "recall": 0.30303030303030304,
+                    "f1_score": 0.31746031746031744,
+                    "true_positives": 10,
+                    "false_positives": 20,
+                    "false_negatives": 23,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.49,
+                    "precision": 0.6758620689655173,
+                    "recall": 0.6405228758169934,
+                    "f1_score": 0.6577181208053691,
+                    "true_positives": 98,
+                    "false_positives": 47,
+                    "false_negatives": 55,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.5555555555555556,
+                    "precision": 0.7428571428571429,
+                    "recall": 0.6878306878306878,
+                    "f1_score": 0.7142857142857142,
+                    "true_positives": 130,
+                    "false_positives": 45,
+                    "false_negatives": 59,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.21739130434782608,
+                    "precision": 0.43478260869565216,
+                    "recall": 0.30303030303030304,
+                    "f1_score": 0.35714285714285715,
+                    "true_positives": 10,
+                    "false_positives": 13,
+                    "false_negatives": 23,
+                    "true_negatives": 34
+                }
+            },
+            "timing": {
+                "total_time": 299.962,
+                "total_inference_time": 299.857,
+                "average_inference_time": 3.748,
+                "successful_predictions": 80
+            },
+            "prompt_config": "count-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.3381294964028777,
+                    "precision": 0.3671875,
+                    "recall": 0.8103448275862069,
+                    "f1_score": 0.5053763440860215,
+                    "true_positives": 47,
+                    "false_positives": 81,
+                    "false_negatives": 11,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.5188679245283019,
+                    "precision": 0.8208955223880597,
+                    "recall": 0.5851063829787234,
+                    "f1_score": 0.6832298136645963,
+                    "true_positives": 110,
+                    "false_positives": 24,
+                    "false_negatives": 78,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.6666666666666666,
+                    "precision": 0.7938931297709924,
+                    "recall": 0.8062015503875969,
+                    "f1_score": 0.7999999999999999,
+                    "true_positives": 208,
+                    "false_positives": 54,
+                    "false_negatives": 50,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.38961038961038963,
+                    "precision": 0.38961038961038963,
+                    "recall": 1.0,
+                    "f1_score": 0.5607476635514019,
+                    "true_positives": 30,
+                    "false_positives": 47,
+                    "false_negatives": 0,
+                    "true_negatives": 3
+                }
+            },
+            "timing": {
+                "total_time": 285.291,
+                "total_inference_time": 285.202,
+                "average_inference_time": 3.565,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
+            "category": null,
+            "model": "gemma3:12b",
+            "prompt_file": "prompts/detect-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.24812030075187969,
+                    "precision": 0.24812030075187969,
+                    "recall": 1.0,
+                    "f1_score": 0.3975903614457831,
+                    "true_positives": 33,
+                    "false_positives": 100,
+                    "false_negatives": 0,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.34534534534534533,
+                    "precision": 0.3898305084745763,
+                    "recall": 0.7516339869281046,
+                    "f1_score": 0.5133928571428571,
+                    "true_positives": 115,
+                    "false_positives": 180,
                     "false_negatives": 38,
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.8603773584905661,
-                    "precision": 0.9702127659574468,
-                    "recall": 0.8837209302325582,
-                    "f1_score": 0.924949290060852,
-                    "true_positives": 228,
-                    "false_positives": 7,
-                    "false_negatives": 30,
+                    "accuracy": 0.3741648106904232,
+                    "precision": 0.3925233644859813,
+                    "recall": 0.8888888888888888,
+                    "f1_score": 0.5445705024311183,
+                    "true_positives": 168,
+                    "false_positives": 260,
+                    "false_negatives": 21,
+                    "true_negatives": 0
+                },
+                "alert": {
+                    "accuracy": 0.4125,
+                    "precision": 0.4125,
+                    "recall": 1.0,
+                    "f1_score": 0.5840707964601769,
+                    "true_positives": 33,
+                    "false_positives": 47,
+                    "false_negatives": 0,
+                    "true_negatives": 0
+                }
+            },
+            "timing": {
+                "total_time": 293.729,
+                "total_inference_time": 293.621,
+                "average_inference_time": 3.67,
+                "successful_predictions": 80
+            },
+            "prompt_config": "detect-prompts"
+        },
+        {
+            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
+            "category": null,
+            "model": "minicpm-v",
+            "prompt_file": "prompts/count-prompts.md",
+            "experiment_type": "count",
+            "total_samples": 80,
+            "metrics": {
+                "head": {
+                    "accuracy": 0.4807692307692308,
+                    "precision": 0.5208333333333334,
+                    "recall": 0.8620689655172413,
+                    "f1_score": 0.6493506493506493,
+                    "true_positives": 50,
+                    "false_positives": 46,
+                    "false_negatives": 8,
+                    "true_negatives": 0
+                },
+                "helmet": {
+                    "accuracy": 0.7871287128712872,
+                    "precision": 0.9190751445086706,
+                    "recall": 0.8457446808510638,
+                    "f1_score": 0.8808864265927978,
+                    "true_positives": 159,
+                    "false_positives": 14,
+                    "false_negatives": 29,
+                    "true_negatives": 0
+                },
+                "person": {
+                    "accuracy": 0.7908496732026143,
+                    "precision": 0.8344827586206897,
+                    "recall": 0.937984496124031,
+                    "f1_score": 0.8832116788321168,
+                    "true_positives": 242,
+                    "false_positives": 48,
+                    "false_negatives": 16,
                     "true_negatives": 0
                 },
                 "alert": {
@@ -628,362 +2418,68 @@
                     "true_negatives": 28
                 }
             },
-            "prompt_config": "detect-prompts"
-        },
-        {
-            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
-            "category": null,
-            "model": "gemma3:27b",
-            "prompt_file": "prompts/detect-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.3409090909090909,
-                    "precision": 0.35294117647058826,
-                    "recall": 0.9090909090909091,
-                    "f1_score": 0.5084745762711865,
-                    "true_positives": 30,
-                    "false_positives": 55,
-                    "false_negatives": 3,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.45685279187817257,
-                    "precision": 0.6716417910447762,
-                    "recall": 0.5882352941176471,
-                    "f1_score": 0.6271777003484321,
-                    "true_positives": 90,
-                    "false_positives": 44,
-                    "false_negatives": 63,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.516728624535316,
-                    "precision": 0.634703196347032,
-                    "recall": 0.7354497354497355,
-                    "f1_score": 0.681372549019608,
-                    "true_positives": 139,
-                    "false_positives": 80,
-                    "false_negatives": 50,
-                    "true_negatives": 0
-                },
-                "alert": {
-                    "accuracy": 0.42857142857142855,
-                    "precision": 0.44776119402985076,
-                    "recall": 0.9090909090909091,
-                    "f1_score": 0.6,
-                    "true_positives": 30,
-                    "false_positives": 37,
-                    "false_negatives": 3,
-                    "true_negatives": 10
-                }
-            },
-            "prompt_config": "detect-prompts"
-        },
-        {
-            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
-            "category": null,
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/count-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.35964912280701755,
-                    "precision": 0.422680412371134,
-                    "recall": 0.7068965517241379,
-                    "f1_score": 0.529032258064516,
-                    "true_positives": 41,
-                    "false_positives": 56,
-                    "false_negatives": 17,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.4479166666666667,
-                    "precision": 0.9555555555555556,
-                    "recall": 0.4574468085106383,
-                    "f1_score": 0.6187050359712231,
-                    "true_positives": 86,
-                    "false_positives": 4,
-                    "false_negatives": 102,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.7049808429118773,
-                    "precision": 0.983957219251337,
-                    "recall": 0.7131782945736435,
-                    "f1_score": 0.8269662921348315,
-                    "true_positives": 184,
-                    "false_positives": 3,
-                    "false_negatives": 74,
-                    "true_negatives": 0
-                },
-                "alert": {
-                    "accuracy": 0.421875,
-                    "precision": 0.4426229508196721,
-                    "recall": 0.9,
-                    "f1_score": 0.5934065934065934,
-                    "true_positives": 27,
-                    "false_positives": 34,
-                    "false_negatives": 3,
-                    "true_negatives": 16
-                }
+            "timing": {
+                "total_time": 292.275,
+                "total_inference_time": 292.192,
+                "average_inference_time": 3.652,
+                "successful_predictions": 80
             },
             "prompt_config": "count-prompts"
         },
         {
             "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
             "category": null,
-            "model": "gemma3:12b",
+            "model": "minicpm-v",
             "prompt_file": "prompts/count-prompts.md",
             "experiment_type": "count",
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.29310344827586204,
-                    "precision": 0.40476190476190477,
-                    "recall": 0.5151515151515151,
-                    "f1_score": 0.4533333333333333,
-                    "true_positives": 17,
-                    "false_positives": 25,
-                    "false_negatives": 16,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.39805825242718446,
-                    "precision": 0.6074074074074074,
-                    "recall": 0.5359477124183006,
-                    "f1_score": 0.5694444444444444,
-                    "true_positives": 82,
-                    "false_positives": 53,
-                    "false_negatives": 71,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.512396694214876,
-                    "precision": 0.7005649717514124,
-                    "recall": 0.656084656084656,
-                    "f1_score": 0.6775956284153005,
-                    "true_positives": 124,
-                    "false_positives": 53,
-                    "false_negatives": 65,
-                    "true_negatives": 0
-                },
-                "alert": {
-                    "accuracy": 0.3541666666666667,
-                    "precision": 0.53125,
-                    "recall": 0.5151515151515151,
-                    "f1_score": 0.5230769230769231,
-                    "true_positives": 17,
-                    "false_positives": 15,
-                    "false_negatives": 16,
-                    "true_negatives": 32
-                }
-            },
-            "prompt_config": "count-prompts"
-        },
-        {
-            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
-            "category": null,
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/detect-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.3028169014084507,
-                    "precision": 0.33858267716535434,
-                    "recall": 0.7413793103448276,
-                    "f1_score": 0.46486486486486484,
-                    "true_positives": 43,
-                    "false_positives": 84,
-                    "false_negatives": 15,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.5116279069767442,
-                    "precision": 0.8029197080291971,
-                    "recall": 0.5851063829787234,
-                    "f1_score": 0.676923076923077,
-                    "true_positives": 110,
-                    "false_positives": 27,
-                    "false_negatives": 78,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.6948051948051948,
-                    "precision": 0.8106060606060606,
-                    "recall": 0.8294573643410853,
-                    "f1_score": 0.8199233716475095,
-                    "true_positives": 214,
-                    "false_positives": 50,
-                    "false_negatives": 44,
-                    "true_negatives": 0
-                },
-                "alert": {
-                    "accuracy": 0.379746835443038,
-                    "precision": 0.379746835443038,
-                    "recall": 1.0,
-                    "f1_score": 0.5504587155963303,
-                    "true_positives": 30,
-                    "false_positives": 49,
-                    "false_negatives": 0,
-                    "true_negatives": 1
-                }
-            },
-            "prompt_config": "detect-prompts"
-        },
-        {
-            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
-            "category": null,
-            "model": "gemma3:12b",
-            "prompt_file": "prompts/detect-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.2366412213740458,
-                    "precision": 0.24031007751937986,
-                    "recall": 0.9393939393939394,
-                    "f1_score": 0.38271604938271603,
-                    "true_positives": 31,
-                    "false_positives": 98,
-                    "false_negatives": 2,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.35276967930029157,
-                    "precision": 0.3890675241157556,
-                    "recall": 0.7908496732026143,
-                    "f1_score": 0.5215517241379309,
-                    "true_positives": 121,
-                    "false_positives": 190,
-                    "false_negatives": 32,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.36147186147186144,
-                    "precision": 0.3795454545454545,
-                    "recall": 0.8835978835978836,
-                    "f1_score": 0.5310015898251192,
-                    "true_positives": 167,
-                    "false_positives": 273,
+                    "accuracy": 0.14102564102564102,
+                    "precision": 0.19642857142857142,
+                    "recall": 0.3333333333333333,
+                    "f1_score": 0.24719101123595502,
+                    "true_positives": 11,
+                    "false_positives": 45,
                     "false_negatives": 22,
                     "true_negatives": 0
                 },
-                "alert": {
-                    "accuracy": 0.40789473684210525,
-                    "precision": 0.4189189189189189,
-                    "recall": 0.9393939393939394,
-                    "f1_score": 0.5794392523364487,
-                    "true_positives": 31,
-                    "false_positives": 43,
-                    "false_negatives": 2,
-                    "true_negatives": 4
-                }
-            },
-            "prompt_config": "detect-prompts"
-        },
-        {
-            "dataset": "dataset/HELMET_SAMPLES_80/obj_train_data",
-            "category": null,
-            "model": "minicpm-v",
-            "prompt_file": "prompts/count-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.3669064748201439,
-                    "precision": 0.38636363636363635,
-                    "recall": 0.8793103448275862,
-                    "f1_score": 0.5368421052631579,
-                    "true_positives": 51,
-                    "false_positives": 81,
-                    "false_negatives": 7,
-                    "true_negatives": 0
-                },
                 "helmet": {
-                    "accuracy": 0.8118811881188119,
-                    "precision": 0.9213483146067416,
-                    "recall": 0.8723404255319149,
-                    "f1_score": 0.8961748633879781,
-                    "true_positives": 164,
-                    "false_positives": 14,
-                    "false_negatives": 24,
+                    "accuracy": 0.6023391812865497,
+                    "precision": 0.8512396694214877,
+                    "recall": 0.673202614379085,
+                    "f1_score": 0.7518248175182483,
+                    "true_positives": 103,
+                    "false_positives": 18,
+                    "false_negatives": 50,
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.7308868501529052,
-                    "precision": 0.775974025974026,
-                    "recall": 0.9263565891472868,
-                    "f1_score": 0.8445229681978798,
-                    "true_positives": 239,
-                    "false_positives": 69,
+                    "accuracy": 0.7053941908713693,
+                    "precision": 0.7657657657657657,
+                    "recall": 0.8994708994708994,
+                    "f1_score": 0.8272506082725061,
+                    "true_positives": 170,
+                    "false_positives": 52,
                     "false_negatives": 19,
                     "true_negatives": 0
                 },
                 "alert": {
-                    "accuracy": 0.42857142857142855,
-                    "precision": 0.48,
-                    "recall": 0.8,
-                    "f1_score": 0.6,
-                    "true_positives": 24,
-                    "false_positives": 26,
-                    "false_negatives": 6,
-                    "true_negatives": 24
+                    "accuracy": 0.23076923076923078,
+                    "precision": 0.3191489361702128,
+                    "recall": 0.45454545454545453,
+                    "f1_score": 0.375,
+                    "true_positives": 15,
+                    "false_positives": 32,
+                    "false_negatives": 18,
+                    "true_negatives": 15
                 }
             },
-            "prompt_config": "count-prompts"
-        },
-        {
-            "dataset": "dataset/LNG_DATASET_SAMPLES_80/lng_train_data",
-            "category": null,
-            "model": "minicpm-v",
-            "prompt_file": "prompts/count-prompts.md",
-            "experiment_type": "count",
-            "total_samples": 80,
-            "metrics": {
-                "head": {
-                    "accuracy": 0.18181818181818182,
-                    "precision": 0.2413793103448276,
-                    "recall": 0.42424242424242425,
-                    "f1_score": 0.3076923076923077,
-                    "true_positives": 14,
-                    "false_positives": 44,
-                    "false_negatives": 19,
-                    "true_negatives": 0
-                },
-                "helmet": {
-                    "accuracy": 0.6,
-                    "precision": 0.8571428571428571,
-                    "recall": 0.6666666666666666,
-                    "f1_score": 0.75,
-                    "true_positives": 102,
-                    "false_positives": 17,
-                    "false_negatives": 51,
-                    "true_negatives": 0
-                },
-                "person": {
-                    "accuracy": 0.4558011049723757,
-                    "precision": 0.4881656804733728,
-                    "recall": 0.873015873015873,
-                    "f1_score": 0.6261859582542695,
-                    "true_positives": 165,
-                    "false_positives": 173,
-                    "false_negatives": 24,
-                    "true_negatives": 0
-                },
-                "alert": {
-                    "accuracy": 0.26666666666666666,
-                    "precision": 0.37209302325581395,
-                    "recall": 0.48484848484848486,
-                    "f1_score": 0.4210526315789474,
-                    "true_positives": 16,
-                    "false_positives": 27,
-                    "false_negatives": 17,
-                    "true_negatives": 20
-                }
+            "timing": {
+                "total_time": 356.935,
+                "total_inference_time": 356.831,
+                "average_inference_time": 4.46,
+                "successful_predictions": 80
             },
             "prompt_config": "count-prompts"
         },
@@ -996,13 +2492,13 @@
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.22105263157894736,
-                    "precision": 0.3620689655172414,
-                    "recall": 0.3620689655172414,
-                    "f1_score": 0.36206896551724144,
-                    "true_positives": 21,
-                    "false_positives": 37,
-                    "false_negatives": 37,
+                    "accuracy": 0.2553191489361702,
+                    "precision": 0.4,
+                    "recall": 0.41379310344827586,
+                    "f1_score": 0.4067796610169491,
+                    "true_positives": 24,
+                    "false_positives": 36,
+                    "false_negatives": 34,
                     "true_negatives": 0
                 },
                 "helmet": {
@@ -1016,25 +2512,31 @@
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.8,
-                    "precision": 0.8384879725085911,
-                    "recall": 0.9457364341085271,
-                    "f1_score": 0.888888888888889,
-                    "true_positives": 244,
-                    "false_positives": 47,
-                    "false_negatives": 14,
+                    "accuracy": 0.7908496732026143,
+                    "precision": 0.8344827586206897,
+                    "recall": 0.937984496124031,
+                    "f1_score": 0.8832116788321168,
+                    "true_positives": 242,
+                    "false_positives": 48,
+                    "false_negatives": 16,
                     "true_negatives": 0
                 },
                 "alert": {
-                    "accuracy": 0.25,
-                    "precision": 0.35,
-                    "recall": 0.4666666666666667,
-                    "f1_score": 0.4,
-                    "true_positives": 14,
-                    "false_positives": 26,
-                    "false_negatives": 16,
-                    "true_negatives": 24
+                    "accuracy": 0.36538461538461536,
+                    "precision": 0.4634146341463415,
+                    "recall": 0.6333333333333333,
+                    "f1_score": 0.5352112676056339,
+                    "true_positives": 19,
+                    "false_positives": 22,
+                    "false_negatives": 11,
+                    "true_negatives": 28
                 }
+            },
+            "timing": {
+                "total_time": 262.438,
+                "total_inference_time": 262.354,
+                "average_inference_time": 3.279,
+                "successful_predictions": 80
             },
             "prompt_config": "detect-prompts"
         },
@@ -1047,45 +2549,51 @@
             "total_samples": 80,
             "metrics": {
                 "head": {
-                    "accuracy": 0.27631578947368424,
-                    "precision": 0.328125,
-                    "recall": 0.6363636363636364,
-                    "f1_score": 0.4329896907216495,
-                    "true_positives": 21,
-                    "false_positives": 43,
-                    "false_negatives": 12,
+                    "accuracy": 0.2375,
+                    "precision": 0.2878787878787879,
+                    "recall": 0.5757575757575758,
+                    "f1_score": 0.38383838383838387,
+                    "true_positives": 19,
+                    "false_positives": 47,
+                    "false_negatives": 14,
                     "true_negatives": 0
                 },
                 "helmet": {
-                    "accuracy": 0.2504708097928437,
-                    "precision": 0.2602739726027397,
-                    "recall": 0.869281045751634,
-                    "f1_score": 0.40060240963855426,
-                    "true_positives": 133,
-                    "false_positives": 378,
-                    "false_negatives": 20,
+                    "accuracy": 0.2437619961612284,
+                    "precision": 0.25656565656565655,
+                    "recall": 0.8300653594771242,
+                    "f1_score": 0.3919753086419753,
+                    "true_positives": 127,
+                    "false_positives": 368,
+                    "false_negatives": 26,
                     "true_negatives": 0
                 },
                 "person": {
-                    "accuracy": 0.29252782193958665,
-                    "precision": 0.2948717948717949,
-                    "recall": 0.9735449735449735,
-                    "f1_score": 0.4526445264452644,
-                    "true_positives": 184,
-                    "false_positives": 440,
-                    "false_negatives": 5,
+                    "accuracy": 0.3038397328881469,
+                    "precision": 0.30743243243243246,
+                    "recall": 0.9629629629629629,
+                    "f1_score": 0.46606914212548023,
+                    "true_positives": 182,
+                    "false_positives": 410,
+                    "false_negatives": 7,
                     "true_negatives": 0
                 },
                 "alert": {
-                    "accuracy": 0.36065573770491804,
-                    "precision": 0.44,
-                    "recall": 0.6666666666666666,
-                    "f1_score": 0.5301204819277109,
-                    "true_positives": 22,
-                    "false_positives": 28,
-                    "false_negatives": 11,
-                    "true_negatives": 19
+                    "accuracy": 0.3225806451612903,
+                    "precision": 0.40816326530612246,
+                    "recall": 0.6060606060606061,
+                    "f1_score": 0.48780487804878053,
+                    "true_positives": 20,
+                    "false_positives": 29,
+                    "false_negatives": 13,
+                    "true_negatives": 18
                 }
+            },
+            "timing": {
+                "total_time": 354.191,
+                "total_inference_time": 354.086,
+                "average_inference_time": 4.426,
+                "successful_predictions": 80
             },
             "prompt_config": "detect-prompts"
         }

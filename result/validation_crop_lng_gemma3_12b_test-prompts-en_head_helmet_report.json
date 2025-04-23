@@ -6,945 +6,1137 @@
     "experiment_type": "crop",
     "total_samples": 186,
     "metrics": {
-        "accuracy": 0.5376344086021505,
-        "precision": 0.845360824742268,
-        "recall": 0.5359477124183006,
-        "f1_score": 0.656,
-        "true_positives": 82,
+        "accuracy": 0.543010752688172,
+        "precision": 0.8469387755102041,
+        "recall": 0.5424836601307189,
+        "f1_score": 0.6613545816733067,
+        "true_positives": 83,
         "false_positives": 15,
-        "false_negatives": 71,
+        "false_negatives": 70,
         "true_negatives": 18
+    },
+    "timing": {
+        "total_time": 588.833,
+        "total_inference_time": 588.68,
+        "average_inference_time": 3.165,
+        "successful_predictions": 186
     },
     "results": [
         {
             "filename": "1_2#20250108_1332_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.237
         },
         {
             "filename": "1_2#20250108_252_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.099
         },
         {
             "filename": "1_2#20250108_36_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.189
         },
         {
             "filename": "1_2#20250108_468_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.139
         },
         {
             "filename": "1_2#20250108_540_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.221
         },
         {
             "filename": "1_2#20250108_576_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.199
         },
         {
             "filename": "1_2#20250108_792_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.069
         },
         {
             "filename": "20250113142128_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.142
         },
         {
             "filename": "20250113142128_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.191
         },
         {
             "filename": "20250113142128_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.07
         },
         {
             "filename": "20250113142149_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.15
         },
         {
             "filename": "20250113142149_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.168
         },
         {
             "filename": "2_2#20250108_112_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.054
         },
         {
             "filename": "2_2#20250108_160_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.206
         },
         {
             "filename": "2_2#20250108_208_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.197
         },
         {
             "filename": "2_2#20250108_304_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.228
         },
         {
             "filename": "2_2#20250108_384_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.182
         },
         {
             "filename": "2_2#20250108_432_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.157
         },
         {
             "filename": "2_2#20250108_544_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.129
         },
         {
             "filename": "2_2#20250108_64_helmet_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.259
         },
         {
             "filename": "2_2#20250108_688_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.151
         },
         {
             "filename": "2_2#20250108_720_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.102
         },
         {
             "filename": "3_2#20250108_1012_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.212
         },
         {
             "filename": "3_2#20250108_638_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.131
         },
         {
             "filename": "3_2#20250108_682_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.049
         },
         {
             "filename": "49837_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.147
         },
         {
             "filename": "49837_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.187
         },
         {
             "filename": "49894_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.052
         },
         {
             "filename": "49894_helmet_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.14
         },
         {
             "filename": "49894_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.124
         },
         {
             "filename": "49894_helmet_3.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.186
         },
         {
             "filename": "49894_helmet_4.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.206
         },
         {
             "filename": "49894_helmet_5.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.185
         },
         {
             "filename": "49894_helmet_6.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.158
         },
         {
             "filename": "49894_helmet_7.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.16
         },
         {
             "filename": "49895_head_1.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.247
         },
         {
             "filename": "49895_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.162
         },
         {
             "filename": "49895_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.135
         },
         {
             "filename": "49895_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.181
         },
         {
             "filename": "49895_helmet_4.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.156
         },
         {
             "filename": "49895_helmet_5.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.136
         },
         {
             "filename": "49895_helmet_6.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.15
         },
         {
             "filename": "49895_helmet_7.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.297
         },
         {
             "filename": "49896_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.125
         },
         {
             "filename": "49896_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.148
         },
         {
             "filename": "49907_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.051
         },
         {
             "filename": "49907_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.14
         },
         {
             "filename": "49907_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.237
         },
         {
             "filename": "49907_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.046
         },
         {
             "filename": "49907_helmet_4.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.164
         },
         {
             "filename": "49907_helmet_5.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.199
         },
         {
             "filename": "49914_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.303
         },
         {
             "filename": "49914_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.093
         },
         {
             "filename": "49915_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.128
         },
         {
             "filename": "49915_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.096
         },
         {
             "filename": "49918_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.28
         },
         {
             "filename": "49918_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.116
         },
         {
             "filename": "4_2#20250108_119_helmet_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.179
         },
         {
             "filename": "4_2#20250108_629_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.244
         },
         {
             "filename": "4_2#20250108_680_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.175
         },
         {
             "filename": "4_2#20250108_748_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.171
         },
         {
             "filename": "55795_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.149
         },
         {
             "filename": "55795_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.05
         },
         {
             "filename": "55795_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.01
         },
         {
             "filename": "55795_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.118
         },
         {
             "filename": "55796_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.139
         },
         {
             "filename": "55796_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.135
         },
         {
             "filename": "55796_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.226
         },
         {
             "filename": "55796_helmet_3.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.312
         },
         {
             "filename": "55845_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.251
         },
         {
             "filename": "55845_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.115
         },
         {
             "filename": "55846_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.137
         },
         {
             "filename": "55848_head_1.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.181
         },
         {
             "filename": "55848_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.127
         },
         {
             "filename": "55850_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.203
         },
         {
             "filename": "55850_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.172
         },
         {
             "filename": "55850_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.126
         },
         {
             "filename": "55851_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.154
         },
         {
             "filename": "55851_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.123
         },
         {
             "filename": "55852_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.136
         },
         {
             "filename": "55852_helmet_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.127
         },
         {
             "filename": "55852_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.178
         },
         {
             "filename": "55853_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.21
         },
         {
             "filename": "55854_head_2.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.149
         },
         {
             "filename": "55854_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.087
         },
         {
             "filename": "55854_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.209
         },
         {
             "filename": "55855_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.179
         },
         {
             "filename": "55855_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.174
         },
         {
             "filename": "55855_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.177
         },
         {
             "filename": "55856_head_3.jpg",
-            "prediction": 1,
-            "ground_truth": 0
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.215
         },
         {
             "filename": "55856_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.234
         },
         {
             "filename": "55856_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.23
         },
         {
             "filename": "55856_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.197
         },
         {
             "filename": "55857_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.202
         },
         {
             "filename": "55858_head_3.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.13
         },
         {
             "filename": "55858_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.137
         },
         {
             "filename": "55858_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.056
         },
         {
             "filename": "55858_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.289
         },
         {
             "filename": "55859_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.089
         },
         {
             "filename": "55860_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.162
         },
         {
             "filename": "55861_head_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.101
         },
         {
             "filename": "55861_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.195
         },
         {
             "filename": "55862_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.249
         },
         {
             "filename": "55863_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.095
         },
         {
             "filename": "55863_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.298
         },
         {
             "filename": "5_C-20-CMR-09_1134_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.118
         },
         {
             "filename": "5_C-20-CMR-09_1134_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.127
         },
         {
             "filename": "5_C-20-CMR-09_1134_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.204
         },
         {
             "filename": "5_C-20-CMR-09_1134_helmet_3.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.052
         },
         {
             "filename": "5_C-20-CMR-09_1134_helmet_4.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.192
         },
         {
             "filename": "5_C-20-CMR-09_1188_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.142
         },
         {
             "filename": "5_C-20-CMR-09_216_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.065
         },
         {
             "filename": "5_C-20-CMR-09_216_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.12
         },
         {
             "filename": "5_C-20-CMR-09_216_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.359
         },
         {
             "filename": "5_C-20-CMR-09_216_helmet_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.086
         },
         {
             "filename": "5_C-20-CMR-09_270_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.023
         },
         {
             "filename": "5_C-20-CMR-09_270_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.143
         },
         {
             "filename": "5_C-20-CMR-09_270_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.281
         },
         {
             "filename": "5_C-20-CMR-09_270_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.149
         },
         {
             "filename": "5_C-20-CMR-09_432_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.162
         },
         {
             "filename": "5_C-20-CMR-09_432_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.236
         },
         {
             "filename": "5_C-20-CMR-09_432_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.21
         },
         {
             "filename": "5_C-20-CMR-09_486_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.126
         },
         {
             "filename": "5_C-20-CMR-09_486_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.103
         },
         {
             "filename": "5_C-20-CMR-09_486_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.193
         },
         {
             "filename": "5_C-20-CMR-09_756_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.198
         },
         {
             "filename": "5_C-20-CMR-09_756_helmet_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.175
         },
         {
             "filename": "5_C-20-CMR-09_756_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.169
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.203
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.141
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.123
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.225
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.128
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.151
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.056
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.3
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_helmet_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.115
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.157
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.171
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.245
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_head_2.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.201
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_helmet_0.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.229
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.206
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_head_2.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.143
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.199
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.036
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_head_1.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.206
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.237
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.148
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.235
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.131
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.141
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.255
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.197
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_head_3.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.163
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_helmet_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.238
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_helmet_1.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.255
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.162
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_head_0.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.146
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.045
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.133
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.13
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.163
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.149
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.241
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.271
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_head_0.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.107
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.151
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.254
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.147
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_head_1.jpg",
             "prediction": 1,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.11
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_helmet_0.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.087
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.183
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.068
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.245
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.258
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.052
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.151
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_head_1.jpg",
             "prediction": 0,
-            "ground_truth": 0
+            "ground_truth": 0,
+            "inference_time": 3.278
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_helmet_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.133
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_helmet_2.jpg",
             "prediction": 0,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.262
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_helmet_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.159
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_head_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.161
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_helmet_1.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.174
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_helmet_2.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.182
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_helmet_3.jpg",
             "prediction": 1,
-            "ground_truth": 1
+            "ground_truth": 1,
+            "inference_time": 3.142
         }
     ]
 }
