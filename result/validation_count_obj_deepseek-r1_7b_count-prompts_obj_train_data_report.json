@@ -7,61 +7,61 @@
     "total_samples": 80,
     "metrics": {
         "head": {
-            "accuracy": 0.17159763313609466,
-            "precision": 0.20714285714285716,
-            "recall": 0.5,
-            "f1_score": 0.29292929292929293,
-            "true_positives": 29,
-            "false_positives": 111,
-            "false_negatives": 29,
+            "accuracy": 0.18333333333333332,
+            "precision": 0.2619047619047619,
+            "recall": 0.3793103448275862,
+            "f1_score": 0.30985915492957744,
+            "true_positives": 22,
+            "false_positives": 62,
+            "false_negatives": 36,
             "true_negatives": 0
         },
         "helmet": {
-            "accuracy": 0.3614864864864865,
-            "precision": 0.49767441860465117,
-            "recall": 0.5691489361702128,
-            "f1_score": 0.5310173697270472,
-            "true_positives": 107,
-            "false_positives": 108,
-            "false_negatives": 81,
+            "accuracy": 0.35842293906810035,
+            "precision": 0.5235602094240838,
+            "recall": 0.5319148936170213,
+            "f1_score": 0.5277044854881267,
+            "true_positives": 100,
+            "false_positives": 91,
+            "false_negatives": 88,
             "true_negatives": 0
         },
         "person": {
-            "accuracy": 0.37276785714285715,
-            "precision": 0.4677871148459384,
-            "recall": 0.6472868217054264,
-            "f1_score": 0.543089430894309,
-            "true_positives": 167,
-            "false_positives": 190,
-            "false_negatives": 91,
+            "accuracy": 0.38726790450928383,
+            "precision": 0.5509433962264151,
+            "recall": 0.5658914728682171,
+            "f1_score": 0.5583173996175909,
+            "true_positives": 146,
+            "false_positives": 119,
+            "false_negatives": 112,
             "true_negatives": 0
         },
         "alert": {
-            "accuracy": 0.27906976744186046,
-            "precision": 0.48,
-            "recall": 0.4,
-            "f1_score": 0.4363636363636364,
-            "true_positives": 12,
-            "false_positives": 13,
-            "false_negatives": 18,
-            "true_negatives": 37
+            "accuracy": 0.0975609756097561,
+            "precision": 0.26666666666666666,
+            "recall": 0.13333333333333333,
+            "f1_score": 0.17777777777777776,
+            "true_positives": 4,
+            "false_positives": 11,
+            "false_negatives": 26,
+            "true_negatives": 39
         }
     },
     "timing": {
-        "total_time": 255.641,
-        "total_inference_time": 255.561,
-        "average_inference_time": 3.195,
+        "total_time": 254.502,
+        "total_inference_time": 254.441,
+        "average_inference_time": 3.181,
         "successful_predictions": 80
     },
     "results": [
         {
             "filename": "000009.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
                 "alert": false,
-                "inference_time": 24.416
+                "inference_time": 24.492
             },
             "ground_truth": {
                 "head": 3,
@@ -69,16 +69,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 24.416
+            "inference_time": 24.492
         },
         {
             "filename": "000021.jpg",
             "prediction": {
-                "helmet": 0,
+                "helmet": 3,
                 "head": 0,
-                "person": 0,
+                "person": 3,
                 "alert": false,
-                "inference_time": 2.875
+                "inference_time": 2.953
             },
             "ground_truth": {
                 "head": 1,
@@ -86,16 +86,16 @@
                 "person": 7,
                 "alert": true
             },
-            "inference_time": 2.875
+            "inference_time": 2.953
         },
         {
             "filename": "000046.jpg",
             "prediction": {
-                "helmet": 0,
+                "helmet": 3,
                 "head": 0,
-                "person": 0,
+                "person": 3,
                 "alert": false,
-                "inference_time": 2.918
+                "inference_time": 2.821
             },
             "ground_truth": {
                 "head": 0,
@@ -103,16 +103,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 2.918
+            "inference_time": 2.821
         },
         {
             "filename": "000053.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
+                "helmet": 1,
+                "head": 0,
+                "person": 1,
                 "alert": false,
-                "inference_time": 2.831
+                "inference_time": 2.843
             },
             "ground_truth": {
                 "head": 0,
@@ -120,16 +120,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 2.831
+            "inference_time": 2.843
         },
         {
             "filename": "000072.jpg",
             "prediction": {
                 "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
-                "inference_time": 3.058
+                "head": 0,
+                "person": 5,
+                "alert": false,
+                "inference_time": 2.859
             },
             "ground_truth": {
                 "head": 0,
@@ -137,16 +137,16 @@
                 "person": 5,
                 "alert": false
             },
-            "inference_time": 3.058
+            "inference_time": 2.859
         },
         {
             "filename": "000086.jpg",
             "prediction": {
-                "helmet": 2,
+                "helmet": 5,
                 "head": 0,
-                "person": 2,
+                "person": 5,
                 "alert": false,
-                "inference_time": 2.951
+                "inference_time": 2.894
             },
             "ground_truth": {
                 "head": 0,
@@ -154,16 +154,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 2.951
+            "inference_time": 2.894
         },
         {
             "filename": "000110.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
-                "inference_time": 2.847
+                "helmet": 2,
+                "head": 0,
+                "person": 2,
+                "alert": false,
+                "inference_time": 2.97
             },
             "ground_truth": {
                 "head": 0,
@@ -171,16 +171,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.847
+            "inference_time": 2.97
         },
         {
             "filename": "000148.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 2.876
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
+                "alert": true,
+                "inference_time": 2.877
             },
             "ground_truth": {
                 "head": 0,
@@ -188,16 +188,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.876
+            "inference_time": 2.877
         },
         {
             "filename": "000150.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
                 "alert": false,
-                "inference_time": 2.889
+                "inference_time": 2.806
             },
             "ground_truth": {
                 "head": 0,
@@ -205,16 +205,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.889
+            "inference_time": 2.806
         },
         {
             "filename": "000159.jpg",
             "prediction": {
                 "helmet": 2,
-                "head": 1,
-                "person": 3,
-                "alert": true,
-                "inference_time": 3.043
+                "head": 0,
+                "person": 2,
+                "alert": false,
+                "inference_time": 2.765
             },
             "ground_truth": {
                 "head": 1,
@@ -222,282 +222,10 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 3.043
+            "inference_time": 2.765
         },
         {
             "filename": "000181.jpg",
-            "prediction": {
-                "helmet": 5,
-                "head": 0,
-                "person": 5,
-                "alert": false,
-                "inference_time": 2.76
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 2.76
-        },
-        {
-            "filename": "000212.jpg",
-            "prediction": {
-                "helmet": 1,
-                "head": 0,
-                "person": 1,
-                "alert": false,
-                "inference_time": 2.989
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 2.989
-        },
-        {
-            "filename": "000238.jpg",
-            "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": false,
-                "inference_time": 2.927
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 5,
-                "person": 5,
-                "alert": false
-            },
-            "inference_time": 2.927
-        },
-        {
-            "filename": "000262.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 5,
-                "person": 5,
-                "alert": false,
-                "inference_time": 2.962
-            },
-            "ground_truth": {
-                "head": 2,
-                "helmet": 6,
-                "person": 8,
-                "alert": true
-            },
-            "inference_time": 2.962
-        },
-        {
-            "filename": "000263.jpg",
-            "prediction": {
-                "helmet": 5,
-                "head": 0,
-                "person": 5,
-                "alert": false,
-                "inference_time": 3.058
-            },
-            "ground_truth": {
-                "head": 1,
-                "helmet": 2,
-                "person": 4,
-                "alert": true
-            },
-            "inference_time": 3.058
-        },
-        {
-            "filename": "000264.jpg",
-            "prediction": {
-                "helmet": 5,
-                "head": 0,
-                "person": 5,
-                "alert": false,
-                "inference_time": 2.839
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 3,
-                "alert": false
-            },
-            "inference_time": 2.839
-        },
-        {
-            "filename": "000339.jpg",
-            "prediction": {
-                "helmet": 3,
-                "head": 1,
-                "person": 4,
-                "alert": true,
-                "inference_time": 2.819
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 3,
-                "person": 3,
-                "alert": false
-            },
-            "inference_time": 2.819
-        },
-        {
-            "filename": "000342.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 2.993
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 2,
-                "person": 2,
-                "alert": false
-            },
-            "inference_time": 2.993
-        },
-        {
-            "filename": "000343.jpg",
-            "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 2.837
-            },
-            "ground_truth": {
-                "head": 2,
-                "helmet": 1,
-                "person": 2,
-                "alert": true
-            },
-            "inference_time": 2.837
-        },
-        {
-            "filename": "000348.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 3,
-                "person": 3,
-                "alert": false,
-                "inference_time": 2.871
-            },
-            "ground_truth": {
-                "head": 3,
-                "helmet": 1,
-                "person": 4,
-                "alert": true
-            },
-            "inference_time": 2.871
-        },
-        {
-            "filename": "000351.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 12,
-                "person": 13,
-                "alert": true,
-                "inference_time": 2.839
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 3,
-                "person": 3,
-                "alert": false
-            },
-            "inference_time": 2.839
-        },
-        {
-            "filename": "000352.jpg",
-            "prediction": {
-                "helmet": 2,
-                "head": 0,
-                "person": 2,
-                "alert": false,
-                "inference_time": 2.962
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 5,
-                "person": 5,
-                "alert": false
-            },
-            "inference_time": 2.962
-        },
-        {
-            "filename": "000356.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 2.777
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 2,
-                "person": 2,
-                "alert": false
-            },
-            "inference_time": 2.777
-        },
-        {
-            "filename": "000399.jpg",
-            "prediction": {
-                "helmet": 2,
-                "head": 0,
-                "person": 2,
-                "alert": false,
-                "inference_time": 2.899
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 2.899
-        },
-        {
-            "filename": "000400.jpg",
-            "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 3.019
-            },
-            "ground_truth": {
-                "head": 1,
-                "helmet": 3,
-                "person": 4,
-                "alert": true
-            },
-            "inference_time": 3.019
-        },
-        {
-            "filename": "000401.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 2.95
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 4,
-                "person": 4,
-                "alert": false
-            },
-            "inference_time": 2.95
-        },
-        {
-            "filename": "000405.jpg",
             "prediction": {
                 "helmet": 0,
                 "head": 0,
@@ -507,37 +235,37 @@
             },
             "ground_truth": {
                 "head": 0,
-                "helmet": 3,
-                "person": 3,
+                "helmet": 1,
+                "person": 1,
                 "alert": false
             },
             "inference_time": 2.828
         },
         {
-            "filename": "000408.jpg",
+            "filename": "000212.jpg",
             "prediction": {
                 "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 2.945
+                "head": 3,
+                "person": 3,
+                "alert": true,
+                "inference_time": 3.014
             },
             "ground_truth": {
                 "head": 0,
-                "helmet": 2,
-                "person": 2,
+                "helmet": 1,
+                "person": 1,
                 "alert": false
             },
-            "inference_time": 2.945
+            "inference_time": 3.014
         },
         {
-            "filename": "000417.jpg",
+            "filename": "000238.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
                 "alert": true,
-                "inference_time": 2.933
+                "inference_time": 2.917
             },
             "ground_truth": {
                 "head": 0,
@@ -545,14 +273,286 @@
                 "person": 5,
                 "alert": false
             },
-            "inference_time": 2.933
+            "inference_time": 2.917
         },
         {
-            "filename": "000438.jpg",
+            "filename": "000262.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 1,
+                "person": 1,
+                "alert": true,
+                "inference_time": 3.018
+            },
+            "ground_truth": {
+                "head": 2,
+                "helmet": 6,
+                "person": 8,
+                "alert": true
+            },
+            "inference_time": 3.018
+        },
+        {
+            "filename": "000263.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 0,
+                "person": 5,
+                "alert": false,
+                "inference_time": 2.899
+            },
+            "ground_truth": {
+                "head": 1,
+                "helmet": 2,
+                "person": 4,
+                "alert": true
+            },
+            "inference_time": 2.899
+        },
+        {
+            "filename": "000264.jpg",
+            "prediction": {
+                "helmet": 2,
+                "head": 1,
+                "person": 3,
+                "alert": true,
+                "inference_time": 3.021
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 1,
+                "person": 3,
+                "alert": false
+            },
+            "inference_time": 3.021
+        },
+        {
+            "filename": "000339.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 3.044
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 3,
+                "person": 3,
+                "alert": false
+            },
+            "inference_time": 3.044
+        },
+        {
+            "filename": "000342.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
+                "alert": true,
+                "inference_time": 2.863
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 2,
+                "person": 2,
+                "alert": false
+            },
+            "inference_time": 2.863
+        },
+        {
+            "filename": "000343.jpg",
+            "prediction": {
+                "helmet": 2,
+                "head": 0,
+                "person": 2,
+                "alert": false,
+                "inference_time": 2.854
+            },
+            "ground_truth": {
+                "head": 2,
+                "helmet": 1,
+                "person": 2,
+                "alert": true
+            },
+            "inference_time": 2.854
+        },
+        {
+            "filename": "000348.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
+                "alert": false,
+                "inference_time": 2.828
+            },
+            "ground_truth": {
+                "head": 3,
+                "helmet": 1,
+                "person": 4,
+                "alert": true
+            },
+            "inference_time": 2.828
+        },
+        {
+            "filename": "000351.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
+                "alert": false,
+                "inference_time": 2.89
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 3,
+                "person": 3,
+                "alert": false
+            },
+            "inference_time": 2.89
+        },
+        {
+            "filename": "000352.jpg",
+            "prediction": {
+                "helmet": 1,
+                "head": 0,
+                "person": 1,
+                "alert": false,
+                "inference_time": 3.001
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 5,
+                "person": 5,
+                "alert": false
+            },
+            "inference_time": 3.001
+        },
+        {
+            "filename": "000356.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 3.056
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 2,
+                "person": 2,
+                "alert": false
+            },
+            "inference_time": 3.056
+        },
+        {
+            "filename": "000399.jpg",
             "prediction": {
                 "helmet": 3,
                 "head": 0,
                 "person": 3,
+                "alert": false,
+                "inference_time": 2.811
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 1,
+                "person": 1,
+                "alert": false
+            },
+            "inference_time": 2.811
+        },
+        {
+            "filename": "000400.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 0,
+                "person": 5,
+                "alert": false,
+                "inference_time": 3.029
+            },
+            "ground_truth": {
+                "head": 1,
+                "helmet": 3,
+                "person": 4,
+                "alert": true
+            },
+            "inference_time": 3.029
+        },
+        {
+            "filename": "000401.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.876
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 4,
+                "person": 4,
+                "alert": false
+            },
+            "inference_time": 2.876
+        },
+        {
+            "filename": "000405.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.905
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 3,
+                "person": 3,
+                "alert": false
+            },
+            "inference_time": 2.905
+        },
+        {
+            "filename": "000408.jpg",
+            "prediction": {
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
+                "alert": true,
+                "inference_time": 2.928
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 2,
+                "person": 2,
+                "alert": false
+            },
+            "inference_time": 2.928
+        },
+        {
+            "filename": "000417.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.914
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 5,
+                "person": 5,
+                "alert": false
+            },
+            "inference_time": 2.914
+        },
+        {
+            "filename": "000438.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
                 "alert": false,
                 "inference_time": 2.87
             },
@@ -567,11 +567,11 @@
         {
             "filename": "000482.jpg",
             "prediction": {
-                "helmet": 12,
-                "head": 5,
-                "person": 17,
+                "helmet": 3,
+                "head": 0,
+                "person": 3,
                 "alert": false,
-                "inference_time": 2.795
+                "inference_time": 2.827
             },
             "ground_truth": {
                 "head": 5,
@@ -579,16 +579,16 @@
                 "person": 6,
                 "alert": true
             },
-            "inference_time": 2.795
+            "inference_time": 2.827
         },
         {
             "filename": "000487.jpg",
             "prediction": {
-                "helmet": 2,
+                "helmet": 0,
                 "head": 0,
-                "person": 2,
+                "person": 0,
                 "alert": false,
-                "inference_time": 2.943
+                "inference_time": 2.861
             },
             "ground_truth": {
                 "head": 1,
@@ -596,16 +596,16 @@
                 "person": 8,
                 "alert": true
             },
-            "inference_time": 2.943
+            "inference_time": 2.861
         },
         {
             "filename": "000492.jpg",
             "prediction": {
-                "helmet": 0,
+                "helmet": 3,
                 "head": 0,
-                "person": 0,
+                "person": 3,
                 "alert": false,
-                "inference_time": 2.804
+                "inference_time": 2.831
             },
             "ground_truth": {
                 "head": 0,
@@ -613,101 +613,101 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.804
+            "inference_time": 2.831
         },
         {
             "filename": "000505.jpg",
-            "prediction": {
-                "helmet": 3,
-                "head": 1,
-                "person": 4,
-                "alert": true,
-                "inference_time": 2.995
-            },
-            "ground_truth": {
-                "head": 2,
-                "helmet": 1,
-                "person": 3,
-                "alert": true
-            },
-            "inference_time": 2.995
-        },
-        {
-            "filename": "000522.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 3,
-                "person": 3,
-                "alert": false,
-                "inference_time": 2.801
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 2,
-                "person": 7,
-                "alert": false
-            },
-            "inference_time": 2.801
-        },
-        {
-            "filename": "000601.jpg",
-            "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 2.877
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 2.877
-        },
-        {
-            "filename": "000633.jpg",
-            "prediction": {
-                "helmet": 0,
-                "head": 3,
-                "person": 3,
-                "alert": false,
-                "inference_time": 2.895
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 2.895
-        },
-        {
-            "filename": "000750.jpg",
-            "prediction": {
-                "helmet": 4,
-                "head": 3,
-                "person": 7,
-                "alert": true,
-                "inference_time": 2.911
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 2,
-                "person": 2,
-                "alert": false
-            },
-            "inference_time": 2.911
-        },
-        {
-            "filename": "000755.jpg",
             "prediction": {
                 "helmet": 5,
                 "head": 3,
                 "person": 8,
                 "alert": false,
-                "inference_time": 2.865
+                "inference_time": 2.827
+            },
+            "ground_truth": {
+                "head": 2,
+                "helmet": 1,
+                "person": 3,
+                "alert": true
+            },
+            "inference_time": 2.827
+        },
+        {
+            "filename": "000522.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.832
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 2,
+                "person": 7,
+                "alert": false
+            },
+            "inference_time": 2.832
+        },
+        {
+            "filename": "000601.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.885
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 1,
+                "person": 1,
+                "alert": false
+            },
+            "inference_time": 2.885
+        },
+        {
+            "filename": "000633.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.96
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 1,
+                "person": 1,
+                "alert": false
+            },
+            "inference_time": 2.96
+        },
+        {
+            "filename": "000750.jpg",
+            "prediction": {
+                "helmet": 1,
+                "head": 0,
+                "person": 1,
+                "alert": false,
+                "inference_time": 2.785
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 2,
+                "person": 2,
+                "alert": false
+            },
+            "inference_time": 2.785
+        },
+        {
+            "filename": "000755.jpg",
+            "prediction": {
+                "helmet": 0,
+                "head": 5,
+                "person": 5,
+                "alert": false,
+                "inference_time": 2.931
             },
             "ground_truth": {
                 "head": 1,
@@ -715,16 +715,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 2.865
+            "inference_time": 2.931
         },
         {
             "filename": "000756.jpg",
             "prediction": {
-                "helmet": 5,
+                "helmet": 3,
                 "head": 0,
-                "person": 5,
+                "person": 3,
                 "alert": false,
-                "inference_time": 2.912
+                "inference_time": 2.882
             },
             "ground_truth": {
                 "head": 0,
@@ -732,16 +732,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.912
+            "inference_time": 2.882
         },
         {
             "filename": "000783.jpg",
             "prediction": {
-                "helmet": 3,
-                "head": 1,
-                "person": 4,
-                "alert": true,
-                "inference_time": 2.75
+                "helmet": 10,
+                "head": 5,
+                "person": 10,
+                "alert": false,
+                "inference_time": 2.841
             },
             "ground_truth": {
                 "head": 0,
@@ -749,7 +749,7 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.75
+            "inference_time": 2.841
         },
         {
             "filename": "000798.jpg",
@@ -757,8 +757,8 @@
                 "helmet": 3,
                 "head": 2,
                 "person": 5,
-                "alert": false,
-                "inference_time": 2.921
+                "alert": true,
+                "inference_time": 2.894
             },
             "ground_truth": {
                 "head": 0,
@@ -766,33 +766,33 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.921
+            "inference_time": 2.894
         },
         {
             "filename": "000816.jpg",
+            "prediction": {
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
+                "alert": false,
+                "inference_time": 2.96
+            },
+            "ground_truth": {
+                "head": 0,
+                "helmet": 1,
+                "person": 1,
+                "alert": false
+            },
+            "inference_time": 2.96
+        },
+        {
+            "filename": "000821.jpg",
             "prediction": {
                 "helmet": 2,
                 "head": 0,
                 "person": 2,
                 "alert": false,
-                "inference_time": 3.075
-            },
-            "ground_truth": {
-                "head": 0,
-                "helmet": 1,
-                "person": 1,
-                "alert": false
-            },
-            "inference_time": 3.075
-        },
-        {
-            "filename": "000821.jpg",
-            "prediction": {
-                "helmet": 4,
-                "head": 0,
-                "person": 5,
-                "alert": false,
-                "inference_time": 2.971
+                "inference_time": 2.91
             },
             "ground_truth": {
                 "head": 3,
@@ -800,16 +800,16 @@
                 "person": 9,
                 "alert": true
             },
-            "inference_time": 2.971
+            "inference_time": 2.91
         },
         {
             "filename": "000823.jpg",
             "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 2.986
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.976
             },
             "ground_truth": {
                 "head": 0,
@@ -817,16 +817,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.986
+            "inference_time": 2.976
         },
         {
             "filename": "000957.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
-                "inference_time": 2.898
+                "helmet": 0,
+                "head": 10,
+                "person": 10,
+                "alert": false,
+                "inference_time": 2.95
             },
             "ground_truth": {
                 "head": 1,
@@ -834,16 +834,16 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 2.898
+            "inference_time": 2.95
         },
         {
             "filename": "000976.jpg",
             "prediction": {
                 "helmet": 3,
-                "head": 2,
-                "person": 5,
+                "head": 0,
+                "person": 3,
                 "alert": false,
-                "inference_time": 3.029
+                "inference_time": 2.938
             },
             "ground_truth": {
                 "head": 0,
@@ -851,16 +851,16 @@
                 "person": 8,
                 "alert": false
             },
-            "inference_time": 3.029
+            "inference_time": 2.938
         },
         {
             "filename": "000984.jpg",
             "prediction": {
                 "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 2.819
+                "head": 0,
+                "person": 3,
+                "alert": false,
+                "inference_time": 2.801
             },
             "ground_truth": {
                 "head": 0,
@@ -868,16 +868,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 2.819
+            "inference_time": 2.801
         },
         {
             "filename": "000986.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 0,
+                "helmet": 3,
+                "head": 2,
                 "person": 5,
                 "alert": false,
-                "inference_time": 2.947
+                "inference_time": 2.859
             },
             "ground_truth": {
                 "head": 5,
@@ -885,16 +885,16 @@
                 "person": 9,
                 "alert": true
             },
-            "inference_time": 2.947
+            "inference_time": 2.859
         },
         {
             "filename": "000992.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
-                "alert": false,
-                "inference_time": 3.001
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
+                "alert": true,
+                "inference_time": 2.832
             },
             "ground_truth": {
                 "head": 0,
@@ -902,16 +902,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 3.001
+            "inference_time": 2.832
         },
         {
             "filename": "001069.jpg",
             "prediction": {
-                "helmet": 3,
+                "helmet": 0,
                 "head": 0,
-                "person": 3,
+                "person": 0,
                 "alert": false,
-                "inference_time": 3.037
+                "inference_time": 2.972
             },
             "ground_truth": {
                 "head": 0,
@@ -919,16 +919,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 3.037
+            "inference_time": 2.972
         },
         {
             "filename": "001070.jpg",
             "prediction": {
-                "helmet": 2,
-                "head": 1,
-                "person": 3,
-                "alert": true,
-                "inference_time": 2.89
+                "helmet": 1,
+                "head": 0,
+                "person": 1,
+                "alert": false,
+                "inference_time": 2.896
             },
             "ground_truth": {
                 "head": 3,
@@ -936,15 +936,15 @@
                 "person": 5,
                 "alert": true
             },
-            "inference_time": 2.89
+            "inference_time": 2.896
         },
         {
             "filename": "001089.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
                 "inference_time": 2.955
             },
             "ground_truth": {
@@ -958,11 +958,11 @@
         {
             "filename": "001091.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 16,
-                "person": 16,
-                "alert": false,
-                "inference_time": 2.967
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
+                "alert": true,
+                "inference_time": 2.873
             },
             "ground_truth": {
                 "head": 1,
@@ -970,16 +970,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 2.967
+            "inference_time": 2.873
         },
         {
             "filename": "001097.jpg",
             "prediction": {
                 "helmet": 0,
-                "head": 0,
-                "person": 0,
+                "head": 3,
+                "person": 3,
                 "alert": false,
-                "inference_time": 3.051
+                "inference_time": 2.961
             },
             "ground_truth": {
                 "head": 0,
@@ -987,16 +987,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 3.051
+            "inference_time": 2.961
         },
         {
             "filename": "001142.jpg",
             "prediction": {
-                "helmet": 5,
+                "helmet": 2,
                 "head": 0,
-                "person": 5,
+                "person": 2,
                 "alert": false,
-                "inference_time": 2.949
+                "inference_time": 3.121
             },
             "ground_truth": {
                 "head": 0,
@@ -1004,16 +1004,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.949
+            "inference_time": 3.121
         },
         {
             "filename": "001351.jpg",
             "prediction": {
-                "helmet": 1,
-                "head": 0,
-                "person": 1,
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
                 "alert": false,
-                "inference_time": 3.092
+                "inference_time": 2.963
             },
             "ground_truth": {
                 "head": 0,
@@ -1021,16 +1021,16 @@
                 "person": 3,
                 "alert": false
             },
-            "inference_time": 3.092
+            "inference_time": 2.963
         },
         {
             "filename": "001367.jpg",
             "prediction": {
-                "helmet": 2,
+                "helmet": 3,
                 "head": 0,
-                "person": 2,
+                "person": 3,
                 "alert": false,
-                "inference_time": 3.001
+                "inference_time": 2.789
             },
             "ground_truth": {
                 "head": 5,
@@ -1038,7 +1038,7 @@
                 "person": 7,
                 "alert": true
             },
-            "inference_time": 3.001
+            "inference_time": 2.789
         },
         {
             "filename": "001385.jpg",
@@ -1047,7 +1047,7 @@
                 "head": 0,
                 "person": 0,
                 "alert": false,
-                "inference_time": 2.894
+                "inference_time": 2.986
             },
             "ground_truth": {
                 "head": 2,
@@ -1055,16 +1055,16 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 2.894
+            "inference_time": 2.986
         },
         {
             "filename": "001483.jpg",
             "prediction": {
-                "helmet": 10,
-                "head": 2,
-                "person": 12,
-                "alert": false,
-                "inference_time": 2.866
+                "helmet": 3,
+                "head": 1,
+                "person": 4,
+                "alert": true,
+                "inference_time": 2.993
             },
             "ground_truth": {
                 "head": 0,
@@ -1072,16 +1072,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.866
+            "inference_time": 2.993
         },
         {
             "filename": "001518.jpg",
             "prediction": {
-                "helmet": 2,
+                "helmet": 10,
                 "head": 0,
-                "person": 2,
+                "person": 10,
                 "alert": false,
-                "inference_time": 2.969
+                "inference_time": 2.993
             },
             "ground_truth": {
                 "head": 0,
@@ -1089,16 +1089,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.969
+            "inference_time": 2.993
         },
         {
             "filename": "001521.jpg",
             "prediction": {
-                "helmet": 3,
+                "helmet": 0,
                 "head": 0,
-                "person": 3,
+                "person": 0,
                 "alert": false,
-                "inference_time": 2.864
+                "inference_time": 2.931
             },
             "ground_truth": {
                 "head": 0,
@@ -1106,16 +1106,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 2.864
+            "inference_time": 2.931
         },
         {
             "filename": "001523.jpg",
             "prediction": {
-                "helmet": 3,
-                "head": 0,
-                "person": 3,
-                "alert": false,
-                "inference_time": 2.875
+                "helmet": 0,
+                "head": 1,
+                "person": 1,
+                "alert": true,
+                "inference_time": 2.982
             },
             "ground_truth": {
                 "head": 0,
@@ -1123,16 +1123,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.875
+            "inference_time": 2.982
         },
         {
             "filename": "part2_000071.jpg",
             "prediction": {
-                "helmet": 12,
-                "head": 8,
-                "person": 20,
-                "alert": true,
-                "inference_time": 2.901
+                "helmet": 5,
+                "head": 0,
+                "person": 5,
+                "alert": false,
+                "inference_time": 2.873
             },
             "ground_truth": {
                 "head": 1,
@@ -1140,16 +1140,16 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 2.901
+            "inference_time": 2.873
         },
         {
             "filename": "part2_000116.jpg",
             "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 2.853
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.928
             },
             "ground_truth": {
                 "head": 0,
@@ -1157,16 +1157,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.853
+            "inference_time": 2.928
         },
         {
             "filename": "part2_000117.jpg",
             "prediction": {
                 "helmet": 0,
-                "head": 3,
-                "person": 3,
+                "head": 0,
+                "person": 0,
                 "alert": false,
-                "inference_time": 2.959
+                "inference_time": 2.829
             },
             "ground_truth": {
                 "head": 1,
@@ -1174,16 +1174,16 @@
                 "person": 3,
                 "alert": true
             },
-            "inference_time": 2.959
+            "inference_time": 2.829
         },
         {
             "filename": "part2_000165.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
-                "inference_time": 2.773
+                "helmet": 0,
+                "head": 0,
+                "person": 0,
+                "alert": false,
+                "inference_time": 2.843
             },
             "ground_truth": {
                 "head": 0,
@@ -1191,16 +1191,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.773
+            "inference_time": 2.843
         },
         {
             "filename": "part2_000181.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
-                "alert": true,
-                "inference_time": 3.069
+                "helmet": 3,
+                "head": 0,
+                "person": 3,
+                "alert": false,
+                "inference_time": 3.065
             },
             "ground_truth": {
                 "head": 1,
@@ -1208,7 +1208,7 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 3.069
+            "inference_time": 3.065
         },
         {
             "filename": "part2_000439.jpg",
@@ -1217,7 +1217,7 @@
                 "head": 0,
                 "person": 3,
                 "alert": false,
-                "inference_time": 3.269
+                "inference_time": 2.993
             },
             "ground_truth": {
                 "head": 2,
@@ -1225,16 +1225,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 3.269
+            "inference_time": 2.993
         },
         {
             "filename": "part2_000489.jpg",
             "prediction": {
-                "helmet": 3,
-                "head": 2,
-                "person": 5,
-                "alert": true,
-                "inference_time": 3.012
+                "helmet": 2,
+                "head": 0,
+                "person": 2,
+                "alert": false,
+                "inference_time": 2.779
             },
             "ground_truth": {
                 "head": 0,
@@ -1242,16 +1242,16 @@
                 "person": 4,
                 "alert": false
             },
-            "inference_time": 3.012
+            "inference_time": 2.779
         },
         {
             "filename": "part2_000541.jpg",
             "prediction": {
                 "helmet": 0,
-                "head": 2,
-                "person": 2,
+                "head": 0,
+                "person": 0,
                 "alert": false,
-                "inference_time": 2.804
+                "inference_time": 2.954
             },
             "ground_truth": {
                 "head": 1,
@@ -1259,7 +1259,7 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 2.804
+            "inference_time": 2.954
         },
         {
             "filename": "part2_000672.jpg",
@@ -1267,8 +1267,8 @@
                 "helmet": 5,
                 "head": 3,
                 "person": 8,
-                "alert": true,
-                "inference_time": 2.925
+                "alert": false,
+                "inference_time": 2.792
             },
             "ground_truth": {
                 "head": 2,
@@ -1276,16 +1276,16 @@
                 "person": 2,
                 "alert": true
             },
-            "inference_time": 2.925
+            "inference_time": 2.792
         },
         {
             "filename": "part2_000699.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 13,
-                "person": 13,
+                "helmet": 2,
+                "head": 3,
+                "person": 5,
                 "alert": true,
-                "inference_time": 3.094
+                "inference_time": 3.021
             },
             "ground_truth": {
                 "head": 2,
@@ -1293,16 +1293,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 3.094
+            "inference_time": 3.021
         },
         {
             "filename": "part2_001417.jpg",
             "prediction": {
-                "helmet": 5,
-                "head": 3,
-                "person": 8,
+                "helmet": 3,
+                "head": 2,
+                "person": 5,
                 "alert": true,
-                "inference_time": 2.984
+                "inference_time": 2.784
             },
             "ground_truth": {
                 "head": 1,
@@ -1310,16 +1310,16 @@
                 "person": 4,
                 "alert": true
             },
-            "inference_time": 2.984
+            "inference_time": 2.784
         },
         {
             "filename": "part2_001553.jpg",
             "prediction": {
-                "helmet": 1,
+                "helmet": 3,
                 "head": 0,
-                "person": 1,
+                "person": 3,
                 "alert": false,
-                "inference_time": 3.04
+                "inference_time": 2.956
             },
             "ground_truth": {
                 "head": 0,
@@ -1327,16 +1327,16 @@
                 "person": 1,
                 "alert": false
             },
-            "inference_time": 3.04
+            "inference_time": 2.956
         },
         {
             "filename": "part2_001654.jpg",
             "prediction": {
-                "helmet": 2,
-                "head": 0,
-                "person": 2,
+                "helmet": 10,
+                "head": 5,
+                "person": 10,
                 "alert": false,
-                "inference_time": 2.79
+                "inference_time": 2.899
             },
             "ground_truth": {
                 "head": 1,
@@ -1344,16 +1344,16 @@
                 "person": 3,
                 "alert": true
             },
-            "inference_time": 2.79
+            "inference_time": 2.899
         },
         {
             "filename": "part2_001657.jpg",
             "prediction": {
                 "helmet": 0,
-                "head": 0,
-                "person": 0,
+                "head": 2,
+                "person": 2,
                 "alert": false,
-                "inference_time": 3.001
+                "inference_time": 3.082
             },
             "ground_truth": {
                 "head": 2,
@@ -1361,16 +1361,16 @@
                 "person": 5,
                 "alert": true
             },
-            "inference_time": 3.001
+            "inference_time": 3.082
         },
         {
             "filename": "part2_001667.jpg",
             "prediction": {
                 "helmet": 3,
-                "head": 0,
-                "person": 3,
-                "alert": false,
-                "inference_time": 2.831
+                "head": 1,
+                "person": 4,
+                "alert": true,
+                "inference_time": 3.003
             },
             "ground_truth": {
                 "head": 0,
@@ -1378,16 +1378,16 @@
                 "person": 7,
                 "alert": false
             },
-            "inference_time": 2.831
+            "inference_time": 3.003
         },
         {
             "filename": "part2_001952.jpg",
             "prediction": {
-                "helmet": 0,
-                "head": 0,
-                "person": 0,
+                "helmet": 5,
+                "head": 3,
+                "person": 8,
                 "alert": false,
-                "inference_time": 2.915
+                "inference_time": 2.941
             },
             "ground_truth": {
                 "head": 0,
@@ -1395,16 +1395,16 @@
                 "person": 2,
                 "alert": false
             },
-            "inference_time": 2.915
+            "inference_time": 2.941
         },
         {
             "filename": "part2_001953.jpg",
             "prediction": {
-                "helmet": 1,
+                "helmet": 5,
                 "head": 0,
-                "person": 1,
+                "person": 5,
                 "alert": false,
-                "inference_time": 2.955
+                "inference_time": 2.856
             },
             "ground_truth": {
                 "head": 0,
@@ -1412,7 +1412,7 @@
                 "person": 5,
                 "alert": false
             },
-            "inference_time": 2.955
+            "inference_time": 2.856
         }
     ]
 }

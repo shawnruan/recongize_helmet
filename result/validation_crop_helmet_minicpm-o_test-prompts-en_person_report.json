@@ -6,19 +6,19 @@
     "experiment_type": "crop",
     "total_samples": 258,
     "metrics": {
-        "accuracy": 0.7093023255813954,
-        "precision": 0.6381909547738693,
-        "recall": 0.9769230769230769,
-        "f1_score": 0.7720364741641338,
-        "true_positives": 127,
-        "false_positives": 72,
-        "false_negatives": 3,
-        "true_negatives": 56
+        "accuracy": 0.6976744186046512,
+        "precision": 0.63,
+        "recall": 0.9692307692307692,
+        "f1_score": 0.7636363636363637,
+        "true_positives": 126,
+        "false_positives": 74,
+        "false_negatives": 4,
+        "true_negatives": 54
     },
     "timing": {
-        "total_time": 733.501,
-        "total_inference_time": 733.28,
-        "average_inference_time": 2.842,
+        "total_time": 746.26,
+        "total_inference_time": 746.107,
+        "average_inference_time": 2.892,
         "successful_predictions": 258
     },
     "results": [
@@ -26,241 +26,241 @@
             "filename": "000009_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.767
+            "inference_time": 2.86
         },
         {
             "filename": "000009_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.743
+            "inference_time": 2.744
         },
         {
             "filename": "000009_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.808
+            "inference_time": 2.876
         },
         {
             "filename": "000009_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.775
+            "inference_time": 2.767
         },
         {
             "filename": "000021_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.689
+            "inference_time": 2.792
         },
         {
             "filename": "000021_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.74
+            "inference_time": 2.826
         },
         {
             "filename": "000021_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.804
+            "inference_time": 2.8
         },
         {
             "filename": "000021_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.752
+            "inference_time": 2.759
         },
         {
             "filename": "000021_person_4.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.692
+            "inference_time": 2.794
         },
         {
             "filename": "000021_person_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.753
+            "inference_time": 2.777
         },
         {
             "filename": "000021_person_6.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.774
+            "inference_time": 2.818
         },
         {
             "filename": "000046_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.791
+            "inference_time": 2.802
         },
         {
             "filename": "000046_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.815
+            "inference_time": 2.827
         },
         {
             "filename": "000046_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.765
+            "inference_time": 2.84
         },
         {
             "filename": "000053_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.706
+            "inference_time": 2.77
         },
         {
             "filename": "000053_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.755
+            "inference_time": 2.761
         },
         {
             "filename": "000053_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.774
+            "inference_time": 2.814
         },
         {
             "filename": "000072_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.754
-        },
-        {
-            "filename": "000072_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.709
-        },
-        {
-            "filename": "000072_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.772
-        },
-        {
-            "filename": "000072_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.714
-        },
-        {
-            "filename": "000072_person_4.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.699
-        },
-        {
-            "filename": "000086_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.738
-        },
-        {
-            "filename": "000086_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.803
-        },
-        {
-            "filename": "000086_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.769
-        },
-        {
-            "filename": "000110_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.705
-        },
-        {
-            "filename": "000110_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.78
-        },
-        {
-            "filename": "000148_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.776
-        },
-        {
-            "filename": "000148_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.756
-        },
-        {
-            "filename": "000150_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.796
-        },
-        {
-            "filename": "000159_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.679
-        },
-        {
-            "filename": "000159_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.755
-        },
-        {
-            "filename": "000181_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.794
         },
         {
+            "filename": "000072_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.759
+        },
+        {
+            "filename": "000072_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 2.701
+        },
+        {
+            "filename": "000072_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.768
+        },
+        {
+            "filename": "000072_person_4.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.756
+        },
+        {
+            "filename": "000086_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.825
+        },
+        {
+            "filename": "000086_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.802
+        },
+        {
+            "filename": "000086_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.802
+        },
+        {
+            "filename": "000110_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.79
+        },
+        {
+            "filename": "000110_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.775
+        },
+        {
+            "filename": "000148_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.804
+        },
+        {
+            "filename": "000148_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.765
+        },
+        {
+            "filename": "000150_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.871
+        },
+        {
+            "filename": "000159_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.757
+        },
+        {
+            "filename": "000159_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.815
+        },
+        {
+            "filename": "000181_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.798
+        },
+        {
             "filename": "000212_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.737
+            "inference_time": 2.769
         },
         {
             "filename": "000238_person_0.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.698
+            "inference_time": 2.769
         },
         {
             "filename": "000238_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.78
+            "inference_time": 2.862
         },
         {
             "filename": "000238_person_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.793
+            "inference_time": 2.789
         },
         {
             "filename": "000238_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.735
+            "inference_time": 2.79
         },
         {
             "filename": "000238_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.788
+            "inference_time": 2.803
         },
         {
             "filename": "000262_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.701
+            "inference_time": 2.84
         },
         {
             "filename": "000262_person_1.jpg",
@@ -272,1303 +272,1303 @@
             "filename": "000262_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.798
+            "inference_time": 2.799
         },
         {
             "filename": "000262_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.725
+            "inference_time": 2.813
         },
         {
             "filename": "000262_person_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.696
+            "inference_time": 2.741
         },
         {
             "filename": "000262_person_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.768
+            "inference_time": 2.792
         },
         {
             "filename": "000262_person_6.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.761
+            "inference_time": 2.791
         },
         {
             "filename": "000262_person_7.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.771
+            "inference_time": 2.792
         },
         {
             "filename": "000263_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.704
+            "inference_time": 2.816
         },
         {
             "filename": "000263_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.769
+            "inference_time": 2.755
         },
         {
             "filename": "000263_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.748
+            "inference_time": 2.722
         },
         {
             "filename": "000263_person_3.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.665
+            "inference_time": 2.786
         },
         {
             "filename": "000264_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.792
+            "inference_time": 2.809
         },
         {
             "filename": "000264_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.754
+            "inference_time": 2.773
         },
         {
             "filename": "000264_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.741
+            "inference_time": 2.757
         },
         {
             "filename": "000339_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.698
+            "inference_time": 2.775
         },
         {
             "filename": "000339_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.769
+            "inference_time": 2.694
         },
         {
             "filename": "000339_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.231
+            "inference_time": 3.413
         },
         {
             "filename": "000342_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.747
+            "inference_time": 2.766
         },
         {
             "filename": "000342_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.74
+            "inference_time": 2.755
         },
         {
             "filename": "000343_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.704
+            "inference_time": 2.81
         },
         {
             "filename": "000343_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.763
+            "inference_time": 2.767
         },
         {
             "filename": "000348_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.741
+            "inference_time": 2.776
         },
         {
             "filename": "000348_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.84
+            "inference_time": 2.828
         },
         {
             "filename": "000348_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.789
+            "inference_time": 2.799
         },
         {
             "filename": "000348_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.774
+            "inference_time": 2.786
         },
         {
             "filename": "000351_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.686
+            "inference_time": 2.809
         },
         {
             "filename": "000351_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.782
+            "inference_time": 2.805
         },
         {
             "filename": "000351_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.744
+            "inference_time": 2.826
         },
         {
             "filename": "000352_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.779
+            "inference_time": 2.786
         },
         {
             "filename": "000352_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.671
+            "inference_time": 2.787
         },
         {
             "filename": "000352_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.781
+            "inference_time": 2.82
         },
         {
             "filename": "000352_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.754
+            "inference_time": 2.764
         },
         {
             "filename": "000352_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.765
+            "inference_time": 2.792
         },
         {
             "filename": "000356_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.845
+            "inference_time": 2.842
         },
         {
             "filename": "000356_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.828
+            "inference_time": 2.794
         },
         {
             "filename": "000399_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.744
+            "inference_time": 2.813
         },
         {
             "filename": "000400_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.688
+            "inference_time": 2.779
         },
         {
             "filename": "000400_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.744
+            "inference_time": 2.793
         },
         {
             "filename": "000400_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.732
+            "inference_time": 2.79
         },
         {
             "filename": "000400_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.694
+            "inference_time": 2.778
         },
         {
             "filename": "000401_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.72
+            "inference_time": 2.796
         },
         {
             "filename": "000401_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.695
+            "inference_time": 2.81
         },
         {
             "filename": "000401_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.78
+            "inference_time": 2.815
         },
         {
             "filename": "000401_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.773
+            "inference_time": 2.802
         },
         {
             "filename": "000405_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.758
+            "inference_time": 2.782
         },
         {
             "filename": "000405_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.787
+            "inference_time": 2.775
         },
         {
             "filename": "000405_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.856
+            "inference_time": 2.823
         },
         {
             "filename": "000408_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.777
+            "inference_time": 2.803
         },
         {
             "filename": "000408_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.774
+            "inference_time": 2.803
         },
         {
             "filename": "000417_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.689
+            "inference_time": 2.804
         },
         {
             "filename": "000417_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.778
+            "inference_time": 2.819
         },
         {
             "filename": "000417_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.71
+            "inference_time": 2.78
         },
         {
             "filename": "000417_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.706
+            "inference_time": 2.795
         },
         {
             "filename": "000417_person_4.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.78
+            "inference_time": 2.834
         },
         {
             "filename": "000438_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.745
+            "inference_time": 2.79
         },
         {
             "filename": "000482_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.669
+            "inference_time": 2.77
         },
         {
             "filename": "000482_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.946
+            "inference_time": 2.794
         },
         {
             "filename": "000482_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.77
+            "inference_time": 2.794
         },
         {
             "filename": "000482_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.673
+            "inference_time": 2.851
         },
         {
             "filename": "000482_person_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.767
+            "inference_time": 2.766
         },
         {
             "filename": "000482_person_5.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.762
+            "inference_time": 2.806
         },
         {
             "filename": "000487_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.793
+            "inference_time": 2.798
         },
         {
             "filename": "000487_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.793
+            "inference_time": 2.784
         },
         {
             "filename": "000487_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.796
+            "inference_time": 2.826
         },
         {
             "filename": "000487_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.7
+            "inference_time": 2.796
         },
         {
             "filename": "000487_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.746
+            "inference_time": 2.787
         },
         {
             "filename": "000487_person_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.731
+            "inference_time": 2.821
         },
         {
             "filename": "000487_person_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.924
+            "inference_time": 2.763
         },
         {
             "filename": "000487_person_7.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.768
+            "inference_time": 2.798
         },
         {
             "filename": "000492_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.742
+            "inference_time": 2.823
         },
         {
             "filename": "000492_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.767
+            "inference_time": 2.81
         },
         {
             "filename": "000505_person_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.701
+            "inference_time": 2.78
         },
         {
             "filename": "000505_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.79
+            "inference_time": 2.781
         },
         {
             "filename": "000505_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.77
+            "inference_time": 2.831
         },
         {
             "filename": "000522_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.733
+            "inference_time": 2.811
         },
         {
             "filename": "000522_person_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.69
+            "inference_time": 2.772
         },
         {
             "filename": "000522_person_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.783
+            "inference_time": 2.781
         },
         {
             "filename": "000522_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.708
+            "inference_time": 2.818
         },
         {
             "filename": "000522_person_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.698
+            "inference_time": 2.792
         },
         {
             "filename": "000522_person_5.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.762
+            "inference_time": 2.793
         },
         {
             "filename": "000522_person_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.819
+            "inference_time": 2.786
         },
         {
             "filename": "000601_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.729
+            "inference_time": 2.817
         },
         {
             "filename": "000633_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.7
+            "inference_time": 2.791
         },
         {
             "filename": "000750_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.828
+            "inference_time": 2.763
         },
         {
             "filename": "000750_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.756
+            "inference_time": 2.845
         },
         {
             "filename": "000755_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.758
+            "inference_time": 2.747
         },
         {
             "filename": "000755_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.748
+            "inference_time": 2.785
         },
         {
             "filename": "000755_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.696
+            "inference_time": 2.828
         },
         {
             "filename": "000755_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.804
+            "inference_time": 2.847
         },
         {
             "filename": "000756_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.752
+            "inference_time": 2.775
         },
         {
             "filename": "000783_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.669
+            "inference_time": 3.836
         },
         {
             "filename": "000798_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.749
+            "inference_time": 2.779
         },
         {
             "filename": "000816_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.76
+            "inference_time": 2.791
         },
         {
             "filename": "000821_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.785
+            "inference_time": 2.779
         },
         {
             "filename": "000821_person_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.665
+            "inference_time": 2.799
         },
         {
             "filename": "000821_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.784
+            "inference_time": 2.825
         },
         {
             "filename": "000821_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.781
+            "inference_time": 2.775
         },
         {
             "filename": "000821_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.755
+            "inference_time": 2.805
         },
         {
             "filename": "000821_person_5.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.784
+            "inference_time": 2.772
         },
         {
             "filename": "000821_person_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.71
+            "inference_time": 2.807
         },
         {
             "filename": "000821_person_7.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.741
+            "inference_time": 2.779
         },
         {
             "filename": "000821_person_8.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.821
+            "inference_time": 2.857
         },
         {
             "filename": "000823_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.205
+            "inference_time": 3.256
         },
         {
             "filename": "000957_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.757
+            "inference_time": 2.759
         },
         {
             "filename": "000957_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.775
+            "inference_time": 2.789
         },
         {
             "filename": "000976_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.818
+            "inference_time": 2.747
         },
         {
             "filename": "000976_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.776
+            "inference_time": 2.782
         },
         {
             "filename": "000976_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.68
+            "inference_time": 2.799
         },
         {
             "filename": "000976_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.785
+            "inference_time": 2.812
         },
         {
             "filename": "000976_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.777
+            "inference_time": 2.796
         },
         {
             "filename": "000976_person_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.759
+            "inference_time": 2.8
         },
         {
             "filename": "000976_person_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.785
+            "inference_time": 2.832
         },
         {
             "filename": "000976_person_7.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.781
+            "inference_time": 2.783
         },
         {
             "filename": "000984_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.709
+            "inference_time": 2.787
         },
         {
             "filename": "000984_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.77
+            "inference_time": 2.81
         },
         {
             "filename": "000984_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.719
+            "inference_time": 2.779
         },
         {
             "filename": "000986_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.701
+            "inference_time": 2.798
         },
         {
             "filename": "000986_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.76
+            "inference_time": 2.798
         },
         {
             "filename": "000986_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.781
+            "inference_time": 2.793
         },
         {
             "filename": "000986_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.763
+            "inference_time": 2.834
         },
         {
             "filename": "000986_person_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.68
+            "inference_time": 2.774
         },
         {
             "filename": "000986_person_5.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.758
+            "inference_time": 2.816
         },
         {
             "filename": "000986_person_6.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.771
+            "inference_time": 2.822
         },
         {
             "filename": "000986_person_7.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.826
+            "inference_time": 2.78
         },
         {
             "filename": "000986_person_8.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.769
+            "inference_time": 2.779
         },
         {
             "filename": "000992_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.762
+            "inference_time": 2.805
         },
         {
             "filename": "000992_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.722
+            "inference_time": 2.787
         },
         {
             "filename": "001069_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.767
+            "inference_time": 2.803
         },
         {
             "filename": "001069_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.78
+            "inference_time": 2.801
         },
         {
             "filename": "001069_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.738
+            "inference_time": 2.821
         },
         {
             "filename": "001070_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.701
+            "inference_time": 2.787
         },
         {
             "filename": "001070_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.778
+            "inference_time": 2.78
         },
         {
             "filename": "001070_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.791
+            "inference_time": 2.851
         },
         {
             "filename": "001070_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.746
+            "inference_time": 2.766
         },
         {
             "filename": "001070_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.78
+            "inference_time": 2.785
         },
         {
             "filename": "001089_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.693
+            "inference_time": 2.836
         },
         {
             "filename": "001089_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.786
+            "inference_time": 2.776
         },
         {
             "filename": "001089_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.761
+            "inference_time": 2.782
         },
         {
             "filename": "001089_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.76
+            "inference_time": 2.67
         },
         {
             "filename": "001091_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.685
+            "inference_time": 2.813
         },
         {
             "filename": "001091_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.789
+            "inference_time": 2.777
         },
         {
             "filename": "001091_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.765
+            "inference_time": 2.769
         },
         {
             "filename": "001091_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.788
+            "inference_time": 2.796
         },
         {
             "filename": "001097_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.774
+            "inference_time": 2.766
         },
         {
             "filename": "001142_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.798
+            "inference_time": 2.804
         },
         {
             "filename": "001142_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.686
+            "inference_time": 2.77
         },
         {
             "filename": "001351_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.755
+            "inference_time": 2.813
         },
         {
             "filename": "001351_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.723
+            "inference_time": 2.803
         },
         {
             "filename": "001351_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.84
+            "inference_time": 2.79
         },
         {
             "filename": "001367_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.76
+            "inference_time": 2.816
         },
         {
             "filename": "001367_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.706
+            "inference_time": 2.814
         },
         {
             "filename": "001367_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.743
+            "inference_time": 2.771
         },
         {
             "filename": "001367_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.77
+            "inference_time": 2.823
         },
         {
             "filename": "001367_person_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.789
+            "inference_time": 2.816
         },
         {
             "filename": "001367_person_5.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.69
+            "inference_time": 2.763
         },
         {
             "filename": "001367_person_6.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.751
+            "inference_time": 2.797
         },
         {
             "filename": "001385_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.741
+            "inference_time": 2.779
         },
         {
             "filename": "001385_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.701
+            "inference_time": 2.85
         },
         {
             "filename": "001483_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.736
+            "inference_time": 2.77
         },
         {
             "filename": "001518_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.753
+            "inference_time": 2.816
         },
         {
             "filename": "001518_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.705
+            "inference_time": 2.819
         },
         {
             "filename": "001521_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.21
+            "inference_time": 3.353
         },
         {
             "filename": "001523_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.756
+            "inference_time": 2.789
         },
         {
             "filename": "001523_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.765
+            "inference_time": 2.797
         },
         {
             "filename": "part2_000071_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.724
+            "inference_time": 3.692
         },
         {
             "filename": "part2_000071_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 3.164
+            "inference_time": 3.266
         },
         {
             "filename": "part2_000116_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.214
+            "inference_time": 3.314
         },
         {
             "filename": "part2_000116_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.176
+            "inference_time": 3.284
         },
         {
             "filename": "part2_000117_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.193
+            "inference_time": 3.581
         },
         {
             "filename": "part2_000117_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.23
+            "inference_time": 3.297
         },
         {
             "filename": "part2_000117_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.733
+            "inference_time": 2.764
         },
         {
             "filename": "part2_000165_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.734
+            "inference_time": 2.807
         },
         {
             "filename": "part2_000165_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.806
+            "inference_time": 2.841
         },
         {
             "filename": "part2_000181_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.801
+            "inference_time": 2.752
         },
         {
             "filename": "part2_000181_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.775
+            "inference_time": 2.785
         },
         {
             "filename": "part2_000439_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.712
+            "inference_time": 2.791
         },
         {
             "filename": "part2_000439_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.786
+            "inference_time": 2.832
         },
         {
             "filename": "part2_000439_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.756
+            "inference_time": 2.776
         },
         {
             "filename": "part2_000439_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.738
+            "inference_time": 2.781
         },
         {
             "filename": "part2_000489_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.126
+            "inference_time": 3.613
         },
         {
             "filename": "part2_000489_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.774
+            "inference_time": 2.817
         },
         {
             "filename": "part2_000489_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.729
+            "inference_time": 2.797
         },
         {
             "filename": "part2_000489_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.75
+            "inference_time": 2.774
         },
         {
             "filename": "part2_000541_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.709
+            "inference_time": 2.836
         },
         {
             "filename": "part2_000541_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.783
+            "inference_time": 2.795
         },
         {
             "filename": "part2_000672_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.756
+            "inference_time": 2.787
         },
         {
             "filename": "part2_000672_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 3.304
+            "inference_time": 3.546
         },
         {
             "filename": "part2_000699_person_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.756
+            "inference_time": 2.865
         },
         {
             "filename": "part2_000699_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.75
+            "inference_time": 2.774
         },
         {
             "filename": "part2_000699_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.226
+            "inference_time": 3.343
         },
         {
             "filename": "part2_000699_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 3.234
-        },
-        {
-            "filename": "part2_001417_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.773
-        },
-        {
-            "filename": "part2_001417_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.775
-        },
-        {
-            "filename": "part2_001417_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.746
-        },
-        {
-            "filename": "part2_001417_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.722
-        },
-        {
-            "filename": "part2_001553_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.748
-        },
-        {
-            "filename": "part2_001654_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.769
-        },
-        {
-            "filename": "part2_001654_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.772
-        },
-        {
-            "filename": "part2_001654_person_2.jpg",
             "prediction": 1,
             "ground_truth": 0,
             "inference_time": 3.271
         },
         {
-            "filename": "part2_001657_person_0.jpg",
+            "filename": "part2_001417_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 4.666
+            "inference_time": 2.759
         },
         {
-            "filename": "part2_001657_person_1.jpg",
+            "filename": "part2_001417_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.821
+        },
+        {
+            "filename": "part2_001417_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.81
+        },
+        {
+            "filename": "part2_001417_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 4.738
+            "inference_time": 2.81
         },
         {
-            "filename": "part2_001657_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 4.205
-        },
-        {
-            "filename": "part2_001657_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 4.536
-        },
-        {
-            "filename": "part2_001657_person_4.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 4.253
-        },
-        {
-            "filename": "part2_001667_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 3.471
-        },
-        {
-            "filename": "part2_001667_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.725
-        },
-        {
-            "filename": "part2_001667_person_2.jpg",
+            "filename": "part2_001553_person_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.776
         },
         {
+            "filename": "part2_001654_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.85
+        },
+        {
+            "filename": "part2_001654_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.784
+        },
+        {
+            "filename": "part2_001654_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.229
+        },
+        {
+            "filename": "part2_001657_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 5.143
+        },
+        {
+            "filename": "part2_001657_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.75
+        },
+        {
+            "filename": "part2_001657_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.364
+        },
+        {
+            "filename": "part2_001657_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.782
+        },
+        {
+            "filename": "part2_001657_person_4.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.278
+        },
+        {
+            "filename": "part2_001667_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.536
+        },
+        {
+            "filename": "part2_001667_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.747
+        },
+        {
+            "filename": "part2_001667_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.784
+        },
+        {
             "filename": "part2_001667_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.757
+            "inference_time": 2.766
         },
         {
             "filename": "part2_001667_person_4.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.191
+            "inference_time": 3.264
         },
         {
             "filename": "part2_001667_person_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.396
+            "inference_time": 3.597
         },
         {
             "filename": "part2_001667_person_6.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.503
+            "inference_time": 3.559
         },
         {
             "filename": "part2_001952_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.778
+            "inference_time": 2.755
         },
         {
             "filename": "part2_001952_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.768
+            "inference_time": 2.805
         },
         {
             "filename": "part2_001953_person_0.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.438
+            "inference_time": 3.36
         },
         {
             "filename": "part2_001953_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 3.724
+            "inference_time": 3.762
         },
         {
             "filename": "part2_001953_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.285
+            "inference_time": 3.299
         },
         {
             "filename": "part2_001953_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.15
+            "inference_time": 3.462
         },
         {
             "filename": "part2_001953_person_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 3.719
+            "inference_time": 3.762
         }
     ]
 }

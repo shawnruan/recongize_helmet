@@ -6,19 +6,19 @@
     "experiment_type": "crop",
     "total_samples": 246,
     "metrics": {
-        "accuracy": 0.9186991869918699,
-        "precision": 0.9772727272727273,
-        "recall": 0.9148936170212766,
-        "f1_score": 0.945054945054945,
-        "true_positives": 172,
+        "accuracy": 0.9105691056910569,
+        "precision": 0.9770114942528736,
+        "recall": 0.9042553191489362,
+        "f1_score": 0.9392265193370166,
+        "true_positives": 170,
         "false_positives": 4,
-        "false_negatives": 16,
+        "false_negatives": 18,
         "true_negatives": 54
     },
     "timing": {
-        "total_time": 658.378,
-        "total_inference_time": 658.173,
-        "average_inference_time": 2.675,
+        "total_time": 654.922,
+        "total_inference_time": 654.772,
+        "average_inference_time": 2.662,
         "successful_predictions": 246
     },
     "results": [
@@ -26,581 +26,581 @@
             "filename": "000009_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.833
+            "inference_time": 2.728
         },
         {
             "filename": "000009_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.619
+            "inference_time": 2.607
         },
         {
             "filename": "000009_head_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.545
+            "inference_time": 2.595
         },
         {
             "filename": "000009_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.648
+            "inference_time": 2.6
         },
         {
             "filename": "000021_head_6.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.784
+            "inference_time": 2.749
         },
         {
             "filename": "000021_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.574
+            "inference_time": 2.655
         },
         {
             "filename": "000021_helmet_1.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.789
+            "inference_time": 2.689
         },
         {
             "filename": "000021_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.833
+            "inference_time": 2.694
         },
         {
             "filename": "000021_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.898
+            "inference_time": 2.624
         },
         {
             "filename": "000021_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.681
+            "inference_time": 2.672
         },
         {
             "filename": "000021_helmet_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.558
+            "inference_time": 2.69
         },
         {
             "filename": "000046_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.71
+            "inference_time": 2.635
         },
         {
             "filename": "000046_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.775
+            "inference_time": 2.761
         },
         {
             "filename": "000046_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.647
+            "inference_time": 2.614
         },
         {
             "filename": "000053_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.706
+            "inference_time": 2.594
         },
         {
             "filename": "000053_helmet_1.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.593
+            "inference_time": 2.699
         },
         {
             "filename": "000053_helmet_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.686
+            "inference_time": 2.615
         },
         {
             "filename": "000072_helmet_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.558
+            "inference_time": 2.628
         },
         {
             "filename": "000072_helmet_1.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.521
+            "inference_time": 2.671
         },
         {
             "filename": "000072_helmet_2.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.569
+            "inference_time": 2.581
         },
         {
             "filename": "000072_helmet_3.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.791
+            "inference_time": 2.608
         },
         {
             "filename": "000072_helmet_4.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.661
+            "inference_time": 2.77
         },
         {
             "filename": "000086_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.723
+            "inference_time": 2.631
         },
         {
             "filename": "000086_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.648
+            "inference_time": 2.74
         },
         {
             "filename": "000086_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.808
+            "inference_time": 2.672
         },
         {
             "filename": "000110_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.754
+            "inference_time": 2.728
         },
         {
             "filename": "000148_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.624
+            "inference_time": 2.628
         },
         {
             "filename": "000148_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.613
+            "inference_time": 2.645
         },
         {
             "filename": "000150_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.647
+            "inference_time": 2.734
         },
         {
             "filename": "000159_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.77
+            "inference_time": 2.609
         },
         {
             "filename": "000159_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.631
+            "inference_time": 2.662
         },
         {
             "filename": "000181_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.753
+            "inference_time": 2.668
         },
         {
             "filename": "000212_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.621
+            "inference_time": 2.643
         },
         {
             "filename": "000238_helmet_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.557
+            "inference_time": 2.646
         },
         {
             "filename": "000238_helmet_1.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.639
+            "inference_time": 2.674
         },
         {
             "filename": "000238_helmet_2.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.628
+            "inference_time": 2.67
         },
         {
             "filename": "000238_helmet_3.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.721
+            "inference_time": 2.633
         },
         {
             "filename": "000238_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.664
+            "inference_time": 2.845
         },
         {
             "filename": "000262_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.779
+            "inference_time": 2.559
         },
         {
             "filename": "000262_head_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.612
+            "inference_time": 2.603
         },
         {
             "filename": "000262_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.551
+            "inference_time": 2.628
         },
         {
             "filename": "000262_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.609
+            "inference_time": 2.549
         },
         {
             "filename": "000262_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.802
+            "inference_time": 2.819
         },
         {
             "filename": "000262_helmet_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.577
+            "inference_time": 2.637
         },
         {
             "filename": "000262_helmet_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.614
+            "inference_time": 2.562
         },
         {
             "filename": "000262_helmet_7.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.693
+            "inference_time": 2.736
         },
         {
             "filename": "000263_head_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.621
+            "inference_time": 2.66
         },
         {
             "filename": "000263_helmet_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.616
+            "inference_time": 2.58
         },
         {
             "filename": "000263_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.711
+            "inference_time": 2.769
         },
         {
             "filename": "000264_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.726
+            "inference_time": 2.652
         },
         {
             "filename": "000339_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.616
+            "inference_time": 2.604
         },
         {
             "filename": "000339_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.868
+            "inference_time": 2.655
         },
         {
             "filename": "000339_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.562
+            "inference_time": 2.651
         },
         {
             "filename": "000342_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.616
+            "inference_time": 2.666
         },
         {
             "filename": "000342_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.722
+            "inference_time": 2.621
         },
         {
             "filename": "000343_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.645
+            "inference_time": 2.589
         },
         {
             "filename": "000343_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.754
+            "inference_time": 2.783
         },
         {
             "filename": "000343_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.643
+            "inference_time": 2.636
         },
         {
             "filename": "000348_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.819
+            "inference_time": 2.602
         },
         {
             "filename": "000348_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.753
+            "inference_time": 2.698
         },
         {
             "filename": "000348_head_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.63
+            "inference_time": 2.689
         },
         {
             "filename": "000348_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.593
+            "inference_time": 2.589
         },
         {
             "filename": "000351_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.643
+            "inference_time": 2.604
         },
         {
             "filename": "000351_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.653
+            "inference_time": 2.692
         },
         {
             "filename": "000351_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.656
+            "inference_time": 2.696
         },
         {
             "filename": "000352_helmet_0.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.604
+            "inference_time": 2.62
         },
         {
             "filename": "000352_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.636
+            "inference_time": 2.75
         },
         {
             "filename": "000352_helmet_2.jpg",
-            "prediction": 1,
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.837
+            "inference_time": 2.625
         },
         {
             "filename": "000352_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.728
+            "inference_time": 2.579
         },
         {
             "filename": "000352_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.632
+            "inference_time": 2.681
         },
         {
             "filename": "000356_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.587
+            "inference_time": 2.664
         },
         {
             "filename": "000356_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.731
+            "inference_time": 2.652
         },
         {
             "filename": "000399_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.64
+            "inference_time": 2.619
         },
         {
             "filename": "000400_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.631
+            "inference_time": 2.636
         },
         {
             "filename": "000400_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.667
+            "inference_time": 2.763
         },
         {
             "filename": "000400_helmet_2.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.616
+            "inference_time": 2.594
         },
         {
             "filename": "000400_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.505
+            "inference_time": 2.651
         },
         {
             "filename": "000401_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.593
+            "inference_time": 2.728
         },
         {
             "filename": "000401_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.819
+            "inference_time": 2.669
         },
         {
             "filename": "000401_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.652
+            "inference_time": 2.708
         },
         {
             "filename": "000401_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.687
+            "inference_time": 2.601
         },
         {
             "filename": "000405_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.716
+            "inference_time": 2.638
         },
         {
             "filename": "000405_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.698
+            "inference_time": 2.762
         },
         {
             "filename": "000405_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.599
+            "inference_time": 2.656
         },
         {
             "filename": "000408_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.609
+            "inference_time": 2.6
         },
         {
             "filename": "000408_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.628
+            "inference_time": 2.689
         },
         {
             "filename": "000417_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.589
+            "inference_time": 2.647
         },
         {
             "filename": "000417_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.575
+            "inference_time": 2.666
         },
         {
             "filename": "000417_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.635
+            "inference_time": 2.55
         },
         {
             "filename": "000417_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.777
+            "inference_time": 2.861
         },
         {
             "filename": "000417_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.785
+            "inference_time": 2.674
         },
         {
             "filename": "000438_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.637
+            "inference_time": 2.652
         },
         {
             "filename": "000482_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.586
+            "inference_time": 2.602
         },
         {
             "filename": "000482_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.67
+            "inference_time": 2.619
         },
         {
             "filename": "000482_head_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.795
+            "inference_time": 2.637
         },
         {
             "filename": "000482_head_4.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.705
+            "inference_time": 2.751
         },
         {
             "filename": "000482_head_5.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0,
             "inference_time": 2.614
         },
@@ -608,883 +608,883 @@
             "filename": "000482_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.802
+            "inference_time": 2.813
         },
         {
             "filename": "000487_head_7.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.706
+            "inference_time": 2.557
         },
         {
             "filename": "000487_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.662
+            "inference_time": 2.735
         },
         {
             "filename": "000487_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.61
+            "inference_time": 2.714
         },
         {
             "filename": "000487_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.816
+            "inference_time": 2.687
         },
         {
             "filename": "000487_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.638
+            "inference_time": 2.66
         },
         {
             "filename": "000487_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.56
+            "inference_time": 2.644
         },
         {
             "filename": "000487_helmet_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.583
+            "inference_time": 2.73
         },
         {
             "filename": "000487_helmet_6.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.629
+            "inference_time": 2.618
         },
         {
             "filename": "000492_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.792
+            "inference_time": 2.788
         },
         {
             "filename": "000492_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.783
+            "inference_time": 2.669
         },
         {
             "filename": "000505_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.597
+            "inference_time": 2.685
         },
         {
             "filename": "000505_head_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.61
+            "inference_time": 2.649
         },
         {
             "filename": "000505_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.629
+            "inference_time": 2.779
         },
         {
             "filename": "000522_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.69
+            "inference_time": 2.67
         },
         {
             "filename": "000522_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.673
+            "inference_time": 2.679
         },
         {
             "filename": "000601_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.797
+            "inference_time": 2.647
         },
         {
             "filename": "000633_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.597
+            "inference_time": 2.66
         },
         {
             "filename": "000750_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.605
+            "inference_time": 2.564
         },
         {
             "filename": "000750_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.631
+            "inference_time": 2.603
         },
         {
             "filename": "000755_head_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.704
+            "inference_time": 2.652
         },
         {
             "filename": "000755_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.669
+            "inference_time": 2.696
         },
         {
             "filename": "000755_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.72
+            "inference_time": 2.751
         },
         {
             "filename": "000755_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.645
+            "inference_time": 2.664
         },
         {
             "filename": "000756_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.606
+            "inference_time": 2.629
         },
         {
             "filename": "000783_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.626
+            "inference_time": 2.635
         },
         {
             "filename": "000798_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.888
+            "inference_time": 2.581
         },
         {
             "filename": "000816_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.666
+            "inference_time": 2.601
         },
         {
             "filename": "000821_head_0.jpg",
-            "prediction": 0,
+            "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.62
+            "inference_time": 2.574
         },
         {
             "filename": "000821_head_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.626
+            "inference_time": 2.628
         },
         {
             "filename": "000821_head_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.606
+            "inference_time": 2.67
         },
         {
             "filename": "000821_helmet_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.577
-        },
-        {
-            "filename": "000821_helmet_4.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.74
-        },
-        {
-            "filename": "000821_helmet_5.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.706
-        },
-        {
-            "filename": "000823_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
             "inference_time": 2.664
         },
         {
-            "filename": "000957_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.634
-        },
-        {
-            "filename": "000957_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.752
-        },
-        {
-            "filename": "000976_helmet_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.699
-        },
-        {
-            "filename": "000976_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.629
-        },
-        {
-            "filename": "000976_helmet_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.618
-        },
-        {
-            "filename": "000976_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.677
-        },
-        {
-            "filename": "000976_helmet_4.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.689
-        },
-        {
-            "filename": "000976_helmet_5.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.668
-        },
-        {
-            "filename": "000976_helmet_6.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.654
-        },
-        {
-            "filename": "000976_helmet_7.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.63
-        },
-        {
-            "filename": "000984_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.624
-        },
-        {
-            "filename": "000984_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.625
-        },
-        {
-            "filename": "000984_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.616
-        },
-        {
-            "filename": "000986_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.619
-        },
-        {
-            "filename": "000986_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.624
-        },
-        {
-            "filename": "000986_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.783
-        },
-        {
-            "filename": "000986_head_3.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.627
-        },
-        {
-            "filename": "000986_head_4.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.663
-        },
-        {
-            "filename": "000986_helmet_5.jpg",
+            "filename": "000821_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.675
         },
         {
-            "filename": "000986_helmet_6.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.815
-        },
-        {
-            "filename": "000986_helmet_7.jpg",
+            "filename": "000821_helmet_5.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.7
+            "inference_time": 2.748
         },
         {
-            "filename": "000986_helmet_8.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.595
-        },
-        {
-            "filename": "000992_helmet_0.jpg",
+            "filename": "000823_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.63
+            "inference_time": 2.624
         },
         {
-            "filename": "000992_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.828
-        },
-        {
-            "filename": "001069_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.676
-        },
-        {
-            "filename": "001069_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.631
-        },
-        {
-            "filename": "001069_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.634
-        },
-        {
-            "filename": "001070_head_0.jpg",
+            "filename": "000957_head_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.821
+            "inference_time": 2.619
         },
         {
-            "filename": "001070_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.636
-        },
-        {
-            "filename": "001070_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.532
-        },
-        {
-            "filename": "001070_helmet_3.jpg",
+            "filename": "000957_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.632
+            "inference_time": 2.687
         },
         {
-            "filename": "001089_head_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.722
-        },
-        {
-            "filename": "001089_helmet_0.jpg",
+            "filename": "000976_helmet_0.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.636
+            "inference_time": 2.714
         },
         {
-            "filename": "001089_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.662
-        },
-        {
-            "filename": "001089_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.693
-        },
-        {
-            "filename": "001091_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.646
-        },
-        {
-            "filename": "001091_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.623
-        },
-        {
-            "filename": "001091_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.61
-        },
-        {
-            "filename": "001091_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.602
-        },
-        {
-            "filename": "001097_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.804
-        },
-        {
-            "filename": "001142_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.76
-        },
-        {
-            "filename": "001142_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.658
-        },
-        {
-            "filename": "001351_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.746
-        },
-        {
-            "filename": "001351_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.654
-        },
-        {
-            "filename": "001351_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.725
-        },
-        {
-            "filename": "001367_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.658
-        },
-        {
-            "filename": "001367_head_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.656
-        },
-        {
-            "filename": "001367_head_4.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.698
-        },
-        {
-            "filename": "001367_head_5.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.612
-        },
-        {
-            "filename": "001367_head_6.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.655
-        },
-        {
-            "filename": "001367_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.785
-        },
-        {
-            "filename": "001367_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.554
-        },
-        {
-            "filename": "001385_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.582
-        },
-        {
-            "filename": "001385_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.692
-        },
-        {
-            "filename": "001483_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.727
-        },
-        {
-            "filename": "001518_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.598
-        },
-        {
-            "filename": "001518_helmet_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.755
-        },
-        {
-            "filename": "001521_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.611
-        },
-        {
-            "filename": "001523_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.766
-        },
-        {
-            "filename": "001523_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.716
-        },
-        {
-            "filename": "part2_000071_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.71
-        },
-        {
-            "filename": "part2_000071_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.64
-        },
-        {
-            "filename": "part2_000116_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.582
-        },
-        {
-            "filename": "part2_000116_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.59
-        },
-        {
-            "filename": "part2_000117_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.814
-        },
-        {
-            "filename": "part2_000117_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.686
-        },
-        {
-            "filename": "part2_000117_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.651
-        },
-        {
-            "filename": "part2_000165_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.67
-        },
-        {
-            "filename": "part2_000165_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.726
-        },
-        {
-            "filename": "part2_000181_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.638
-        },
-        {
-            "filename": "part2_000181_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.595
-        },
-        {
-            "filename": "part2_000439_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.649
-        },
-        {
-            "filename": "part2_000439_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.681
-        },
-        {
-            "filename": "part2_000439_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.656
-        },
-        {
-            "filename": "part2_000439_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.772
-        },
-        {
-            "filename": "part2_000489_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.627
-        },
-        {
-            "filename": "part2_000489_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.635
-        },
-        {
-            "filename": "part2_000489_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.557
-        },
-        {
-            "filename": "part2_000489_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.618
-        },
-        {
-            "filename": "part2_000541_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.738
-        },
-        {
-            "filename": "part2_000541_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.694
-        },
-        {
-            "filename": "part2_000672_head_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.708
-        },
-        {
-            "filename": "part2_000672_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.68
-        },
-        {
-            "filename": "part2_000699_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.715
-        },
-        {
-            "filename": "part2_000699_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.636
-        },
-        {
-            "filename": "part2_000699_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.586
-        },
-        {
-            "filename": "part2_000699_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.662
-        },
-        {
-            "filename": "part2_001417_head_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.551
-        },
-        {
-            "filename": "part2_001417_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.597
-        },
-        {
-            "filename": "part2_001417_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.605
-        },
-        {
-            "filename": "part2_001417_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.635
-        },
-        {
-            "filename": "part2_001553_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.689
-        },
-        {
-            "filename": "part2_001654_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.729
-        },
-        {
-            "filename": "part2_001654_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.681
-        },
-        {
-            "filename": "part2_001654_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.671
-        },
-        {
-            "filename": "part2_001657_head_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 3.323
-        },
-        {
-            "filename": "part2_001657_head_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.645
-        },
-        {
-            "filename": "part2_001657_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 3.34
-        },
-        {
-            "filename": "part2_001657_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.601
-        },
-        {
-            "filename": "part2_001657_helmet_4.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 3.275
-        },
-        {
-            "filename": "part2_001667_helmet_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.635
-        },
-        {
-            "filename": "part2_001667_helmet_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.583
-        },
-        {
-            "filename": "part2_001667_helmet_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.703
-        },
-        {
-            "filename": "part2_001667_helmet_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.699
-        },
-        {
-            "filename": "part2_001667_helmet_4.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.684
-        },
-        {
-            "filename": "part2_001667_helmet_5.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.685
-        },
-        {
-            "filename": "part2_001667_helmet_6.jpg",
+            "filename": "000976_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.616
         },
         {
-            "filename": "part2_001952_helmet_0.jpg",
-            "prediction": 1,
+            "filename": "000976_helmet_2.jpg",
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.619
+            "inference_time": 2.747
         },
         {
-            "filename": "part2_001952_helmet_1.jpg",
+            "filename": "000976_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.74
+        },
+        {
+            "filename": "000976_helmet_4.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.655
+        },
+        {
+            "filename": "000976_helmet_5.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.688
+        },
+        {
+            "filename": "000976_helmet_6.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.63
+        },
+        {
+            "filename": "000976_helmet_7.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.6
+        },
+        {
+            "filename": "000984_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.658
+        },
+        {
+            "filename": "000984_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.626
+        },
+        {
+            "filename": "000984_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.598
+        },
+        {
+            "filename": "000986_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.587
+        },
+        {
+            "filename": "000986_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.637
+        },
+        {
+            "filename": "000986_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.613
+        },
+        {
+            "filename": "000986_head_3.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.735
+        },
+        {
+            "filename": "000986_head_4.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.615
+        },
+        {
+            "filename": "000986_helmet_5.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.74
+        },
+        {
+            "filename": "000986_helmet_6.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.661
+        },
+        {
+            "filename": "000986_helmet_7.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.601
+        },
+        {
+            "filename": "000986_helmet_8.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.615
+        },
+        {
+            "filename": "000992_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.734
+        },
+        {
+            "filename": "000992_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.624
+        },
+        {
+            "filename": "001069_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.663
+        },
+        {
+            "filename": "001069_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.577
+        },
+        {
+            "filename": "001069_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.595
         },
         {
-            "filename": "part2_001953_helmet_0.jpg",
+            "filename": "001070_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.6
+        },
+        {
+            "filename": "001070_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.737
+        },
+        {
+            "filename": "001070_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.621
+        },
+        {
+            "filename": "001070_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.615
+        },
+        {
+            "filename": "001089_head_3.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.603
+        },
+        {
+            "filename": "001089_helmet_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 2.572
+        },
+        {
+            "filename": "001089_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.597
+        },
+        {
+            "filename": "001089_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.657
+        },
+        {
+            "filename": "001091_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.607
+        },
+        {
+            "filename": "001091_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.763
+        },
+        {
+            "filename": "001091_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.64
+        },
+        {
+            "filename": "001091_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.727
+        },
+        {
+            "filename": "001097_helmet_0.jpg",
             "prediction": 1,
             "ground_truth": 1,
             "inference_time": 2.659
         },
         {
+            "filename": "001142_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.677
+        },
+        {
+            "filename": "001142_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.665
+        },
+        {
+            "filename": "001351_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.628
+        },
+        {
+            "filename": "001351_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.561
+        },
+        {
+            "filename": "001351_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.639
+        },
+        {
+            "filename": "001367_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.625
+        },
+        {
+            "filename": "001367_head_3.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.664
+        },
+        {
+            "filename": "001367_head_4.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.649
+        },
+        {
+            "filename": "001367_head_5.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.661
+        },
+        {
+            "filename": "001367_head_6.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.69
+        },
+        {
+            "filename": "001367_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.675
+        },
+        {
+            "filename": "001367_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.622
+        },
+        {
+            "filename": "001385_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.613
+        },
+        {
+            "filename": "001385_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.68
+        },
+        {
+            "filename": "001483_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.634
+        },
+        {
+            "filename": "001518_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.603
+        },
+        {
+            "filename": "001518_helmet_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 2.602
+        },
+        {
+            "filename": "001521_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.642
+        },
+        {
+            "filename": "001523_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.636
+        },
+        {
+            "filename": "001523_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.697
+        },
+        {
+            "filename": "part2_000071_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.628
+        },
+        {
+            "filename": "part2_000071_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.656
+        },
+        {
+            "filename": "part2_000116_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.567
+        },
+        {
+            "filename": "part2_000116_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.638
+        },
+        {
+            "filename": "part2_000117_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.678
+        },
+        {
+            "filename": "part2_000117_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.683
+        },
+        {
+            "filename": "part2_000117_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.619
+        },
+        {
+            "filename": "part2_000165_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.823
+        },
+        {
+            "filename": "part2_000165_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.584
+        },
+        {
+            "filename": "part2_000181_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.597
+        },
+        {
+            "filename": "part2_000181_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.594
+        },
+        {
+            "filename": "part2_000439_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.686
+        },
+        {
+            "filename": "part2_000439_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.715
+        },
+        {
+            "filename": "part2_000439_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.621
+        },
+        {
+            "filename": "part2_000439_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.671
+        },
+        {
+            "filename": "part2_000489_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.681
+        },
+        {
+            "filename": "part2_000489_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.594
+        },
+        {
+            "filename": "part2_000489_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.567
+        },
+        {
+            "filename": "part2_000489_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.675
+        },
+        {
+            "filename": "part2_000541_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.617
+        },
+        {
+            "filename": "part2_000541_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.664
+        },
+        {
+            "filename": "part2_000672_head_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 2.668
+        },
+        {
+            "filename": "part2_000672_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.813
+        },
+        {
+            "filename": "part2_000699_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.604
+        },
+        {
+            "filename": "part2_000699_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.614
+        },
+        {
+            "filename": "part2_000699_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.602
+        },
+        {
+            "filename": "part2_000699_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.727
+        },
+        {
+            "filename": "part2_001417_head_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.702
+        },
+        {
+            "filename": "part2_001417_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.728
+        },
+        {
+            "filename": "part2_001417_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.612
+        },
+        {
+            "filename": "part2_001417_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.685
+        },
+        {
+            "filename": "part2_001553_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.741
+        },
+        {
+            "filename": "part2_001654_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.562
+        },
+        {
+            "filename": "part2_001654_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.602
+        },
+        {
+            "filename": "part2_001654_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.773
+        },
+        {
+            "filename": "part2_001657_head_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.163
+        },
+        {
+            "filename": "part2_001657_head_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 2.636
+        },
+        {
+            "filename": "part2_001657_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.206
+        },
+        {
+            "filename": "part2_001657_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.636
+        },
+        {
+            "filename": "part2_001657_helmet_4.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.033
+        },
+        {
+            "filename": "part2_001667_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.59
+        },
+        {
+            "filename": "part2_001667_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.646
+        },
+        {
+            "filename": "part2_001667_helmet_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.702
+        },
+        {
+            "filename": "part2_001667_helmet_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.624
+        },
+        {
+            "filename": "part2_001667_helmet_4.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.604
+        },
+        {
+            "filename": "part2_001667_helmet_5.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.591
+        },
+        {
+            "filename": "part2_001667_helmet_6.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.578
+        },
+        {
+            "filename": "part2_001952_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.657
+        },
+        {
+            "filename": "part2_001952_helmet_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.698
+        },
+        {
+            "filename": "part2_001953_helmet_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 2.652
+        },
+        {
             "filename": "part2_001953_helmet_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.668
+            "inference_time": 2.619
         },
         {
             "filename": "part2_001953_helmet_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.661
+            "inference_time": 2.708
         },
         {
             "filename": "part2_001953_helmet_3.jpg",
@@ -1496,7 +1496,7 @@
             "filename": "part2_001953_helmet_4.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.725
+            "inference_time": 2.644
         }
     ]
 }
