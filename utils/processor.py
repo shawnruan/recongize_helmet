@@ -5,6 +5,8 @@ from utils.data_loader import load_images_and_annotations, load_full_image_and_a
 from utils.api import call_api
 from utils.metrics import calculate_metrics
 from utils.helpers import get_output_file_path
+from utils.visualization import plot_score_distribution
+from config import BINARY_THRESHOLD
 
 def process_dataset(base_dir, category, output_prefix, prompt_file, model, experiment_type="crop"):
     """处理单个数据集的单个类别"""
@@ -16,7 +18,7 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     print(f"使用提示词配置: {prompt_file}")
     print(f"实验类型: {experiment_type}")
     
-    if experiment_type == "crop":
+    if experiment_type in ["crop", "binary"]:
         image_paths = load_images_and_annotations(base_dir, category)
     else:
         image_paths = load_full_image_and_annotation(base_dir)
@@ -49,6 +51,30 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
                     "ground_truth": annotation['class'],
                     "inference_time": inference_time
                 })
+        elif experiment_type == "binary":
+            prediction = call_api(image_path, prompt_file, model, experiment_type)
+            if prediction:
+                predictions.append(prediction)
+                ground_truths.append(annotation)
+                
+                # 记录推理时间
+                inference_time = prediction.get('inference_time', 0)
+                total_inference_time += inference_time
+                successful_predictions += 1
+                
+                # 获取概率值和基于阈值的分类结果
+                prob_value = prediction.get('helmet_probability', 0)
+                original_score = prediction.get('helmet_score', 0)
+                binary_result = 1 if prob_value >= BINARY_THRESHOLD else 0
+                
+                results.append({
+                    "filename": os.path.basename(image_path),
+                    "score": original_score,  # 原始分数 (1-100)
+                    "probability": prob_value,  # 转换后的概率 (0.01-1.0)
+                    "binary_prediction": binary_result,
+                    "ground_truth": annotation['class'],
+                    "inference_time": inference_time
+                })
         else:
             # 对于完整图片实验，需要先读取标注
             true_counts = read_annotations(annotation)  # annotation 实际上是 txt_path
@@ -72,7 +98,16 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
         
         if prediction:
             print(f"预测结果: {prediction}")
-            print(f"真实标注: {annotation if experiment_type == 'crop' else true_counts}")
+            
+            # 对于二分类实验，额外显示概率信息
+            if experiment_type == "binary":
+                score = prediction.get('helmet_score', 0)
+                prob = prediction.get('helmet_probability', 0)
+                threshold = BINARY_THRESHOLD
+                binary_result = 1 if prob >= threshold else 0
+                print(f"分数: {score}/100，概率: {prob:.2f}，阈值: {threshold}，结果: {'戴安全帽' if binary_result == 1 else '未戴安全帽'}")
+                
+            print(f"真实标注: {annotation if experiment_type in ['crop', 'binary'] else true_counts}")
             print(f"推理时间: {prediction.get('inference_time', 0):.3f}秒")
         else:
             print(f"跳过 {image_path} - 预测失败")
@@ -114,8 +149,24 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     with open(output_file, 'w') as f:
         json.dump(report, f, indent=4)
     
+    # 如果是二分类实验，生成分数分布图
+    if experiment_type == "binary" and results:
+        prompt_basename = os.path.basename(prompt_file)
+        plot_paths = plot_score_distribution(
+            results, 
+            base_dir, 
+            category, 
+            model, 
+            prompt_basename, 
+            experiment_type
+        )
+        
+        if plot_paths:
+            # 将分布图路径添加到报告中
+            report["distribution_plots"] = plot_paths
+    
     # 打印摘要
-    print(f"\n=== {base_dir} - {category if experiment_type == 'crop' else 'full_image'} 验证报告 ===")
+    print(f"\n=== {base_dir} - {category if experiment_type in ['crop', 'binary'] else 'full_image'} 验证报告 ===")
     print(f"模型: {model}")
     print(f"提示词配置: {prompt_file}")
     print(f"实验类型: {experiment_type}")
@@ -124,11 +175,13 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
     print(f"总推理时间: {total_inference_time:.3f}秒")
     print(f"平均推理时间: {avg_inference_time:.3f}秒/张")
     
-    if experiment_type == "crop":
+    if experiment_type in ["crop", "binary"]:
         print(f"Accuracy:  {metrics['accuracy']*100:.2f}%")
         print(f"Precision: {metrics['precision']*100:.2f}%")
         print(f"Recall:    {metrics['recall']*100:.2f}%")
         print(f"F1 Score:  {metrics['f1_score']*100:.2f}%")
+        if experiment_type == "binary":
+            print(f"分类阈值: {metrics['threshold']}")
     else:
         for class_name, class_metrics in metrics.items():
             print(f"\n{class_name.upper()} 类别指标:")

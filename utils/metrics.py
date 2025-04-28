@@ -2,6 +2,8 @@ def calculate_metrics(predictions, ground_truths, experiment_type="crop"):
     """计算指标"""
     if experiment_type == "crop":
         return calculate_crop_metrics(predictions, ground_truths)
+    elif experiment_type == "binary":
+        return calculate_binary_metrics(predictions, ground_truths)
     else:
         return calculate_count_metrics(predictions, ground_truths)
 
@@ -95,4 +97,44 @@ def calculate_count_metrics(predictions, ground_truths):
             "true_negatives": tn
         }
     
-    return metrics 
+    return metrics
+
+def calculate_binary_metrics(predictions, ground_truths):
+    """计算二分类实验的指标"""
+    from config import BINARY_THRESHOLD
+    
+    tp = fp = fn = tn = 0
+    
+    for pred, truth in zip(predictions, ground_truths):
+        # 获取预测概率值，并根据阈值转换为二分类结果
+        pred_probability = pred.get('helmet_probability', 0)
+        pred_value = 1 if pred_probability >= BINARY_THRESHOLD else 0
+        true_value = truth.get('class', 0)
+        
+        if pred_value == 1 and true_value == 1:
+            tp += 1
+        elif pred_value == 1 and true_value == 0:
+            fp += 1
+        elif pred_value == 0 and true_value == 1:
+            fn += 1
+        else:  # pred_value == 0 and true_value == 0
+            tn += 1
+    
+    # 计算指标
+    total = tp + tn + fp + fn
+    accuracy = (tp + tn) / total if total > 0 else 0
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    
+    return {
+        "accuracy": accuracy,
+        "precision": precision,
+        "recall": recall,
+        "f1_score": f1_score,
+        "true_positives": tp,
+        "false_positives": fp,
+        "false_negatives": fn,
+        "true_negatives": tn,
+        "threshold": BINARY_THRESHOLD
+    } 

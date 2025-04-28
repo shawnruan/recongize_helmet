@@ -28,8 +28,8 @@ def main():
                 
                 # 处理每个数据集
                 for dataset in exp_config["datasets"]:
-                    if exp_type == "crop":
-                        # 对于裁剪图片实验，需要处理每个类别
+                    if exp_type in ["crop", "binary"]:
+                        # 对于裁剪图片实验和二分类实验，需要处理每个类别
                         for category in exp_config["categories"]:
                             report = process_dataset(
                                 dataset, 

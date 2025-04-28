@@ -32,6 +32,25 @@ def validate_prediction(prediction, experiment_type="crop"):
         if 'helmet' in prediction and prediction['helmet'] not in [0, 1]:
             print(f"警告: 异常的helmet值: {prediction['helmet']}，将被修正为二进制值")
             prediction['helmet'] = 1 if prediction['helmet'] > 0.5 else 0
+    elif experiment_type == "binary":
+        # 对于二分类实验，helmet_score值应该在1到100之间
+        if 'helmet_score' in prediction:
+            try:
+                score_value = int(prediction['helmet_score'])
+                # 确保分数在1到100之间
+                if score_value < 1 or score_value > 100:
+                    print(f"警告: 异常的helmet_score值: {score_value}，将被限制在1到100之间")
+                    prediction['helmet_score'] = max(1, min(score_value, 100))
+                else:
+                    prediction['helmet_score'] = score_value
+                
+                # 将分数转换为概率值 (1-100 -> 0.01-1.0)
+                prediction['helmet_probability'] = prediction['helmet_score'] / 100.0
+                
+            except (ValueError, TypeError):
+                print(f"警告: 无法将helmet_score值转换为整数: {prediction['helmet_score']}，将被设置为1")
+                prediction['helmet_score'] = 1
+                prediction['helmet_probability'] = 0.01  # 设置最小概率
     else:
         # 对于数量统计实验，检查各计数值是否合理
         for field in ['head', 'helmet', 'person']:
