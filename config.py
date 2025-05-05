@@ -10,7 +10,7 @@ MODELS = [
     # "deepseek-r1:7b",
     # "deepseek-r1:32b",
     # "gemma3:27b",
-    # "gemma3:12b"
+    #"gemma3:12b"
     #"qwen-7b",
     #"qwen2.5-vl-72b",
     
@@ -18,7 +18,7 @@ MODELS = [
 
 # 提示词配置文件
 CROP_PROMPT_CONFIGS = [
-    # "prompts/test-prompts.md",
+    #"prompts/test-prompts.md",
     # "prompts/test-prompts-en.md"
 ]
 
@@ -29,11 +29,12 @@ COUNT_PROMPT_CONFIGS = [
 
 # 二分类实验的提示词配置
 BINARY_PROMPT_CONFIGS = [
-    "prompts/helmet-probability-prompt.md"
+    "prompts/helmet-probability-prompt.md",
+    #"prompts/helmet-detailed-scoring.md"
 ]
 
 # 二分类实验的阈值设置
-BINARY_THRESHOLD = 0.5
+BINARY_THRESHOLD = 0.6
 
 # 裁剪图片数据集配置
 DATASETS = [
