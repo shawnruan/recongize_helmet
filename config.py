@@ -20,6 +20,7 @@ MODELS = [
 CROP_PROMPT_CONFIGS = [
     #"prompts/test-prompts.md",
     # "prompts/test-prompts-en.md"
+    "prompts/helmet-with-detect.md"
 ]
 
 COUNT_PROMPT_CONFIGS = [
@@ -29,17 +30,18 @@ COUNT_PROMPT_CONFIGS = [
 
 # 二分类实验的提示词配置
 BINARY_PROMPT_CONFIGS = [
-    "prompts/helmet-probability-prompt.md",
+    #"prompts/helmet-probability-prompt.md",
+    #"prompts/helmet-probability-detect.md"
     #"prompts/helmet-detailed-scoring.md"
 ]
 
 # 二分类实验的阈值设置
-BINARY_THRESHOLD = 0.6
+BINARY_THRESHOLD = 0.5
 
 # 裁剪图片数据集配置
 DATASETS = [
     "dataset/helmet_sample_output_crops",
-    "dataset/lng_output_crops"
+    #"dataset/lng_output_crops"
 ]
 
 # 完整图片数据集配置

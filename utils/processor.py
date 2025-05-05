@@ -62,15 +62,27 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
                 total_inference_time += inference_time
                 successful_predictions += 1
                 
-                # 获取概率值和基于阈值的分类结果
-                prob_value = prediction.get('helmet_probability', 0)
-                original_score = prediction.get('helmet_score', 0)
+                # 获取详细分数并计算总分
+                detailed_scores = prediction.get('detailed_scores', {})
+                if detailed_scores:
+                    # 如果存在详细分数，则将其相加作为总分
+                    calculated_score = sum(detailed_scores.values())
+                    # 更新 helmet_score 以确保其为详细分数的总和
+                    prediction['helmet_score'] = calculated_score
+                    # 计算概率值 (将分数转换为0.01-1.0范围)
+                    prob_value = calculated_score / 100.0
+                    prediction['helmet_probability'] = prob_value
+                else:
+                    # 如果没有详细分数，则使用原始分数
+                    original_score = prediction.get('helmet_score', 0)
+                    prob_value = prediction.get('helmet_probability', original_score / 100.0)
+                
                 binary_result = 1 if prob_value >= BINARY_THRESHOLD else 0
                 
                 results.append({
                     "filename": os.path.basename(image_path),
-                    "score": original_score,  # 原始分数 (1-100)
-                    "probability": prob_value,  # 转换后的概率 (0.01-1.0)
+                    "score": prediction.get('helmet_score', 0),  # 更新后的总分
+                    "probability": prob_value,  # 更新后的概率值
                     "binary_prediction": binary_result,
                     "ground_truth": annotation['class'],
                     "inference_time": inference_time
