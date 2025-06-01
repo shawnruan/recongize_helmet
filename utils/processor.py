@@ -192,6 +192,20 @@ def process_dataset(base_dir, category, output_prefix, prompt_file, model, exper
         print(f"Precision: {metrics['precision']*100:.2f}%")
         print(f"Recall:    {metrics['recall']*100:.2f}%")
         print(f"F1 Score:  {metrics['f1_score']*100:.2f}%")
+        
+        # 对于crop实验，显示详细的类别指标和F1_macro
+        if experiment_type == "crop":
+            print(f"\n=== 详细类别指标 ===")
+            print(f"Head类别:")
+            print(f"  Precision: {metrics['head_precision']*100:.2f}%")
+            print(f"  Recall:    {metrics['head_recall']*100:.2f}%")
+            print(f"  F1 Score:  {metrics['head_f1']*100:.2f}%")
+            print(f"Helmet类别:")
+            print(f"  Precision: {metrics['helmet_precision']*100:.2f}%")
+            print(f"  Recall:    {metrics['helmet_recall']*100:.2f}%")
+            print(f"  F1 Score:  {metrics['helmet_f1']*100:.2f}%")
+            print(f"\nF1 Macro:  {metrics['f1_macro']*100:.2f}%")
+        
         if experiment_type == "binary":
             print(f"分类阈值: {metrics['threshold']}")
     else:

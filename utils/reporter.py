@@ -48,6 +48,9 @@ def generate_summary_report(all_reports, experiment_types):
     # 计算平均推理时间
     avg_inference_time = total_inference_time / total_samples if total_samples > 0 else 0
     
+    # 生成F1_macro汇总分析（仅针对crop实验）
+    f1_macro_summary = generate_f1_macro_summary(all_reports)
+    
     # 创建汇总报告
     report = {
         "timestamp": datetime.datetime.now().isoformat(),
@@ -65,6 +68,7 @@ def generate_summary_report(all_reports, experiment_types):
             "total_samples": total_samples,
             "average_inference_time": round(avg_inference_time, 3)
         },
+        "f1_macro_summary": f1_macro_summary,
         "distribution_plots": distribution_plots if distribution_plots else None,
         "reports": summary_reports  # 使用不含 results 字段的报告列表
     }
@@ -82,4 +86,141 @@ def generate_summary_report(all_reports, experiment_types):
     print(f"总样本数: {total_samples}")
     print(f"平均推理时间: {avg_inference_time:.3f}秒/张")
     
-    return summary_report_path 
+    # 打印F1_macro汇总分析
+    if f1_macro_summary:
+        print_f1_macro_summary(f1_macro_summary)
+    
+    return summary_report_path
+
+def generate_f1_macro_summary(all_reports):
+    """生成F1_macro汇总分析"""
+    # 只处理crop实验的报告
+    crop_reports = [r for r in all_reports if r.get('experiment_type') == 'crop']
+    
+    if not crop_reports:
+        return None
+    
+    # 数据结构：{dataset_name: {prompt_type: [f1_macro_values]}}
+    dataset_scores = {}
+    # 数据结构：{model: {prompt_type: [f1_macro_values]}}
+    model_scores = {}
+    
+    for report in crop_reports:
+        # 获取基本信息
+        dataset_base = os.path.basename(report['dataset'])
+        category = report.get('category', '')
+        model = report['model']
+        prompt_file = report['prompt_file']
+        
+        # 确定数据集名称
+        if 'helmet_sample' in dataset_base or 'sample' in dataset_base:
+            dataset_prefix = 'sample'
+        elif 'lng' in dataset_base:
+            dataset_prefix = 'lng'
+        else:
+            dataset_prefix = dataset_base
+        
+        dataset_name = f"{dataset_prefix}_{category}"
+        
+        # 确定提示词类型
+        if 'test-prompts-en.md' in prompt_file:
+            prompt_type = 'english'
+        elif 'test-prompts.md' in prompt_file:
+            prompt_type = 'chinese'
+        else:
+            prompt_type = 'other'
+        
+        # 获取F1_macro值
+        f1_macro = report.get('metrics', {}).get('f1_macro', 0)
+        
+        # 存储数据集分数
+        if dataset_name not in dataset_scores:
+            dataset_scores[dataset_name] = {}
+        if prompt_type not in dataset_scores[dataset_name]:
+            dataset_scores[dataset_name][prompt_type] = []
+        dataset_scores[dataset_name][prompt_type].append(f1_macro)
+        
+        # 存储模型分数
+        if model not in model_scores:
+            model_scores[model] = {}
+        if prompt_type not in model_scores[model]:
+            model_scores[model][prompt_type] = []
+        model_scores[model][prompt_type].append(f1_macro)
+    
+    # 计算平均值
+    dataset_averages = {}
+    for dataset, scores in dataset_scores.items():
+        dataset_averages[dataset] = {}
+        for prompt_type, values in scores.items():
+            dataset_averages[dataset][prompt_type] = sum(values) / len(values) if values else 0
+        
+        # 计算数据集总平均值
+        all_values = []
+        for prompt_type in ['chinese', 'english']:
+            if prompt_type in dataset_averages[dataset]:
+                all_values.append(dataset_averages[dataset][prompt_type])
+        dataset_averages[dataset]['average'] = sum(all_values) / len(all_values) if all_values else 0
+    
+    model_averages = {}
+    for model, scores in model_scores.items():
+        model_averages[model] = {}
+        for prompt_type, values in scores.items():
+            model_averages[model][prompt_type] = sum(values) / len(values) if values else 0
+    
+    return {
+        'dataset_scores': dataset_averages,
+        'model_scores': model_averages
+    }
+
+def print_f1_macro_summary(f1_macro_summary):
+    """打印F1_macro汇总分析"""
+    if not f1_macro_summary:
+        return
+    
+    print("\n" + "="*80)
+    print("### Model Performance Summary - Head Positive")
+    print("="*80)
+    
+    # 打印数据集F1_macro分数表格
+    print("\n#### Final F1 Macro Scores by Dataset")
+    print()
+    print("| Dataset            | Chinese Prompts | English Prompts | Dataset Average |")
+    print("| ------------------ | --------------- | --------------- | --------------- |")
+    
+    dataset_scores = f1_macro_summary['dataset_scores']
+    
+    # 按数据集名称排序
+    sorted_datasets = sorted(dataset_scores.keys())
+    for dataset in sorted_datasets:
+        scores = dataset_scores[dataset]
+        chinese_score = scores.get('chinese', 0) * 100
+        english_score = scores.get('english', 0) * 100
+        avg_score = scores.get('average', 0) * 100
+        
+        print(f"| {dataset:<18} | {chinese_score:>13.2f}% | {english_score:>13.2f}% | {avg_score:>13.2f}% |")
+    
+    # 打印模型最终分数表格
+    print("\n#### Model Final Scores (Average across all datasets and prompts)")
+    print()
+    print("| Model           | Chinese F1_Macro | English F1_Macro |")
+    print("| --------------- | ---------------- | ---------------- |")
+    
+    model_scores = f1_macro_summary['model_scores']
+    
+    # 按模型名称排序
+    sorted_models = sorted(model_scores.keys())
+    for model in sorted_models:
+        scores = model_scores[model]
+        chinese_score = scores.get('chinese', 0) * 100
+        english_score = scores.get('english', 0) * 100
+        
+        # 添加最高分标记
+        chinese_mark = "**" if chinese_score == max([model_scores[m].get('chinese', 0) * 100 for m in model_scores]) else ""
+        english_mark = "**" if english_score == max([model_scores[m].get('english', 0) * 100 for m in model_scores]) else ""
+        
+        chinese_display = f"{chinese_mark}{chinese_score:.2f}%{chinese_mark}" if chinese_mark else f"{chinese_score:.2f}%"
+        english_display = f"{english_mark}{english_score:.2f}%{english_mark}" if english_mark else f"{english_score:.2f}%"
+        
+        print(f"| {model:<15} | {chinese_display:>16} | {english_display:>16} |")
+    
+    print("\n" + "="*80) 

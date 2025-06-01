@@ -24,18 +24,35 @@ def calculate_crop_metrics(predictions, ground_truths):
         else:  # pred_value == 0 and true_value == 0
             tn += 1
     
-    # 计算指标
+    # 计算总体指标
     total = tp + tn + fp + fn
     accuracy = (tp + tn) / total if total > 0 else 0
-    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    
+    # 计算Helmet类别（正类）的指标
+    helmet_precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    helmet_recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    helmet_f1 = 2 * (helmet_precision * helmet_recall) / (helmet_precision + helmet_recall) if (helmet_precision + helmet_recall) > 0 else 0
+    
+    # 计算Head类别（负类）的指标
+    head_precision = tn / (tn + fn) if (tn + fn) > 0 else 0
+    head_recall = tn / (tn + fp) if (tn + fp) > 0 else 0
+    head_f1 = 2 * (head_precision * head_recall) / (head_precision + head_recall) if (head_precision + head_recall) > 0 else 0
+    
+    # 计算F1_macro（两个类别F1的平均值）
+    f1_macro = (helmet_f1 + head_f1) / 2
     
     return {
         "accuracy": accuracy,
-        "precision": precision,
-        "recall": recall,
-        "f1_score": f1_score,
+        "precision": helmet_precision,  # 保持原有的precision（helmet类别）
+        "recall": helmet_recall,        # 保持原有的recall（helmet类别）
+        "f1_score": helmet_f1,         # 保持原有的f1_score（helmet类别）
+        "helmet_precision": helmet_precision,
+        "helmet_recall": helmet_recall,
+        "helmet_f1": helmet_f1,
+        "head_precision": head_precision,
+        "head_recall": head_recall,
+        "head_f1": head_f1,
+        "f1_macro": f1_macro,
         "true_positives": tp,
         "false_positives": fp,
         "false_negatives": fn,
