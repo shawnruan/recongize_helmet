@@ -40,16 +40,6 @@
         ]
     },
     {
-        "filename": "2_2#20250108_720_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            604,
-            58,
-            617,
-            75
-        ]
-    },
-    {
         "filename": "55859_helmet_0.jpg",
         "class": 1,
         "bbox": [
@@ -510,46 +500,6 @@
         ]
     },
     {
-        "filename": "55795_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            328,
-            335,
-            338,
-            348
-        ]
-    },
-    {
-        "filename": "55795_helmet_1.jpg",
-        "class": 1,
-        "bbox": [
-            400,
-            377,
-            411,
-            393
-        ]
-    },
-    {
-        "filename": "55795_helmet_2.jpg",
-        "class": 1,
-        "bbox": [
-            381,
-            378,
-            391,
-            395
-        ]
-    },
-    {
-        "filename": "55795_helmet_3.jpg",
-        "class": 1,
-        "bbox": [
-            391,
-            417,
-            403,
-            433
-        ]
-    },
-    {
         "filename": "3_2#20250108_638_head_0.jpg",
         "class": 0,
         "bbox": [
@@ -627,46 +577,6 @@
             80,
             508,
             98
-        ]
-    },
-    {
-        "filename": "55796_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            333,
-            292,
-            340,
-            302
-        ]
-    },
-    {
-        "filename": "55796_helmet_1.jpg",
-        "class": 1,
-        "bbox": [
-            295,
-            278,
-            301,
-            285
-        ]
-    },
-    {
-        "filename": "55796_helmet_2.jpg",
-        "class": 1,
-        "bbox": [
-            296,
-            273,
-            304,
-            281
-        ]
-    },
-    {
-        "filename": "55796_helmet_3.jpg",
-        "class": 1,
-        "bbox": [
-            295,
-            250,
-            302,
-            258
         ]
     },
     {
@@ -767,16 +677,6 @@
             799,
             1225,
             882
-        ]
-    },
-    {
-        "filename": "4_2#20250108_680_head_0.jpg",
-        "class": 0,
-        "bbox": [
-            668,
-            264,
-            679,
-            276
         ]
     },
     {
@@ -1040,26 +940,6 @@
         ]
     },
     {
-        "filename": "49837_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            171,
-            369,
-            184,
-            384
-        ]
-    },
-    {
-        "filename": "49837_helmet_1.jpg",
-        "class": 1,
-        "bbox": [
-            16,
-            472,
-            32,
-            494
-        ]
-    },
-    {
         "filename": "5_C-20-CMR-09_756_helmet_0.jpg",
         "class": 1,
         "bbox": [
@@ -1260,16 +1140,6 @@
         ]
     },
     {
-        "filename": "49895_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            588,
-            268,
-            616,
-            305
-        ]
-    },
-    {
         "filename": "49895_head_1.jpg",
         "class": 0,
         "bbox": [
@@ -1390,86 +1260,6 @@
         ]
     },
     {
-        "filename": "49894_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            217,
-            279,
-            227,
-            295
-        ]
-    },
-    {
-        "filename": "49894_helmet_1.jpg",
-        "class": 1,
-        "bbox": [
-            222,
-            360,
-            237,
-            380
-        ]
-    },
-    {
-        "filename": "49894_helmet_2.jpg",
-        "class": 1,
-        "bbox": [
-            251,
-            270,
-            261,
-            284
-        ]
-    },
-    {
-        "filename": "49894_helmet_3.jpg",
-        "class": 1,
-        "bbox": [
-            276,
-            199,
-            287,
-            213
-        ]
-    },
-    {
-        "filename": "49894_helmet_4.jpg",
-        "class": 1,
-        "bbox": [
-            212,
-            215,
-            221,
-            227
-        ]
-    },
-    {
-        "filename": "49894_helmet_5.jpg",
-        "class": 1,
-        "bbox": [
-            203,
-            222,
-            213,
-            237
-        ]
-    },
-    {
-        "filename": "49894_helmet_6.jpg",
-        "class": 1,
-        "bbox": [
-            520,
-            111,
-            531,
-            126
-        ]
-    },
-    {
-        "filename": "49894_helmet_7.jpg",
-        "class": 1,
-        "bbox": [
-            370,
-            136,
-            376,
-            144
-        ]
-    },
-    {
         "filename": "20250113142149_head_0.jpg",
         "class": 0,
         "bbox": [
@@ -1517,26 +1307,6 @@
             559,
             816,
             638
-        ]
-    },
-    {
-        "filename": "55846_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            655,
-            637,
-            698,
-            687
-        ]
-    },
-    {
-        "filename": "2_2#20250108_688_head_0.jpg",
-        "class": 0,
-        "bbox": [
-            489,
-            85,
-            504,
-            103
         ]
     },
     {
@@ -1620,16 +1390,6 @@
         ]
     },
     {
-        "filename": "55851_helmet_1.jpg",
-        "class": 1,
-        "bbox": [
-            112,
-            457,
-            137,
-            492
-        ]
-    },
-    {
         "filename": "55855_head_0.jpg",
         "class": 0,
         "bbox": [
@@ -1700,16 +1460,6 @@
         ]
     },
     {
-        "filename": "4_2#20250108_748_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            572,
-            232,
-            581,
-            241
-        ]
-    },
-    {
         "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_helmet_0.jpg",
         "class": 1,
         "bbox": [
@@ -1730,16 +1480,6 @@
         ]
     },
     {
-        "filename": "49918_helmet_0.jpg",
-        "class": 1,
-        "bbox": [
-            230,
-            51,
-            242,
-            74
-        ]
-    },
-    {
         "filename": "49918_helmet_1.jpg",
         "class": 1,
         "bbox": [
@@ -1757,16 +1497,6 @@
             225,
             736,
             260
-        ]
-    },
-    {
-        "filename": "4_2#20250108_629_head_0.jpg",
-        "class": 0,
-        "bbox": [
-            396,
-            287,
-            408,
-            300
         ]
     },
     {

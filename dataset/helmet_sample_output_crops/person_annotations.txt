@@ -23,7 +23,6 @@
 000086_person_0.jpg 1
 000086_person_1.jpg 1
 000086_person_2.jpg 1
-000110_person_0.jpg 0
 000110_person_1.jpg 1
 000148_person_0.jpg 1
 000148_person_1.jpg 1
@@ -34,7 +33,6 @@
 000212_person_0.jpg 1
 000238_person_0.jpg 1
 000238_person_1.jpg 1
-000238_person_2.jpg 1
 000238_person_3.jpg 1
 000238_person_4.jpg 1
 000262_person_0.jpg 1
@@ -47,7 +45,6 @@
 000263_person_0.jpg 1
 000263_person_1.jpg 1
 000263_person_2.jpg 0
-000263_person_3.jpg 0
 000264_person_1.jpg 1
 000264_person_2.jpg 1
 000339_person_0.jpg 1
@@ -66,7 +63,6 @@
 000351_person_2.jpg 1
 000352_person_0.jpg 1
 000352_person_1.jpg 1
-000352_person_2.jpg 1
 000352_person_3.jpg 1
 000352_person_4.jpg 1
 000356_person_0.jpg 1
@@ -85,7 +81,6 @@
 000408_person_0.jpg 1
 000408_person_1.jpg 1
 000417_person_0.jpg 1
-000417_person_1.jpg 1
 000417_person_2.jpg 1
 000417_person_3.jpg 1
 000417_person_4.jpg 1
@@ -102,18 +97,11 @@
 000487_person_3.jpg 0
 000487_person_4.jpg 1
 000487_person_5.jpg 1
-000487_person_6.jpg 1
-000487_person_7.jpg 1
 000492_person_0.jpg 0
 000492_person_1.jpg 1
 000505_person_0.jpg 0
 000505_person_1.jpg 1
 000505_person_2.jpg 0
-000522_person_0.jpg 0
-000522_person_1.jpg 0
-000522_person_2.jpg 0
-000522_person_3.jpg 0
-000522_person_4.jpg 0
 000522_person_5.jpg 1
 000522_person_6.jpg 1
 000601_person_0.jpg 1
@@ -129,11 +117,8 @@
 000798_person_0.jpg 1
 000816_person_0.jpg 1
 000821_person_0.jpg 0
-000821_person_1.jpg 0
 000821_person_2.jpg 0
-000821_person_3.jpg 0
 000821_person_4.jpg 1
-000821_person_5.jpg 0
 000821_person_6.jpg 1
 000821_person_7.jpg 1
 000821_person_8.jpg 1
@@ -157,8 +142,6 @@
 000986_person_3.jpg 0
 000986_person_4.jpg 0
 000986_person_5.jpg 1
-000986_person_6.jpg 0
-000986_person_7.jpg 0
 000986_person_8.jpg 0
 000992_person_0.jpg 1
 000992_person_1.jpg 1
@@ -166,7 +149,6 @@
 001069_person_1.jpg 1
 001069_person_2.jpg 1
 001070_person_0.jpg 0
-001070_person_1.jpg 0
 001070_person_2.jpg 0
 001070_person_3.jpg 0
 001070_person_4.jpg 1
@@ -187,8 +169,6 @@
 001367_person_0.jpg 0
 001367_person_1.jpg 1
 001367_person_2.jpg 0
-001367_person_3.jpg 0
-001367_person_4.jpg 0
 001367_person_5.jpg 1
 001367_person_6.jpg 0
 001385_person_0.jpg 0
@@ -220,7 +200,6 @@ part2_000489_person_2.jpg 1
 part2_000489_person_3.jpg 1
 part2_000541_person_0.jpg 1
 part2_000541_person_1.jpg 0
-part2_000672_person_0.jpg 0
 part2_000672_person_1.jpg 0
 part2_000699_person_0.jpg 0
 part2_000699_person_1.jpg 1

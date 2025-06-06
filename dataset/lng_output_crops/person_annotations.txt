@@ -27,13 +27,10 @@
 49837_person_0.jpg 1
 49837_person_1.jpg 1
 49894_person_0.jpg 1
-49894_person_1.jpg 1
 49894_person_2.jpg 1
-49894_person_3.jpg 0
 49894_person_4.jpg 1
 49894_person_5.jpg 1
 49894_person_6.jpg 1
-49894_person_7.jpg 0
 49894_person_8.jpg 1
 49894_person_9.jpg 1
 49895_person_0.jpg 0
@@ -43,7 +40,6 @@
 49895_person_4.jpg 0
 49895_person_5.jpg 1
 49895_person_6.jpg 1
-49895_person_7.jpg 0
 49895_person_8.jpg 1
 49896_person_0.jpg 1
 49896_person_1.jpg 1
@@ -56,7 +52,6 @@
 49914_person_1.jpg 1
 49915_person_0.jpg 1
 49915_person_1.jpg 1
-49915_person_2.jpg 0
 49918_person_0.jpg 1
 49918_person_1.jpg 1
 4_2#20250108_119_person_0.jpg 1
@@ -67,9 +62,7 @@
 55795_person_1.jpg 1
 55795_person_2.jpg 1
 55795_person_3.jpg 1
-55796_person_0.jpg 1
 55796_person_1.jpg 1
-55796_person_2.jpg 1
 55796_person_3.jpg 1
 55845_person_0.jpg 1
 55845_person_1.jpg 1
@@ -87,7 +80,6 @@
 55853_person_0.jpg 1
 55854_person_0.jpg 1
 55854_person_1.jpg 0
-55854_person_2.jpg 0
 55855_person_0.jpg 0
 55855_person_1.jpg 1
 55855_person_2.jpg 0

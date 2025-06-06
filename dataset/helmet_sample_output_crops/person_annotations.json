@@ -110,16 +110,6 @@
         ]
     },
     {
-        "filename": "000352_person_2.jpg",
-        "class": 0,
-        "bbox": [
-            87,
-            244,
-            125,
-            304
-        ]
-    },
-    {
         "filename": "000352_person_3.jpg",
         "class": 0,
         "bbox": [
@@ -167,16 +157,6 @@
             97,
             412,
             333
-        ]
-    },
-    {
-        "filename": "001070_person_1.jpg",
-        "class": 0,
-        "bbox": [
-            23,
-            156,
-            30,
-            173
         ]
     },
     {
@@ -760,26 +740,6 @@
         ]
     },
     {
-        "filename": "001367_person_3.jpg",
-        "class": 0,
-        "bbox": [
-            313,
-            125,
-            335,
-            195
-        ]
-    },
-    {
-        "filename": "001367_person_4.jpg",
-        "class": 0,
-        "bbox": [
-            330,
-            132,
-            353,
-            199
-        ]
-    },
-    {
         "filename": "001367_person_5.jpg",
         "class": 0,
         "bbox": [
@@ -897,56 +857,6 @@
             224,
             1785,
             1269
-        ]
-    },
-    {
-        "filename": "000522_person_0.jpg",
-        "class": 0,
-        "bbox": [
-            797,
-            218,
-            814,
-            262
-        ]
-    },
-    {
-        "filename": "000522_person_1.jpg",
-        "class": 0,
-        "bbox": [
-            695,
-            222,
-            710,
-            269
-        ]
-    },
-    {
-        "filename": "000522_person_2.jpg",
-        "class": 0,
-        "bbox": [
-            674,
-            214,
-            697,
-            266
-        ]
-    },
-    {
-        "filename": "000522_person_3.jpg",
-        "class": 0,
-        "bbox": [
-            654,
-            215,
-            676,
-            258
-        ]
-    },
-    {
-        "filename": "000522_person_4.jpg",
-        "class": 0,
-        "bbox": [
-            756,
-            219,
-            776,
-            268
         ]
     },
     {
@@ -1110,26 +1020,6 @@
         ]
     },
     {
-        "filename": "000487_person_6.jpg",
-        "class": 1,
-        "bbox": [
-            0,
-            105,
-            34,
-            237
-        ]
-    },
-    {
-        "filename": "000487_person_7.jpg",
-        "class": 1,
-        "bbox": [
-            428,
-            144,
-            477,
-            340
-        ]
-    },
-    {
         "filename": "part2_000541_person_0.jpg",
         "class": 1,
         "bbox": [
@@ -1207,16 +1097,6 @@
             90,
             222,
             524
-        ]
-    },
-    {
-        "filename": "000110_person_0.jpg",
-        "class": 0,
-        "bbox": [
-            41,
-            233,
-            56,
-            260
         ]
     },
     {
@@ -1360,16 +1240,6 @@
         ]
     },
     {
-        "filename": "000264_person_0.jpg",
-        "class": 0,
-        "bbox": [
-            354,
-            237,
-            386,
-            266
-        ]
-    },
-    {
         "filename": "000264_person_1.jpg",
         "class": 1,
         "bbox": [
@@ -1467,16 +1337,6 @@
             24,
             331,
             197
-        ]
-    },
-    {
-        "filename": "000263_person_3.jpg",
-        "class": 0,
-        "bbox": [
-            35,
-            40,
-            60,
-            65
         ]
     },
     {
@@ -1600,16 +1460,6 @@
         ]
     },
     {
-        "filename": "000262_person_4.jpg",
-        "class": 0,
-        "bbox": [
-            892,
-            157,
-            960,
-            496
-        ]
-    },
-    {
         "filename": "000262_person_5.jpg",
         "class": 1,
         "bbox": [
@@ -1720,16 +1570,6 @@
         ]
     },
     {
-        "filename": "000417_person_1.jpg",
-        "class": 1,
-        "bbox": [
-            354,
-            147,
-            415,
-            288
-        ]
-    },
-    {
         "filename": "000417_person_2.jpg",
         "class": 1,
         "bbox": [
@@ -1807,16 +1647,6 @@
             43,
             251,
             230
-        ]
-    },
-    {
-        "filename": "000238_person_2.jpg",
-        "class": 1,
-        "bbox": [
-            336,
-            73,
-            352,
-            154
         ]
     },
     {
@@ -1950,16 +1780,6 @@
         ]
     },
     {
-        "filename": "000400_person_3.jpg",
-        "class": 0,
-        "bbox": [
-            0,
-            132,
-            16,
-            173
-        ]
-    },
-    {
         "filename": "000399_person_0.jpg",
         "class": 1,
         "bbox": [
@@ -2060,26 +1880,6 @@
         ]
     },
     {
-        "filename": "000986_person_6.jpg",
-        "class": 0,
-        "bbox": [
-            369,
-            106,
-            400,
-            298
-        ]
-    },
-    {
-        "filename": "000986_person_7.jpg",
-        "class": 0,
-        "bbox": [
-            0,
-            53,
-            52,
-            149
-        ]
-    },
-    {
         "filename": "000986_person_8.jpg",
         "class": 0,
         "bbox": [
@@ -2177,16 +1977,6 @@
             88,
             119,
             370
-        ]
-    },
-    {
-        "filename": "part2_000672_person_0.jpg",
-        "class": 0,
-        "bbox": [
-            206,
-            342,
-            336,
-            500
         ]
     },
     {
@@ -2350,16 +2140,6 @@
         ]
     },
     {
-        "filename": "000821_person_1.jpg",
-        "class": 0,
-        "bbox": [
-            296,
-            246,
-            346,
-            375
-        ]
-    },
-    {
         "filename": "000821_person_2.jpg",
         "class": 0,
         "bbox": [
@@ -2370,16 +2150,6 @@
         ]
     },
     {
-        "filename": "000821_person_3.jpg",
-        "class": 0,
-        "bbox": [
-            157,
-            0,
-            186,
-            69
-        ]
-    },
-    {
         "filename": "000821_person_4.jpg",
         "class": 1,
         "bbox": [
@@ -2387,16 +2157,6 @@
             171,
             235,
             314
-        ]
-    },
-    {
-        "filename": "000821_person_5.jpg",
-        "class": 0,
-        "bbox": [
-            343,
-            0,
-            396,
-            117
         ]
     },
     {
