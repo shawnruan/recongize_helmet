@@ -6,1155 +6,1162 @@
     "experiment_type": "crop",
     "total_samples": 189,
     "metrics": {
-        "accuracy": 0.656084656084656,
-        "precision": 0.8118811881188119,
-        "recall": 0.640625,
-        "f1_score": 0.7161572052401747,
-        "true_positives": 82,
-        "false_positives": 19,
-        "false_negatives": 46,
-        "true_negatives": 42
+        "accuracy": 0.671957671957672,
+        "precision": 0.83,
+        "recall": 0.6484375,
+        "f1_score": 0.7280701754385964,
+        "helmet_precision": 0.83,
+        "helmet_recall": 0.6484375,
+        "helmet_f1": 0.7280701754385964,
+        "head_precision": 0.4943820224719101,
+        "head_recall": 0.7213114754098361,
+        "head_f1": 0.5866666666666667,
+        "f1_macro": 0.6573684210526316,
+        "true_positives": 83,
+        "false_positives": 17,
+        "false_negatives": 45,
+        "true_negatives": 44
     },
     "timing": {
-        "total_time": 506.539,
-        "total_inference_time": 506.422,
-        "average_inference_time": 2.679,
+        "total_time": 921.345,
+        "total_inference_time": 921.275,
+        "average_inference_time": 4.874,
         "successful_predictions": 189
     },
     "results": [
         {
-            "filename": "1_2#20250108_1332_person_0.jpg",
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_0.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.694
-        },
-        {
-            "filename": "1_2#20250108_252_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.731
-        },
-        {
-            "filename": "1_2#20250108_36_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.662
-        },
-        {
-            "filename": "1_2#20250108_468_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.718
-        },
-        {
-            "filename": "1_2#20250108_540_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.692
-        },
-        {
-            "filename": "1_2#20250108_576_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.703
-        },
-        {
-            "filename": "1_2#20250108_792_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.658
-        },
-        {
-            "filename": "20250113142128_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.629
-        },
-        {
-            "filename": "20250113142128_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.766
-        },
-        {
-            "filename": "20250113142128_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.625
-        },
-        {
-            "filename": "20250113142149_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.603
-        },
-        {
-            "filename": "20250113142149_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.593
-        },
-        {
-            "filename": "20250113142149_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.698
-        },
-        {
-            "filename": "2_2#20250108_112_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.684
-        },
-        {
-            "filename": "2_2#20250108_160_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.736
-        },
-        {
-            "filename": "2_2#20250108_208_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.683
-        },
-        {
-            "filename": "2_2#20250108_304_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.762
-        },
-        {
-            "filename": "2_2#20250108_384_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.629
-        },
-        {
-            "filename": "2_2#20250108_432_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.717
-        },
-        {
-            "filename": "2_2#20250108_544_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.689
-        },
-        {
-            "filename": "2_2#20250108_64_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.743
-        },
-        {
-            "filename": "2_2#20250108_688_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.637
-        },
-        {
-            "filename": "2_2#20250108_720_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.741
-        },
-        {
-            "filename": "3_2#20250108_1012_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.666
-        },
-        {
-            "filename": "3_2#20250108_638_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.808
-        },
-        {
-            "filename": "3_2#20250108_682_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.713
-        },
-        {
-            "filename": "49837_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.652
-        },
-        {
-            "filename": "49837_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.629
-        },
-        {
-            "filename": "49894_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.584
-        },
-        {
-            "filename": "49894_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.6
-        },
-        {
-            "filename": "49894_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.727
-        },
-        {
-            "filename": "49894_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.682
-        },
-        {
-            "filename": "49894_person_4.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.7
-        },
-        {
-            "filename": "49894_person_5.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.803
-        },
-        {
-            "filename": "49894_person_6.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.627
-        },
-        {
-            "filename": "49894_person_7.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.626
-        },
-        {
-            "filename": "49894_person_8.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.629
-        },
-        {
-            "filename": "49894_person_9.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.719
-        },
-        {
-            "filename": "49895_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.669
-        },
-        {
-            "filename": "49895_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.733
-        },
-        {
-            "filename": "49895_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.656
-        },
-        {
-            "filename": "49895_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.73
-        },
-        {
-            "filename": "49895_person_4.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.682
-        },
-        {
-            "filename": "49895_person_5.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.731
-        },
-        {
-            "filename": "49895_person_6.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.674
-        },
-        {
-            "filename": "49895_person_7.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.768
-        },
-        {
-            "filename": "49895_person_8.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.749
-        },
-        {
-            "filename": "49896_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.688
-        },
-        {
-            "filename": "49896_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.721
-        },
-        {
-            "filename": "49907_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.717
-        },
-        {
-            "filename": "49907_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.726
-        },
-        {
-            "filename": "49907_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.614
-        },
-        {
-            "filename": "49907_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.62
-        },
-        {
-            "filename": "49907_person_4.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.705
-        },
-        {
-            "filename": "49914_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.701
-        },
-        {
-            "filename": "49914_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.674
-        },
-        {
-            "filename": "49915_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.661
-        },
-        {
-            "filename": "49915_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.759
-        },
-        {
-            "filename": "49915_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.636
-        },
-        {
-            "filename": "49918_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.623
-        },
-        {
-            "filename": "49918_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.614
-        },
-        {
-            "filename": "4_2#20250108_119_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.722
-        },
-        {
-            "filename": "4_2#20250108_629_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.678
-        },
-        {
-            "filename": "4_2#20250108_680_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.704
-        },
-        {
-            "filename": "4_2#20250108_748_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.644
-        },
-        {
-            "filename": "55795_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.652
-        },
-        {
-            "filename": "55795_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.714
-        },
-        {
-            "filename": "55795_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.73
-        },
-        {
-            "filename": "55795_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.707
-        },
-        {
-            "filename": "55796_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.623
-        },
-        {
-            "filename": "55796_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.738
-        },
-        {
-            "filename": "55796_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.687
-        },
-        {
-            "filename": "55796_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.716
-        },
-        {
-            "filename": "55845_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.655
-        },
-        {
-            "filename": "55845_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.767
-        },
-        {
-            "filename": "55846_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.658
-        },
-        {
-            "filename": "55848_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.67
-        },
-        {
-            "filename": "55848_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.674
-        },
-        {
-            "filename": "55850_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.653
-        },
-        {
-            "filename": "55850_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.67
-        },
-        {
-            "filename": "55850_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.662
-        },
-        {
-            "filename": "55851_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.832
-        },
-        {
-            "filename": "55851_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.718
-        },
-        {
-            "filename": "55852_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.645
-        },
-        {
-            "filename": "55852_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.634
-        },
-        {
-            "filename": "55852_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.624
-        },
-        {
-            "filename": "55853_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.714
-        },
-        {
-            "filename": "55854_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.638
-        },
-        {
-            "filename": "55854_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.637
-        },
-        {
-            "filename": "55854_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.571
-        },
-        {
-            "filename": "55855_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.597
-        },
-        {
-            "filename": "55855_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.651
-        },
-        {
-            "filename": "55855_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.671
-        },
-        {
-            "filename": "55856_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.652
-        },
-        {
-            "filename": "55856_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.855
-        },
-        {
-            "filename": "55856_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.711
-        },
-        {
-            "filename": "55856_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.641
-        },
-        {
-            "filename": "55857_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.631
-        },
-        {
-            "filename": "55858_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.599
-        },
-        {
-            "filename": "55858_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.598
-        },
-        {
-            "filename": "55858_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.805
-        },
-        {
-            "filename": "55858_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.586
-        },
-        {
-            "filename": "55859_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.609
-        },
-        {
-            "filename": "55860_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.688
-        },
-        {
-            "filename": "55861_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.672
-        },
-        {
-            "filename": "55861_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.64
-        },
-        {
-            "filename": "55861_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.702
-        },
-        {
-            "filename": "55862_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.698
-        },
-        {
-            "filename": "55863_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.716
-        },
-        {
-            "filename": "55863_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.686
-        },
-        {
-            "filename": "5_C-20-CMR-09_1134_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.724
-        },
-        {
-            "filename": "5_C-20-CMR-09_1134_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.66
-        },
-        {
-            "filename": "5_C-20-CMR-09_1134_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.589
-        },
-        {
-            "filename": "5_C-20-CMR-09_216_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.642
-        },
-        {
-            "filename": "5_C-20-CMR-09_216_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.693
-        },
-        {
-            "filename": "5_C-20-CMR-09_216_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.683
-        },
-        {
-            "filename": "5_C-20-CMR-09_216_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.677
-        },
-        {
-            "filename": "5_C-20-CMR-09_270_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.678
+            "inference_time": 4.155
         },
         {
             "filename": "5_C-20-CMR-09_270_person_1.jpg",
             "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.613
+            "inference_time": 3.933
         },
         {
-            "filename": "5_C-20-CMR-09_270_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.769
-        },
-        {
-            "filename": "5_C-20-CMR-09_270_person_3.jpg",
+            "filename": "55850_person_1.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.645
+            "inference_time": 3.957
         },
         {
-            "filename": "5_C-20-CMR-09_432_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.713
-        },
-        {
-            "filename": "5_C-20-CMR-09_432_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.677
-        },
-        {
-            "filename": "5_C-20-CMR-09_432_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.749
-        },
-        {
-            "filename": "5_C-20-CMR-09_486_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.668
-        },
-        {
-            "filename": "5_C-20-CMR-09_486_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.704
-        },
-        {
-            "filename": "5_C-20-CMR-09_486_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.655
-        },
-        {
-            "filename": "5_C-20-CMR-09_756_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.784
-        },
-        {
-            "filename": "5_C-20-CMR-09_756_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.634
-        },
-        {
-            "filename": "5_C-20-CMR-09_756_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.613
-        },
-        {
-            "filename": "5_C-20-CMR-09_756_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.763
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_0.jpg",
+            "filename": "49914_person_1.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.61
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.604
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.721
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.679
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.716
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.686
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.704
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.651
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.621
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.612
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.624
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.708
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.679
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.737
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.646
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.752
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.643
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.72
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.682
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.612
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.735
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.673
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.721
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.648
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.604
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.732
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 0,
-            "inference_time": 2.654
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.6
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.741
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_3.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.646
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.744
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.635
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.623
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.758
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_0.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.644
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.711
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_2.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.683
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.632
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.687
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.662
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 1,
-            "inference_time": 2.628
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.802
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.719
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_1.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.656
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_2.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.761
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_3.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.644
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_0.jpg",
-            "prediction": 1,
-            "ground_truth": 1,
-            "inference_time": 2.603
-        },
-        {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_1.jpg",
-            "prediction": 0,
-            "ground_truth": 0,
-            "inference_time": 2.644
+            "inference_time": 3.877
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.7
+            "inference_time": 3.937
+        },
+        {
+            "filename": "55845_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.877
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.952
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.886
+        },
+        {
+            "filename": "55845_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.981
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_3.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.641
+            "inference_time": 3.834
         },
         {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_0.jpg",
+            "filename": "49914_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.884
+        },
+        {
+            "filename": "55861_person_2.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.618
+            "inference_time": 3.851
+        },
+        {
+            "filename": "55850_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.848
+        },
+        {
+            "filename": "5_C-20-CMR-09_270_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.067
+        },
+        {
+            "filename": "2_2#20250108_688_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.975
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.761
+            "inference_time": 3.94
         },
         {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_2.jpg",
-            "prediction": 1,
+            "filename": "55857_person_0.jpg",
+            "prediction": 0,
             "ground_truth": 1,
-            "inference_time": 2.743
+            "inference_time": 3.963
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_3.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.689
+            "inference_time": 3.829
         },
         {
-            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_0.jpg",
+            "filename": "5_C-20-CMR-09_270_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.589
+            "inference_time": 3.849
+        },
+        {
+            "filename": "55850_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.02
+        },
+        {
+            "filename": "55861_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.955
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.076
+        },
+        {
+            "filename": "49907_person_4.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.06
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.832
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.881
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_178_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.954
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2492_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.82
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_384_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.984
+        },
+        {
+            "filename": "55861_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.868
+        },
+        {
+            "filename": "5_C-20-CMR-09_270_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.834
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2581_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.031
+        },
+        {
+            "filename": "49837_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.792
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.815
+        },
+        {
+            "filename": "49915_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.804
+        },
+        {
+            "filename": "55856_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.881
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_1.jpg",
             "prediction": 1,
             "ground_truth": 0,
-            "inference_time": 2.731
+            "inference_time": 4.0
+        },
+        {
+            "filename": "55851_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.425
+        },
+        {
+            "filename": "3_2#20250108_682_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.193
+        },
+        {
+            "filename": "49907_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.319
+        },
+        {
+            "filename": "55851_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.464
+        },
+        {
+            "filename": "49907_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.03
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.837
+        },
+        {
+            "filename": "55856_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.312
+        },
+        {
+            "filename": "2_2#20250108_112_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.351
+        },
+        {
+            "filename": "49915_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.953
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.711
+        },
+        {
+            "filename": "49837_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.815
+        },
+        {
+            "filename": "55856_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 13.539
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_2.jpg",
             "prediction": 1,
             "ground_truth": 1,
-            "inference_time": 2.651
+            "inference_time": 12.355
+        },
+        {
+            "filename": "49907_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 9.826
+        },
+        {
+            "filename": "49907_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 6.082
         },
         {
             "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_445_person_3.jpg",
             "prediction": 0,
             "ground_truth": 0,
-            "inference_time": 2.615
+            "inference_time": 4.588
+        },
+        {
+            "filename": "55856_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 7.832
+        },
+        {
+            "filename": "2_2#20250108_384_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.315
+        },
+        {
+            "filename": "49915_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.209
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_4096_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 6.696
+        },
+        {
+            "filename": "55860_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 8.44
+        },
+        {
+            "filename": "20250113142128_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.388
+        },
+        {
+            "filename": "55795_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.39
+        },
+        {
+            "filename": "55795_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.14
+        },
+        {
+            "filename": "1_2#20250108_792_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 9.49
+        },
+        {
+            "filename": "20250113142128_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.238
+        },
+        {
+            "filename": "49894_person_9.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.103
+        },
+        {
+            "filename": "55795_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.222
+        },
+        {
+            "filename": "49918_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.137
+        },
+        {
+            "filename": "49918_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.925
+        },
+        {
+            "filename": "49894_person_8.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 5.903
+        },
+        {
+            "filename": "55795_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.908
+        },
+        {
+            "filename": "20250113142128_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 12.352
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.244
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 8.836
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 8.31
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_0_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 5.944
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 7.364
+        },
+        {
+            "filename": "2_2#20250108_64_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.271
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.379
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.248
+        },
+        {
+            "filename": "49896_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.337
+        },
+        {
+            "filename": "55848_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.254
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.27
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.233
+        },
+        {
+            "filename": "49895_person_8.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.311
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.187
+        },
+        {
+            "filename": "4_2#20250108_680_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.55
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250114092300-20250114092559_1_2403_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.231
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_3584_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.446
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_762_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 6.216
+        },
+        {
+            "filename": "55848_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.374
+        },
+        {
+            "filename": "49896_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.236
+        },
+        {
+            "filename": "4_2#20250108_748_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.134
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.256
+        },
+        {
+            "filename": "55858_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.204
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.126
+        },
+        {
+            "filename": "5_C-20-CMR-09_756_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.992
+        },
+        {
+            "filename": "1_2#20250108_540_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.115
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.595
+        },
+        {
+            "filename": "49895_person_4.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.615
+        },
+        {
+            "filename": "55796_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 5.89
+        },
+        {
+            "filename": "5_C-20-CMR-09_1134_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.355
+        },
+        {
+            "filename": "49894_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.453
+        },
+        {
+            "filename": "49894_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.449
+        },
+        {
+            "filename": "5_C-20-CMR-09_1134_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.028
+        },
+        {
+            "filename": "55796_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.163
+        },
+        {
+            "filename": "49895_person_5.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.453
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.209
+        },
+        {
+            "filename": "5_C-20-CMR-09_486_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 7.42
+        },
+        {
+            "filename": "5_C-20-CMR-09_756_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.541
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_1152_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.423
+        },
+        {
+            "filename": "55858_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 7.782
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 8.466
+        },
+        {
+            "filename": "55858_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.191
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5504_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.016
+        },
+        {
+            "filename": "5_C-20-CMR-09_756_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.552
+        },
+        {
+            "filename": "1_2#20250108_1332_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 6.961
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.409
+        },
+        {
+            "filename": "5_C-20-CMR-09_486_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.819
+        },
+        {
+            "filename": "49895_person_7.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 9.6
+        },
+        {
+            "filename": "2_2#20250108_432_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.426
+        },
+        {
+            "filename": "55796_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.492
+        },
+        {
+            "filename": "49894_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.273
+        },
+        {
+            "filename": "49894_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 5.768
+        },
+        {
+            "filename": "1_2#20250108_576_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 5.325
+        },
+        {
+            "filename": "1_2#20250108_252_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.361
+        },
+        {
+            "filename": "5_C-20-CMR-09_1134_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.804
+        },
+        {
+            "filename": "4_2#20250108_119_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.811
+        },
+        {
+            "filename": "55796_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.273
+        },
+        {
+            "filename": "49895_person_6.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.018
+        },
+        {
+            "filename": "5_C-20-CMR-09_486_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.302
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_381_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.374
+        },
+        {
+            "filename": "2_2#20250108_304_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.319
+        },
+        {
+            "filename": "5_C-20-CMR-09_756_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 5.51
+        },
+        {
+            "filename": "55858_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.664
+        },
+        {
+            "filename": "49895_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.823
+        },
+        {
+            "filename": "20250113142149_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.673
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.321
+        },
+        {
+            "filename": "49894_person_5.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 5.957
+        },
+        {
+            "filename": "49894_person_4.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.505
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 8.938
+        },
+        {
+            "filename": "20250113142149_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.484
+        },
+        {
+            "filename": "49895_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.682
+        },
+        {
+            "filename": "49895_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.369
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.177
+        },
+        {
+            "filename": "49894_person_6.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 11.945
+        },
+        {
+            "filename": "49894_person_7.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.427
+        },
+        {
+            "filename": "4_2#20250108_629_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.179
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1778_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.389
+        },
+        {
+            "filename": "55859_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.149
+        },
+        {
+            "filename": "20250113142149_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.875
+        },
+        {
+            "filename": "49895_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.066
+        },
+        {
+            "filename": "2_2#20250108_544_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.234
+        },
+        {
+            "filename": "55853_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 4.196
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.132
+        },
+        {
+            "filename": "55854_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.956
+        },
+        {
+            "filename": "1_2#20250108_36_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 4.055
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.14
+        },
+        {
+            "filename": "5_C-20-CMR-09_432_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.139
+        },
+        {
+            "filename": "3_2#20250108_638_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.369
+        },
+        {
+            "filename": "5_C-20-CMR-09_432_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.01
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.026
+        },
+        {
+            "filename": "55846_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 5.966
+        },
+        {
+            "filename": "55854_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.258
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.975
+        },
+        {
+            "filename": "2_2#20250108_720_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.851
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_3.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.39
+        },
+        {
+            "filename": "5_C-20-CMR-09_432_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 6.637
+        },
+        {
+            "filename": "55862_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 6.169
+        },
+        {
+            "filename": "3_2#20250108_1012_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 8.283
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113135800-20250113140159_1_5248_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 4.456
+        },
+        {
+            "filename": "55854_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 6.313
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1905_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.756
+        },
+        {
+            "filename": "5_C-20-CMR-09_216_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.783
+        },
+        {
+            "filename": "55852_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 6.997
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_3.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.774
+        },
+        {
+            "filename": "55855_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.657
+        },
+        {
+            "filename": "55855_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.847
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.942
+        },
+        {
+            "filename": "55852_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.263
+        },
+        {
+            "filename": "5_C-20-CMR-09_216_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 5.664
+        },
+        {
+            "filename": "5_C-20-CMR-09_216_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.914
+        },
+        {
+            "filename": "2_2#20250108_160_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.94
+        },
+        {
+            "filename": "55863_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.825
+        },
+        {
+            "filename": "2_2#20250108_208_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.839
+        },
+        {
+            "filename": "55852_person_2.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.803
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_0.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 3.788
+        },
+        {
+            "filename": "55855_person_2.jpg",
+            "prediction": 0,
+            "ground_truth": 0,
+            "inference_time": 3.644
+        },
+        {
+            "filename": "1_2#20250108_468_person_0.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.746
+        },
+        {
+            "filename": "6000V-DistributionRoomWest-C-MSB-CMR-03_20250113175800-20250113180159_1_1651_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 1,
+            "inference_time": 4.784
+        },
+        {
+            "filename": "55863_person_1.jpg",
+            "prediction": 1,
+            "ground_truth": 0,
+            "inference_time": 3.985
+        },
+        {
+            "filename": "5_C-20-CMR-09_216_person_1.jpg",
+            "prediction": 0,
+            "ground_truth": 1,
+            "inference_time": 3.942
         }
     ]
 }
