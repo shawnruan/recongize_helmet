@@ -18,8 +18,8 @@ MODELS = [
 
 # 提示词配置文件
 CROP_PROMPT_CONFIGS = [
-    "prompts/test-prompts.md",
-    "prompts/test-prompts-en.md"
+    "prompts/easy-prompts-cn.md",
+    "prompts/easy-prompts-en.md"
     #"prompts/helmet-with-detect.md"
 ]
 
