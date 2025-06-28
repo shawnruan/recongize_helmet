@@ -6,11 +6,14 @@ MODELS = [
     # "deepseek-janus",
     # "qwen2.5-vl-32b",
     # "minicpm-o",
+    "mini-binary-cn",
+    "mini-binary",
     "minicpm-v",
+    #"qwen2.5vl:7b",
     # "deepseek-r1:7b",
     # "deepseek-r1:32b",
     # "gemma3:27b",
-    #"gemma3:12b"
+    #"gemma3:4b"
     #"qwen-7b",
     #"qwen2.5-vl-72b",
     

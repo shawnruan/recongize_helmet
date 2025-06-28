@@ -108,6 +108,10 @@ def generate_f1_macro_summary(all_reports):
     prompt_scores = {}
     # 数据结构：{prompt_name: {dataset_name: [f1_macro_values]}}
     prompt_dataset_scores = {}
+    # 数据结构：{model: {dataset_name: [f1_macro_values]}}
+    model_dataset_scores = {}
+    # 数据结构：{model: {prompt_name: [f1_macro_values]}}
+    model_prompt_scores = {}
     
     for report in crop_reports:
         # 获取基本信息
@@ -153,6 +157,20 @@ def generate_f1_macro_summary(all_reports):
         if dataset_name not in prompt_dataset_scores[prompt_name]:
             prompt_dataset_scores[prompt_name][dataset_name] = []
         prompt_dataset_scores[prompt_name][dataset_name].append(f1_macro)
+        
+        # 存储 model-dataset 分数
+        if model not in model_dataset_scores:
+            model_dataset_scores[model] = {}
+        if dataset_name not in model_dataset_scores[model]:
+            model_dataset_scores[model][dataset_name] = []
+        model_dataset_scores[model][dataset_name].append(f1_macro)
+        
+        # 存储 model-prompt 分数
+        if model not in model_prompt_scores:
+            model_prompt_scores[model] = {}
+        if prompt_name not in model_prompt_scores[model]:
+            model_prompt_scores[model][prompt_name] = []
+        model_prompt_scores[model][prompt_name].append(f1_macro)
     
     # 计算平均值
     dataset_averages = {}
@@ -182,11 +200,31 @@ def generate_f1_macro_summary(all_reports):
                 'average': sum(scores) / len(scores) if scores else 0
             }
     
+    # 计算 model-dataset 平均值
+    model_dataset_averages = {}
+    for model, datasets in model_dataset_scores.items():
+        model_dataset_averages[model] = {}
+        for dataset, scores in datasets.items():
+            model_dataset_averages[model][dataset] = {
+                'average': sum(scores) / len(scores) if scores else 0
+            }
+    
+    # 计算 model-prompt 平均值
+    model_prompt_averages = {}
+    for model, prompts in model_prompt_scores.items():
+        model_prompt_averages[model] = {}
+        for prompt, scores in prompts.items():
+            model_prompt_averages[model][prompt] = {
+                'average': sum(scores) / len(scores) if scores else 0
+            }
+    
     return {
         'dataset_scores': dataset_averages,
         'model_scores': model_averages,
         'prompt_scores': prompt_averages,
-        'prompt_dataset_scores': prompt_dataset_averages
+        'prompt_dataset_scores': prompt_dataset_averages,
+        'model_dataset_scores': model_dataset_averages,
+        'model_prompt_scores': model_prompt_averages
     }
 
 def print_f1_macro_summary(f1_macro_summary):
@@ -247,6 +285,84 @@ def print_f1_macro_summary(f1_macro_summary):
             
             print(f"| {prompt:<15} | {avg_score:>7.2f}% |")
     
+    # 新增：模型-数据集详细性能矩阵
+    if 'model_dataset_scores' in f1_macro_summary:
+        print("\n#### Model Performance by Dataset (Detailed)")
+        print()
+        
+        model_dataset_scores = f1_macro_summary['model_dataset_scores']
+        
+        # 获取所有数据集名称并排序
+        all_datasets = set()
+        for model_data in model_dataset_scores.values():
+            all_datasets.update(model_data.keys())
+        sorted_datasets = sorted(all_datasets)
+        
+        # 创建表头
+        header = "| Model           |"
+        separator = "| --------------- |"
+        for dataset in sorted_datasets:
+            dataset_short = dataset.replace('_', '_')[:12]  # 缩短列名
+            header += f" {dataset_short:<12} |"
+            separator += " ------------ |"
+        
+        print(header)
+        print(separator)
+        
+        # 按模型名称排序并打印每行
+        sorted_models = sorted(model_dataset_scores.keys())
+        for model in sorted_models:
+            datasets = model_dataset_scores[model]
+            row = f"| {model:<15} |"
+            
+            for dataset in sorted_datasets:
+                if dataset in datasets:
+                    avg_score = datasets[dataset].get('average', 0) * 100
+                    row += f" {avg_score:>10.2f}% |"
+                else:
+                    row += "        N/A |"
+            
+            print(row)
+    
+    # 新增：模型-提示词详细性能矩阵
+    if 'model_prompt_scores' in f1_macro_summary:
+        print("\n#### Model Performance by Prompt (Detailed)")
+        print()
+        
+        model_prompt_scores = f1_macro_summary['model_prompt_scores']
+        
+        # 获取所有提示词名称并排序
+        all_prompts = set()
+        for model_data in model_prompt_scores.values():
+            all_prompts.update(model_data.keys())
+        sorted_prompts = sorted(all_prompts)
+        
+        # 创建表头
+        header = "| Model           |"
+        separator = "| --------------- |"
+        for prompt in sorted_prompts:
+            prompt_short = prompt.replace('easy-prompts-', '')[:10]
+            header += f" {prompt_short:<10} |"
+            separator += " ---------- |"
+        
+        print(header)
+        print(separator)
+        
+        # 按模型名称排序并打印每行
+        sorted_models = sorted(model_prompt_scores.keys())
+        for model in sorted_models:
+            prompts = model_prompt_scores[model]
+            row = f"| {model:<15} |"
+            
+            for prompt in sorted_prompts:
+                if prompt in prompts:
+                    avg_score = prompts[prompt].get('average', 0) * 100
+                    row += f" {avg_score:>8.2f}% |"
+                else:
+                    row += "      N/A |"
+            
+            print(row)
+    
     # 打印 prompt-dataset 详细分数表格
     if 'prompt_dataset_scores' in f1_macro_summary:
         print("\n#### Prompt Performance by Dataset")
@@ -264,7 +380,8 @@ def print_f1_macro_summary(f1_macro_summary):
         header = "| Prompt          |"
         separator = "| --------------- |"
         for dataset in sorted_datasets:
-            header += f" {dataset:<10} |"
+            dataset_short = dataset.replace('_', '_')[:10]
+            header += f" {dataset_short:<10} |"
             separator += " ---------- |"
         
         print(header)
