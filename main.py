@@ -1,6 +1,7 @@
 import os
 import argparse
 import numpy as np
+import copy
 from config import (
     MODELS, EXPERIMENT_TYPES
 )
@@ -40,7 +41,7 @@ def calculate_average_metrics(all_runs_reports, experiment_types):
             continue
             
         # 取第一个报告作为模板
-        base_report = reports[0].copy()
+        base_report = copy.deepcopy(reports[0])
         experiment_type = base_report['experiment_type']
         
         # 收集所有指标数据
